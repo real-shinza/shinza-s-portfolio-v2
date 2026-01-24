@@ -1,18 +1,29 @@
-import { defineConfig, globalIgnores } from "eslint/config";
-import nextVitals from "eslint-config-next/core-web-vitals";
-import nextTs from "eslint-config-next/typescript";
+import { defineConfig, globalIgnores } from 'eslint/config';
+import nextVitals from 'eslint-config-next/core-web-vitals';
+import nextTs from 'eslint-config-next/typescript';
 
-const eslintConfig = defineConfig([
+export default defineConfig([
   ...nextVitals,
   ...nextTs,
-  // Override default ignores of eslint-config-next.
+  {
+    rules: {
+      'indent': ['warn', 2, { 'SwitchCase': 1 }],
+      'quotes': ['warn', 'single'],
+      'jsx-quotes': ['warn', 'prefer-single'],
+      'semi': ['warn', 'always'],
+      'comma-dangle': ['warn', 'always-multiline'],
+      'eol-last': ['warn', 'always'],
+      'no-trailing-spaces': ['warn', { 'skipBlankLines': false, 'ignoreComments': false }],
+      'react/jsx-indent': ['warn', 2],
+      'react/jsx-indent-props': ['warn', 2],
+      'react/display-name': 'off',
+      'import/no-anonymous-default-export': 'off',
+    },
+  },
   globalIgnores([
-    // Default ignores of eslint-config-next:
-    ".next/**",
-    "out/**",
-    "build/**",
-    "next-env.d.ts",
+    '.next/**',
+    'out/**',
+    'build/**',
+    'next-env.d.ts',
   ]),
 ]);
-
-export default eslintConfig;
