@@ -1,6 +1,7 @@
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import { Nav } from './navigation';
+import { LocaleSelector } from './locale-selector';
 
 export const Header = () => {
   const t = useTranslations('header');
@@ -34,10 +35,9 @@ export const Header = () => {
           </div>
         </div>
 
+        {/* Options */}
         <div>
-          <div>
-            言語設定（ダミー）
-          </div>
+          <LocaleSelector />
         </div>
 
       </nav>

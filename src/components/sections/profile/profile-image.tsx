@@ -8,7 +8,6 @@ export const ProfileImage = () => {
         src='/profiles/profile7.jpg'
         alt='Profile image'
         fill
-        style={{ objectFit: 'cover' }}
       />
     </div>
   );
