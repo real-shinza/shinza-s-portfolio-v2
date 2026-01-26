@@ -14,13 +14,17 @@ export const Header = () => {
       '
     >
       <nav className='flex items-center justify-between px-5 md:px-8 py-4'>
+
+        {/* Site title */}
         <div>
           <Link className='' href='/'>
-            <div className='text-base md:text-xl font-bold text-[var(--text)]'>
+            <h1 className='text-base md:text-xl text-[var(--text)] font-bold'>
               {t('site.title')}
-            </div>
+            </h1>
           </Link>
         </div>
+
+        {/* Navigation */}
         <div className='hidden md:block'>
           <div className='flex items-center justify-center gap-5'>
             <Nav sectionName={t('navigations.works')} hash='works' />
@@ -29,11 +33,13 @@ export const Header = () => {
             <Nav sectionName={t('navigations.certs')} hash='certs' />
           </div>
         </div>
+
         <div>
           <div>
             言語設定（ダミー）
           </div>
         </div>
+
       </nav>
     </header>
   );
