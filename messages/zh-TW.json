@@ -4,6 +4,17 @@
     "description": "新佐佳也的技術作品集網站",
     "locale": "zh_TW"
   },
+  "header": {
+    "site": {
+      "title": "新佐的作品集"
+    },
+    "navigations": {
+      "works": "作品",
+      "career": "經歷",
+      "skills": "技能",
+      "certs": "證照"
+    }
+  },
   "profile": {
     "name": "新佐 佳也",
     "nameVariants": [

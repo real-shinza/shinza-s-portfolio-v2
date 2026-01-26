@@ -4,6 +4,17 @@
     "description": "Technical portfolio website of Shinsa Yoshiya",
     "locale": "en_US"
   },
+  "header": {
+    "site": {
+      "title": "Shinsa's Portfolio"
+    },
+    "navigations": {
+      "works": "Works",
+      "career": "Career",
+      "skills": "Skills",
+      "certs": "Certs"
+    }
+  },
   "profile": {
     "name": "Shinza Yoshiya",
     "nameVariants": []

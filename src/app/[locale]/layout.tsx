@@ -3,6 +3,8 @@ import { GoogleTagManager } from '@next/third-parties/google';
 import { NextIntlClientProvider } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 import { Locale } from '@/i18n/routing';
+import { Header } from '@/components/layout';
+import { notoSans } from '@/lib/fonts';
 import '../globals.css';
 
 export async function generateMetadata({
@@ -37,10 +39,11 @@ export default async ({
   const { locale } = await params;
 
   return (
-    <html lang={locale}>
+    <html lang={locale} style={notoSans[locale].style}>
       <GoogleTagManager gtmId='GTM-THB3JD7F' />
       <body>
         <NextIntlClientProvider>
+          <Header />
           {children}
         </NextIntlClientProvider>
       </body>

@@ -4,6 +4,17 @@
     "description": "新佐佳也の技術ポートフォリオサイト",
     "locale": "ja_JP"
   },
+  "header": {
+    "site": {
+      "title": "新佐のポートフォリオ"
+    },
+    "navigations": {
+      "works": "作品",
+      "career": "経歴",
+      "skills": "技術",
+      "certs": "資格"
+    }
+  },
   "profile": {
     "name": "新佐 佳也",
     "nameVariants": [

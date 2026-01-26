@@ -18,4 +18,6 @@ npm run lint
 
 ## Documentation
 
-- [Next.js Documentation](https://nextjs.org/docs)
+- [Next.js](https://nextjs.org)
+- [next-intl](https://next-intl.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)

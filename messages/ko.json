@@ -4,6 +4,17 @@
     "description": "신사 요시야의 기술 포트폴리오 웹사이트",
     "locale": "ko_KR"
   },
+  "header": {
+    "site": {
+      "title": "신사의 포트폴리오"
+    },
+    "navigations": {
+      "works": "작품",
+      "career": "경력",
+      "skills": "기술",
+      "certs": "자격증"
+    }
+  },
   "profile": {
     "name": "신자 요시야",
     "nameVariants": [
