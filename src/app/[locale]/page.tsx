@@ -1,7 +1,11 @@
+import { Container } from '@/components/ui';
+
 export default () => {
   return (
-    <main>
-      hoge
-    </main>
+    <Container>
+      <main>
+        hoge
+      </main>
+    </Container>
   );
 };

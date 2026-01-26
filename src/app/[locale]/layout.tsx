@@ -3,7 +3,7 @@ import { GoogleTagManager } from '@next/third-parties/google';
 import { NextIntlClientProvider } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 import { Locale } from '@/i18n/routing';
-import { Header } from '@/components/layout';
+import { Footer, Header } from '@/components/layout';
 import { notoSans } from '@/lib/fonts';
 import '../globals.css';
 
@@ -45,6 +45,7 @@ export default async ({
         <NextIntlClientProvider>
           <Header />
           {children}
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>

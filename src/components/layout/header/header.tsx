@@ -9,19 +9,19 @@ export const Header = () => {
     <header
       className='
         sticky top-0 z-10
-        border-b border-[var(--border)]
+        border-b-2 border-[var(--border)]
         bg-white/80 backdrop-blur-md backdrop-saturate-150
       '
     >
-      <nav className='flex items-center justify-between px-8 py-4'>
+      <nav className='flex items-center justify-between px-5 md:px-8 py-4'>
         <div>
           <Link className='' href='/'>
-            <div className='text-[var(--text)] text-xl font-bold'>
+            <div className='text-base md:text-xl font-bold text-[var(--text)]'>
               {t('site.title')}
             </div>
           </Link>
         </div>
-        <div>
+        <div className='hidden md:block'>
           <div className='flex items-center justify-center gap-5'>
             <Nav sectionName={t('navigations.works')} hash='works' />
             <Nav sectionName={t('navigations.career')} hash='career' />
