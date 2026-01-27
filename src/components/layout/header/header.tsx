@@ -11,15 +11,15 @@ export const Header = () => {
       className='
         sticky top-0 z-10
         border-b-2 border-[var(--border)]
-        bg-white/80 backdrop-blur-md backdrop-saturate-150
+        bg-[var(--bg)]/75 backdrop-blur-md backdrop-saturate-150
       '
     >
-      <nav className='flex items-center justify-between px-5 md:px-8 py-2 md:py-4'>
+      <nav className='flex items-center justify-between px-5 md:px-8 py-2 md:py-3'>
 
         {/* Site title */}
         <div>
           <Link className='' href='/'>
-            <h1 className='text-base md:text-2xl text-[var(--text)] font-bold'>
+            <h1 className='text-sm md:text-xl text-[var(--text)] font-bold'>
               {t('site.title')}
             </h1>
           </Link>

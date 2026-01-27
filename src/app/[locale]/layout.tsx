@@ -41,7 +41,7 @@ export default async ({
   return (
     <html lang={locale} className={localeFonts[locale].className}>
       <GoogleTagManager gtmId='GTM-THB3JD7F' />
-      <body>
+      <body className='min-h-screen flex flex-col'>
         <NextIntlClientProvider>
           <Header />
           {children}

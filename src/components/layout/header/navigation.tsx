@@ -5,9 +5,9 @@ export const Nav = (args: {
   hash: string
 }) => {
   return (
-    <div className='p-2 hover:bg-black/6 rounded-full'>
+    <div className='group p-2 hover:bg-[var(--shadow)] rounded-full'>
       <Link href={{ pathname: '/', hash: args.hash }}>
-        <div className='text-base text-[var(--muted)] hover:text-[var(--text)]'>
+        <div className='text-sm text-[var(--muted)] group-hover:text-[var(--text)]'>
           {args.sectionName}
         </div>
       </Link>

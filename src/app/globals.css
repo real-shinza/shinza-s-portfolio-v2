@@ -1,9 +1,11 @@
+@config '../../tailwind.config.ts';
 @import 'tailwindcss';
 
 :root {
   --bg: #ffffff;
   --text: #111111;
   --muted: #666666;
+  --shadow: #eeeeee;
   --border: #e7e7e7;
 }
 

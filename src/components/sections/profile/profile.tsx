@@ -8,29 +8,26 @@ export const Profile = () => {
 
   return (
     <Section id='profile'>
-      <div className='flex items-center justify-start flex-wrap gap-0 lg:gap-20'>
+      <div className='flex lg:items-center justify-start flex-col lg:flex-row gap-0 lg:gap-20'>
         <ProfileImage />
-        <div className='w-full max-w-3xl'>
-
+        <div>
           {/* Name */}
-          <div className='font-semibold mb-3'>
-            <h2 className='text-[var(--text)] text-4xl md:text-5xl mb-2'>
+          <div className='mb-3'>
+            <h2 className='text-[var(--text)] text-4xl md:text-5xl font-semibold mb-1 md:mb-2'>
               {t('name')}
             </h2>
             <div className='flex items-center justify-start gap-4'>
               {nameVariants.map((name, index) => (
-                <h3 key={index} className='text-[var(--muted)] text-sm md:text-base font-semibold'>
+                <h3 key={index} className='text-[var(--muted)] text-xs md:text-sm font-medium'>
                   {name}
                 </h3>
               ))}
             </div>
           </div>
-
           {/* Description */}
-          <div className='text-base md:text-lg font-normal whitespace-pre-line'>
+          <p className='text-sm md:text-base font-normal whitespace-pre-line'>
             {t('description')}
-          </div>
-
+          </p>
         </div>
       </div>
     </Section>

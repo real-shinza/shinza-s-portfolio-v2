@@ -48,17 +48,16 @@ export const LocaleSelector = () => {
   return (
     <div className='relative' ref={dropdownRef}>
       {/* Trigger */}
-      <div className='rounded-full border-2 border-[var(--border)] p-2'>
+      <div className='rounded-full border border-[var(--border)] p-1'>
         <LocaleOption
           localeName={current.name}
           src={current.src}
           onClick={() => setOpen(!isOpen)}
         />
       </div>
-
       {/* Dropdown */}
       {isOpen && (
-        <div className='absolute right-0 z-20 mt-1 p-2 border-2 border-[var(--border)] bg-[var(--bg)] shadow-lg'>
+        <div className='absolute right-0 z-20 mt-1 p-2 border border-[var(--border)] bg-[var(--bg)] shadow-lg'>
           {Object.entries(localeData).map(([key, data]) => (
             <LocaleOption
               key={key}
