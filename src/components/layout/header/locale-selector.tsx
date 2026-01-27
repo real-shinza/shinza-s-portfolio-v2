@@ -1,28 +1,75 @@
 'use client';
+
+import { useState, useEffect, useRef } from 'react';
 import { useLocale } from 'next-intl';
 import { useRouter, usePathname } from '@/i18n/navigation';
 import { Locale } from '@/i18n/routing';
-import { languageData } from '@/data';
+import { LocaleOption } from './locale-option';
+import { localeData } from '@/data';
+import { localeFonts } from '@/lib/fonts';
 
 export const LocaleSelector = () => {
   const router = useRouter();
   const pathname = usePathname();
   const locale = useLocale();
+  const current = localeData[locale as Locale];
+  const [isOpen, setOpen] = useState(false);
 
-  const onChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    const nextLocale = e.target.value as Locale;
+  const dropdownRef = useRef<HTMLDivElement>(null);
+
+  // 言語選択処理
+  const onSelect = (nextLocale: Locale) => {
     router.replace(pathname, { locale: nextLocale, scroll: false });
+    setOpen(false);
   };
 
+  // ドロップダウンの外側がクリックされたかを判定
+  const handleClickOutside = (event: MouseEvent) => {
+    if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+      setOpen(false);
+    }
+  };
+
+  useEffect(() => {
+    if (isOpen) {
+      // ドロップダウンが開いている間だけ全体にクリック監視を追加
+      document.addEventListener('mousedown', handleClickOutside);
+    } else {
+      // 閉じたら監視を解除
+      document.removeEventListener('mousedown', handleClickOutside);
+    }
+
+    return () => {
+      // isOpen が変わるタイミングで監視を解除
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [isOpen]);
+
   return (
-    <div className='rounded-full border-2 border-[var(--border)]'>
-      <select value={locale} onChange={onChange} className='p-2'>
-        {Object.entries(languageData).map((data, index) => (
-          <option key={index} value={data[0]} className={`font-lang-${data[0]}`}>
-            {data[1].name}
-          </option>
-        ))}
-      </select>
+    <div className='relative' ref={dropdownRef}>
+      {/* Trigger */}
+      <div className='rounded-full border-2 border-[var(--border)] p-2'>
+        <LocaleOption
+          localeName={current.name}
+          src={current.src}
+          onClick={() => setOpen(!isOpen)}
+        />
+      </div>
+
+      {/* Dropdown */}
+      {isOpen && (
+        <div className='absolute right-0 z-20 mt-1 p-2 border-2 border-[var(--border)] bg-[var(--bg)] shadow-lg'>
+          {Object.entries(localeData).map(([key, data]) => (
+            <LocaleOption
+              key={key}
+              className={localeFonts[key as Locale].className}
+              localeName={data.name}
+              src={data.src}
+              onClick={() => onSelect(key as Locale)}
+            />
+          ))}
+        </div>
+      )}
     </div>
   );
 };

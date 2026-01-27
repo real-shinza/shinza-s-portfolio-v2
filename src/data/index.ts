@@ -1,2 +1,2 @@
-export { languageData } from './locale';
+export { localeData } from './locale';
 export { skillAll } from './skills';

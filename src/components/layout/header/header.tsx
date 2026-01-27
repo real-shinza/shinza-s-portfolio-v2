@@ -14,12 +14,12 @@ export const Header = () => {
         bg-white/80 backdrop-blur-md backdrop-saturate-150
       '
     >
-      <nav className='flex items-center justify-between px-5 md:px-8 py-4'>
+      <nav className='flex items-center justify-between px-5 md:px-8 py-2 md:py-4'>
 
         {/* Site title */}
         <div>
           <Link className='' href='/'>
-            <h1 className='text-base md:text-xl text-[var(--text)] font-bold'>
+            <h1 className='text-base md:text-2xl text-[var(--text)] font-bold'>
               {t('site.title')}
             </h1>
           </Link>

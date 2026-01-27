@@ -1,6 +1,6 @@
 import { LocaleData } from '@/types';
 
-export const languageData: LocaleData = {
+export const localeData: LocaleData = {
   'ja': {
     name: '日本語',
     src: '/countries/jp.png',
