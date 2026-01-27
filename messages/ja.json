@@ -21,6 +21,27 @@
       "しんざ よしや",
       "Shinza Yoshiya"
     ],
-    "description": "2000年(平成12年)生まれ。石川県野々市市出身。\n技術的向上を目的に様々な学習をしています。\n趣味でゲームを作っています。"
+    "description": "2000年(平成12年)生まれ。石川県野々市市出身。\n技術的向上を目的に様々な学習をしています。\n趣味でゲームを作っています。\nご連絡は X または Facebook のダイレクトメッセージにてお願いします。"
+  },
+  "certifications": {
+    "title": "資格",
+    "certs": [
+      {
+        "date": "2019年3月",
+        "name": "普通自動車第一種運転免許"
+      },
+      {
+        "date": "2021年1月",
+        "name": "ITパスポート試験"
+      },
+      {
+        "date": "2021年5月",
+        "name": "LinuCレベル1 Version10.0"
+      },
+      {
+        "date": "2022年4月",
+        "name": "Oracle Certified Java Programmer, Silver SE 11"
+      }
+    ]
   }
 }

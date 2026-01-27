@@ -14,14 +14,14 @@ export const Profile = () => {
 
           {/* Name */}
           <div className='font-semibold mb-3'>
-            <h3 className='text-[var(--text)] text-4xl md:text-5xl mb-2'>
+            <h2 className='text-[var(--text)] text-4xl md:text-5xl mb-2'>
               {t('name')}
-            </h3>
+            </h2>
             <div className='flex items-center justify-start gap-4'>
               {nameVariants.map((name, index) => (
-                <h4 key={index} className='text-[var(--muted)] text-xs md:text-sm'>
+                <h3 key={index} className='text-[var(--muted)] text-xs md:text-sm'>
                   {name}
-                </h4>
+                </h3>
               ))}
             </div>
           </div>

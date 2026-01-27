@@ -21,6 +21,27 @@
       "Xīnzuǒ Jiāyě",
       "Shinza Yoshiya"
     ],
-    "description": "2000年(民國89年)出生。來自日本石川縣野野市市。\n為了提升技術，我在進行各種學習。\n我在做遊戲當作興趣。"
+    "description": "2000年(民國89年)出生。來自日本石川縣野野市市。\n為了提升技術，我在進行各種學習。\n我在做遊戲當作興趣。\n聯絡請透過 X 或 Facebook 的私訊。"
+  },
+  "certifications": {
+    "title": "證照",
+    "certs": [
+      {
+        "date": "2019年3月",
+        "name": "普通小型車第一類駕照"
+      },
+      {
+        "date": "2021年1月",
+        "name": "IT證照考試"
+      },
+      {
+        "date": "2021年5月",
+        "name": "LinuC Level 1 Version 10.0"
+      },
+      {
+        "date": "2022年4月",
+        "name": "Oracle Certified Java Programmer, Silver SE 11"
+      }
+    ]
   }
 }

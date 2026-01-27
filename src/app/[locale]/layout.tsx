@@ -4,7 +4,7 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 import { Locale } from '@/i18n/routing';
 import { Footer, Header } from '@/components/layout';
-import { notoSans } from '@/lib/fonts';
+import { localeFonts } from '@/lib/fonts';
 import '../globals.css';
 
 export async function generateMetadata({
@@ -39,7 +39,7 @@ export default async ({
   const { locale } = await params;
 
   return (
-    <html lang={locale} style={notoSans[locale].style}>
+    <html lang={locale} className={localeFonts[locale].className}>
       <GoogleTagManager gtmId='GTM-THB3JD7F' />
       <body>
         <NextIntlClientProvider>

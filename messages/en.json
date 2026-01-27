@@ -18,6 +18,27 @@
   "profile": {
     "name": "Shinza Yoshiya",
     "nameVariants": [],
-    "description": "Born in 2000. From Nonoichi, Ishikawa, Japan.\nI'm studying various things with the aim of improving my technical skills.\nI make games as a hobby."
+    "description": "Born in 2000. From Nonoichi, Ishikawa, Japan.\nI'm studying various things with the aim of improving my technical skills.\nI make games as a hobby.\nPlease contact me via direct message on X or Facebook."
+  },
+  "certifications": {
+    "title": "Certifications",
+    "certs": [
+      {
+        "date": "Mar. 2019",
+        "name": "Class 1 Driver's License for Ordinary Motor Vehicles"
+      },
+      {
+        "date": "Jan. 2021",
+        "name": "IT Passport Examination"
+      },
+      {
+        "date": "May 2021",
+        "name": "LinuC Level 1 Version 10.0"
+      },
+      {
+        "date": "Apr. 2022",
+        "name": "Oracle Certified Java Programmer, Silver SE 11"
+      }
+    ]
   }
 }

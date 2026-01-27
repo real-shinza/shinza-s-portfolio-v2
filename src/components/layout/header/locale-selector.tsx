@@ -18,7 +18,7 @@ export const LocaleSelector = () => {
     <div className='rounded-full border-2 border-[var(--border)]'>
       <select value={locale} onChange={onChange} className='p-2'>
         {Object.entries(languageData).map((data, index) => (
-          <option key={index} value={data[0]}>
+          <option key={index} value={data[0]} className={`font-lang-${data[0]}`}>
             {data[1].name}
           </option>
         ))}
