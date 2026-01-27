@@ -19,7 +19,7 @@ export const Profile = () => {
             </h2>
             <div className='flex items-center justify-start gap-4'>
               {nameVariants.map((name, index) => (
-                <h3 key={index} className='text-[var(--muted)] text-xs md:text-sm'>
+                <h3 key={index} className='text-[var(--muted)] text-sm md:text-base font-semibold'>
                   {name}
                 </h3>
               ))}
@@ -27,7 +27,7 @@ export const Profile = () => {
           </div>
 
           {/* Description */}
-          <div className='text-base md:text-lg whitespace-pre-line'>
+          <div className='text-base md:text-lg font-normal whitespace-pre-line'>
             {t('description')}
           </div>
 

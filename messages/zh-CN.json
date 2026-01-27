@@ -23,6 +23,18 @@
     ],
     "description": "2000年出生。来自日本石川县野野市市。\n为了提升技术，我在进行各种学习。\n我在做游戏当作兴趣。\n联系请通过 X 或 Facebook 的私信。"
   },
+  "skills": {
+    "title": "技能",
+    "categories": {
+      "languages": "语言",
+      "frameworks": "框架",
+      "databases": "数据库",
+      "infrastructure": "基础设施",
+      "tools": "工具",
+      "analytics": "分析",
+      "workflow": "工作流"
+    }
+  },
   "certifications": {
     "title": "资格",
     "certs": [

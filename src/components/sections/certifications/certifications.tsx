@@ -11,11 +11,11 @@ export const Certifications = () => {
         {certifications.map((cert, index) => (
           <div key={index} className='flex flex-col-reverse md:flex-row md:items-center md:justify-between py-2 md:py-4'>
             {/* 資格名 */}
-            <div className='text-base text-[var(--text)]'>
+            <div className='text-base md:text-lg font-medium text-[var(--text)]'>
               {cert.name}
             </div>
             {/* 取得年月 */}
-            <div className='text-sm text-[var(--muted)]'>
+            <div className='text-sm md:text-base text-[var(--muted)]'>
               {cert.date}
             </div>
           </div>

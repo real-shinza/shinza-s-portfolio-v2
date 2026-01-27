@@ -1,10 +1,15 @@
 import { Container } from '@/components/ui';
-import { Certifications, Profile } from '@/components/sections';
+import {
+  Certifications,
+  Profile,
+  SkillLevels,
+} from '@/components/sections';
 
 export default () => {
   return (
     <Container>
       <Profile />
+      <SkillLevels />
       <Certifications />
     </Container>
   );

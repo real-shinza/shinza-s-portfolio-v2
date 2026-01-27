@@ -8,7 +8,7 @@ export const Section = (args: {
   return (
     <section id={args.id} className='py-8 md:py-18'>
       {args.title && (
-        <h2 className='text-[var(--text)] text-2xl md:text-3xl font-semibold mb-2'>
+        <h2 className='text-[var(--text)] text-3xl md:text-4xl font-bold mb-2'>
           {args.title}
         </h2>
       )}

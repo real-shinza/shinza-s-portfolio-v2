@@ -20,6 +20,18 @@
     "nameVariants": [],
     "description": "Born in 2000. From Nonoichi, Ishikawa, Japan.\nI'm studying various things with the aim of improving my technical skills.\nI make games as a hobby.\nPlease contact me via direct message on X or Facebook."
   },
+  "skills": {
+    "title": "Skills",
+    "categories": {
+      "languages": "Languages",
+      "frameworks": "Frameworks",
+      "databases": "Databases",
+      "infrastructure": "Infrastructure",
+      "tools": "Tools",
+      "analytics": "Analytics",
+      "workflow": "Workflow"
+    }
+  },
   "certifications": {
     "title": "Certifications",
     "certs": [
