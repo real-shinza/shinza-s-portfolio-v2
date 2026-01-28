@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import { GoogleTagManager } from '@next/third-parties/google';
 import { NextIntlClientProvider } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 import { Locale } from '@/i18n/routing';
@@ -39,15 +38,12 @@ export default async ({
   const { locale } = await params;
 
   return (
-    <html lang={locale} className={localeFonts[locale].className}>
-      <GoogleTagManager gtmId='GTM-WZ9DPNCW' />
-      <body className='min-h-screen flex flex-col'>
-        <NextIntlClientProvider>
-          <Header />
-          {children}
-          <Footer />
-        </NextIntlClientProvider>
-      </body>
-    </html>
+    <NextIntlClientProvider locale={locale}>
+      <div className={localeFonts[locale].className}>
+        <Header />
+        {children}
+        <Footer />
+      </div>
+    </NextIntlClientProvider>
   );
 };

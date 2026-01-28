@@ -57,7 +57,7 @@ export const LocaleSelector = () => {
       </div>
       {/* Dropdown */}
       {isOpen && (
-        <div className='absolute right-0 z-20 mt-1 p-2 border border-border bg-bg'>
+        <div className='absolute top-full left-1/2 -translate-x-1/2 z-20 mt-1 p-2 border border-border bg-bg'>
           {Object.entries(localeData).map(([key, data]) => (
             <LocaleOption
               key={key}
