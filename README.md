@@ -21,3 +21,15 @@ npm run lint
 - [Next.js](https://nextjs.org)
 - [next-intl](https://next-intl.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
+
+## Assets
+
+- [Simple Icons](https://simpleicons.org/)
+
+## Social media Logo
+
+- [X](https://about.x.com/ja/who-we-are/brand-toolkit)
+- [Facebook](https://www.meta.com/ja-jp/brand/resources/facebook/logo/)
+- [GitHub](https://brand.github.com/foundations/logo)
+- [Zenn](https://zenn.dev/mediakit)
+- [Wantedly](https://wantedlyinc.com/ja/brand_assets)

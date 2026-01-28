@@ -1,6 +1,8 @@
 import { useTranslations } from 'next-intl';
 import { Section } from '@/components/ui';
 import { ProfileImage } from './profile-image';
+import { SocialMedia } from './social-media';
+import { socialMediaEntries } from '@/data';
 
 export const Profile = () => {
   const t = useTranslations('profile');
@@ -28,6 +30,12 @@ export const Profile = () => {
           <p className='text-text text-sm md:text-base font-normal whitespace-pre-line'>
             {t('description')}
           </p>
+          {/* Social media */}
+          <div className='flex flex-wrap items-center justify-start gap-2 md:gap-3 pt-3'>
+            {socialMediaEntries.map(entry => (
+              <SocialMedia key={entry.id} entry={entry} />
+            ))}
+          </div>
         </div>
       </div>
     </Section>
