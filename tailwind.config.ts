@@ -6,9 +6,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        bg: 'var(--bg)',
+        text: 'var(--text)',
+        muted: 'var(--muted)',
+        shadow: 'var(--shadow)',
+        border: 'var(--border)',
+      },
       animation: {
-        'slide-fade-in-left':
-          'slide-fade-in-left 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000)',
+        'slide-fade-in-left': 'slide-fade-in-left 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000)',
       },
       keyframes: {
         'slide-fade-in-left': {

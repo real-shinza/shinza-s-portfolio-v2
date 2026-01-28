@@ -10,21 +10,19 @@ export const Header = () => {
     <header
       className='
         sticky top-0 z-10
-        border-b-2 border-[var(--border)]
-        bg-[var(--bg)]/75 backdrop-blur-md backdrop-saturate-150
+        border-b-2 border-border
+        bg-bg/75 backdrop-blur-md backdrop-saturate-150
       '
     >
       <nav className='flex items-center justify-between px-5 md:px-8 py-2 md:py-3'>
-
         {/* Site title */}
         <div>
-          <Link className='' href='/'>
-            <h1 className='text-sm md:text-xl text-[var(--text)] font-bold'>
+          <Link href='/'>
+            <h1 className='text-sm md:text-xl text-text font-bold'>
               {t('site.title')}
             </h1>
           </Link>
         </div>
-
         {/* Navigation */}
         <div className='hidden md:block'>
           <div className='flex items-center justify-center gap-5'>
@@ -34,12 +32,10 @@ export const Header = () => {
             <Nav sectionName={t('navigations.certs')} hash='certs' />
           </div>
         </div>
-
         {/* Options */}
-        <div>
+        <div className='flex items-center justify-between gap-2'>
           <LocaleSelector />
         </div>
-
       </nav>
     </header>
   );

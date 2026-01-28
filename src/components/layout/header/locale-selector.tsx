@@ -13,20 +13,20 @@ export const LocaleSelector = () => {
   const pathname = usePathname();
   const locale = useLocale();
   const current = localeData[locale as Locale];
-  const [isOpen, setOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
   const dropdownRef = useRef<HTMLDivElement>(null);
 
   // 言語選択処理
   const onSelect = (nextLocale: Locale) => {
     router.replace(pathname, { locale: nextLocale, scroll: false });
-    setOpen(false);
+    setIsOpen(false);
   };
 
   // ドロップダウンの外側がクリックされたかを判定
   const handleClickOutside = (event: MouseEvent) => {
     if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
-      setOpen(false);
+      setIsOpen(false);
     }
   };
 
@@ -47,17 +47,17 @@ export const LocaleSelector = () => {
 
   return (
     <div className='relative' ref={dropdownRef}>
-      {/* Trigger */}
-      <div className='rounded-full border border-[var(--border)] p-1'>
+      {/* Current locale */}
+      <div className='rounded-full border border-border p-1'>
         <LocaleOption
           localeName={current.name}
           src={current.src}
-          onClick={() => setOpen(!isOpen)}
+          onClick={() => setIsOpen(!isOpen)}
         />
       </div>
       {/* Dropdown */}
       {isOpen && (
-        <div className='absolute right-0 z-20 mt-1 p-2 border border-[var(--border)] bg-[var(--bg)] shadow-lg'>
+        <div className='absolute right-0 z-20 mt-1 p-2 border border-border bg-bg'>
           {Object.entries(localeData).map(([key, data]) => (
             <LocaleOption
               key={key}
