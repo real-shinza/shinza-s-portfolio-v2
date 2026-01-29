@@ -5,12 +5,13 @@ export const Nav = (args: {
   hash: string
 }) => {
   return (
-    <div className='group p-2 hover:bg-shadow rounded-full'>
-      <Link href={{ pathname: '/', hash: args.hash }}>
-        <div className='text-sm text-muted group-hover:text-text'>
-          {args.sectionName}
-        </div>
-      </Link>
-    </div>
+    <Link
+      className='group p-2 hover:bg-shadow rounded-full'
+      href={{ pathname: '/', hash: args.hash }}
+    >
+      <div className='text-sm text-muted group-hover:text-text'>
+        {args.sectionName}
+      </div>
+    </Link>
   );
 };

@@ -10,7 +10,7 @@
     },
     "navigations": {
       "works": "Works",
-      "career": "Career",
+      "experiences": "Experiences",
       "skills": "Skills",
       "certs": "Certs"
     }
@@ -27,10 +27,10 @@
     "title": "Works",
     "works": {
       "shinza-s-portfolio-v1": {
-        "title": "Shinza's Portfolio v1"
+        "title": "Shinza's Portfolio Ver. 1"
       },
       "shinza-s-portfolio-v2": {
-        "title": "Shinza's Portfolio v2"
+        "title": "Shinza's Portfolio Ver. 2"
       },
       "translate-number-to-strings": {
         "title": "Translate number to strings"
@@ -52,6 +52,46 @@
       },
       "unity-visual-novel": {
         "title": "Visual novel game"
+      }
+    }
+  },
+  "experiences": {
+    "title": "Experiences",
+    "experiences": {
+      "kanazawa-hokuryo-high-school": {
+        "name": "General Studies Department, Ishikawa Prefectural Kanazawa Hokuryo High School",
+        "period": "Apr. 2016 ~ Mar. 2019",
+        "projects": {}
+      },
+      "human-academy-kyoto-campus": {
+        "name": "Programmer Major, Sogo Gakuen Human Academy Kyoto Campus",
+        "period": "Apr. 2016 ~ Mar. 2019",
+        "projects": {}
+      },
+      "system-engineering-service-company": {
+        "name": "IT outsourcing company in Tokyo",
+        "period": "Apr. 2021 ~ Mar. 2025",
+        "projects": {}
+      },
+      "tokyo-online-university": {
+        "name": "Department of Information and Management, Faculty of Information and Management, Tokyo Online University",
+        "period": "Apr. 2022 ~ Now",
+        "projects": {}
+      },
+      "national-taiwan-normal-university": {
+        "name": "Mandarin Training Center, National Taiwan Normal University",
+        "period": "Mar. 2025 ~ Apr. 2025",
+        "projects": {}
+      },
+      "website-development-company": {
+        "name": "Web development company",
+        "period": "Mar. 2025 ~ May 2025",
+        "projects": {}
+      },
+      "sler-company": {
+        "name": "Systems integrator company in Tokyo",
+        "period": "Nov. 2025 ~ Now",
+        "projects": {}
       }
     }
   },

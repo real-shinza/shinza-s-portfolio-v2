@@ -28,7 +28,7 @@ export const Header = () => {
         <div className='hidden md:block'>
           <div className='flex items-center justify-center gap-5'>
             <Nav sectionName={t('navigations.works')} hash='works' />
-            <Nav sectionName={t('navigations.career')} hash='career' />
+            <Nav sectionName={t('navigations.experiences')} hash='experiences' />
             <Nav sectionName={t('navigations.skills')} hash='skills' />
             <Nav sectionName={t('navigations.certs')} hash='certs' />
           </div>

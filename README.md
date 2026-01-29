@@ -33,3 +33,5 @@ npm run lint
 - [GitHub](https://brand.github.com/foundations/logo)
 - [Zenn](https://zenn.dev/mediakit)
 - [Wantedly](https://wantedlyinc.com/ja/brand_assets)
+- [Discord](https://discord.com/branding)
+- [Unity](https://unity.com/ja/legal/branding-trademarks)

@@ -10,7 +10,7 @@
     },
     "navigations": {
       "works": "作品",
-      "career": "経歴",
+      "experiences": "経歴",
       "skills": "技術",
       "certs": "資格"
     }
@@ -27,10 +27,10 @@
     "title": "作品",
     "works": {
       "shinza-s-portfolio-v1": {
-        "title": "新佐のポートフォリオ v1"
+        "title": "新佐のポートフォリオ Ver. 1"
       },
       "shinza-s-portfolio-v2": {
-        "title": "新佐のポートフォリオ v2"
+        "title": "新佐のポートフォリオ Ver. 2"
       },
       "translate-number-to-strings": {
         "title": "Translate number to strings"
@@ -52,6 +52,46 @@
       },
       "unity-visual-novel": {
         "title": "ビジュアルノベルゲーム"
+      }
+    }
+  },
+  "experiences": {
+    "title": "経歴",
+    "experiences": {
+      "kanazawa-hokuryo-high-school": {
+        "name": "石川県立金沢北稜高等学校 総合学科",
+        "period": "2016年4月 ~ 2019年3月",
+        "projects": {}
+      },
+      "human-academy-kyoto-campus": {
+        "name": "総合学園ヒューマンアカデミー京都校 プログラマー専攻",
+        "period": "2019年4月 ~ 2021年3月",
+        "projects": {}
+      },
+      "system-engineering-service-company": {
+        "name": "東京都内のSES企業",
+        "period": "2021年4月 ~ 2025年3月",
+        "projects": {}
+      },
+      "tokyo-online-university": {
+        "name": "東京通信大学 情報マネジメント学部 情報マネジメント学科",
+        "period": "2022年4月 ~ 現在",
+        "projects": {}
+      },
+      "national-taiwan-normal-university": {
+        "name": "国立台湾師範大学 国語教学センター",
+        "period": "2025年3月 ~ 2025年4月",
+        "projects": {}
+      },
+      "website-development-company": {
+        "name": "ウェブ制作会社",
+        "period": "2025年3月 ~ 2025年5月",
+        "projects": {}
+      },
+      "sler-company": {
+        "name": "東京都内のSler企業",
+        "period": "2025年11月 ~ 現在",
+        "projects": {}
       }
     }
   },

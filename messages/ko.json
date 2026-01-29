@@ -10,7 +10,7 @@
     },
     "navigations": {
       "works": "작품",
-      "career": "경력",
+      "experiences": "경력",
       "skills": "기술",
       "certs": "자격증"
     }
@@ -27,10 +27,10 @@
     "title": "작품",
     "works": {
       "shinza-s-portfolio-v1": {
-        "title": "신자의 포트폴리오 v1"
+        "title": "신자의 포트폴리오 Ver. 1"
       },
       "shinza-s-portfolio-v2": {
-        "title": "신자의 포트폴리오 v2"
+        "title": "신자의 포트폴리오 Ver. 2"
       },
       "translate-number-to-strings": {
         "title": "Translate number to strings"
@@ -52,6 +52,46 @@
       },
       "unity-visual-novel": {
         "title": "비주얼 노벨 게임"
+      }
+    }
+  },
+  "experiences": {
+    "title": "경력",
+    "experiences": {
+      "kanazawa-hokuryo-high-school": {
+        "name": "이시카와 현립 가나자와 호쿠료 고등학교 종합학과",
+        "period": "2016년 4월 ~ 2019년 3월",
+        "projects": {}
+      },
+      "human-academy-kyoto-campus": {
+        "name": "종합학원 휴먼 아카데미 교토 캠퍼스 프로그래머 전공",
+        "period": "2019년 4월 ~ 2021년 3월",
+        "projects": {}
+      },
+      "system-engineering-service-company": {
+        "name": "도쿄도내의 어느 IT 아웃소싱 회사",
+        "period": "2021년 4월 ~ 2025년 3월",
+        "projects": {}
+      },
+      "tokyo-online-university": {
+        "name": "도쿄통신대학 정보매니지먼트학부 정보매니지먼트학과",
+        "period": "2022년 4월 ~ 현재",
+        "projects": {}
+      },
+      "national-taiwan-normal-university": {
+        "name": "국립대만사범대학 중국어교육원",
+        "period": "2025년 3월 ~ 2025년 4월",
+        "projects": {}
+      },
+      "website-development-company": {
+        "name": "웹사이트 제작 회사",
+        "period": "2025년 3월 ~ 2025년 5월",
+        "projects": {}
+      },
+      "sler-company": {
+        "name": "도쿄도내의 시스템 통합 기업",
+        "period": "2025년 11월 ~ 현재",
+        "projects": {}
       }
     }
   },

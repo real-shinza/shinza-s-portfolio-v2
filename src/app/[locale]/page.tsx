@@ -1,5 +1,6 @@
 import { Container } from '@/components/ui';
 import {
+  Experiences,
   Certifications,
   Profile,
   SkillLevels,
@@ -11,6 +12,7 @@ export default () => {
     <Container>
       <Profile />
       <Works />
+      <Experiences />
       <SkillLevels />
       <Certifications />
     </Container>

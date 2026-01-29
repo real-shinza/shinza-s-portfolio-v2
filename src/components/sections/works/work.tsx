@@ -26,11 +26,11 @@ export const Work = (args: {
           </h3>
           <div className='flex flex-wrap gap-1 mt-2'>
             {args.work.tags.map(tag => (
-              <span key={tag} className='px-1 py-0.5 border border-border bg-shadow rounded-full'>
+              <div key={tag} className='px-1 py-0.5 border border-border bg-shadow rounded-full'>
                 <div className='text-muted text-[10px] md:text-[12px]'>
                   {tag}
                 </div>
-              </span>
+              </div>
             ))}
           </div>
         </div>

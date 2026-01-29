@@ -1,3 +1,4 @@
+export { experiences } from './experiences';
 export { localeData } from './locale';
 export { skillAll } from './skills';
 export { socialMedias } from './social-media';

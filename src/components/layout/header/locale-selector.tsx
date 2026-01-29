@@ -48,7 +48,7 @@ export const LocaleSelector = () => {
   return (
     <div className='relative' ref={dropdownRef}>
       {/* Current locale */}
-      <div className='rounded-full border border-border p-1'>
+      <div className='rounded-full border border-border p-1 bg-bg'>
         <LocaleOption
           localeName={current.name}
           src={current.src}
