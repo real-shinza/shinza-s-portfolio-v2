@@ -23,6 +23,38 @@
     ],
     "description": "2000년생. 일본 이시카와현 노노이치시 출신.\n기술적 향상을 목표로 다양한 학습을 하고 있습니다.\n취미로 게임을 만들고 있습니다.\n연락은 X 또는 Facebook의 다이렉트 메시지로 부탁드립니다."
   },
+  "works": {
+    "title": "작품",
+    "works": {
+      "shinza-s-portfolio-v1": {
+        "title": "신자의 포트폴리오 v1"
+      },
+      "shinza-s-portfolio-v2": {
+        "title": "신자의 포트폴리오 v2"
+      },
+      "translate-number-to-strings": {
+        "title": "Translate number to strings"
+      },
+      "zenn": {
+        "title": "Zenn 기술 기사"
+      },
+      "towa-2d": {
+        "title": "토와 2D"
+      },
+      "clicker-game": {
+        "title": "클리커 게임"
+      },
+      "discord-bot": {
+        "title": "Discord 봇"
+      },
+      "unity-2d-rpg": {
+        "title": "2D RPG"
+      },
+      "unity-visual-novel": {
+        "title": "비주얼 노벨 게임"
+      }
+    }
+  },
   "skills": {
     "title": "기술",
     "categories": {

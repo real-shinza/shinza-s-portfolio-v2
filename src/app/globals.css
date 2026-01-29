@@ -6,7 +6,7 @@
   --text: #111111;
   --muted: #666666;
   --border: #dddddd;
-  --shadow: #eeeeee;
+  --shadow: #f0f0f0;
 }
 
 :root[data-theme='dark'] {

@@ -23,6 +23,38 @@
     ],
     "description": "2000年出生。来自日本石川县野野市市。\n为了提升技术，我在进行各种学习。\n我在做游戏当作兴趣。\n联系请通过 X 或 Facebook 的私信。"
   },
+  "works": {
+    "title": "作品",
+    "works": {
+      "shinza-s-portfolio-v1": {
+        "title": "新佐的作品集 v1"
+      },
+      "shinza-s-portfolio-v2": {
+        "title": "新佐的作品集 v2"
+      },
+      "translate-number-to-strings": {
+        "title": "Translate number to strings"
+      },
+      "zenn": {
+        "title": "Zenn 技术文章"
+      },
+      "towa-2d": {
+        "title": "永远 2D"
+      },
+      "clicker-game": {
+        "title": "放置点击游戏"
+      },
+      "discord-bot": {
+        "title": "Discord机器人"
+      },
+      "unity-2d-rpg": {
+        "title": "2D RPG"
+      },
+      "unity-visual-novel": {
+        "title": "视觉小说游戏"
+      }
+    }
+  },
   "skills": {
     "title": "技能",
     "categories": {

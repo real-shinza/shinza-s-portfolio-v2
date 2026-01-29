@@ -23,6 +23,38 @@
     ],
     "description": "2000年(民國89年)出生。來自日本石川縣野野市市。\n為了提升技術，我在進行各種學習。\n我在做遊戲當作興趣。\n聯絡請透過 X 或 Facebook 的私訊。"
   },
+  "works": {
+    "title": "作品",
+    "works": {
+      "shinza-s-portfolio-v1": {
+        "title": "新佐的作品集 v1"
+      },
+      "shinza-s-portfolio-v2": {
+        "title": "新佐的作品集 v2"
+      },
+      "translate-number-to-strings": {
+        "title": "Translate number to strings"
+      },
+      "zenn": {
+        "title": "Zenn 技術文章"
+      },
+      "towa-2d": {
+        "title": "永遠 2D"
+      },
+      "clicker-game": {
+        "title": "放置點擊遊戲"
+      },
+      "discord-bot": {
+        "title": "Discord機器人"
+      },
+      "unity-2d-rpg": {
+        "title": "2D RPG"
+      },
+      "unity-visual-novel": {
+        "title": "視覺小說遊戲"
+      }
+    }
+  },
   "skills": {
     "title": "技能",
     "categories": {

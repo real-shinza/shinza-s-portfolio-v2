@@ -23,6 +23,38 @@
     ],
     "description": "2000年(平成12年)生まれ。石川県野々市市出身。\n技術的向上を目的に様々な学習をしています。\n趣味でゲームを作っています。\nご連絡は X または Facebook のダイレクトメッセージにてお願いします。"
   },
+  "works": {
+    "title": "作品",
+    "works": {
+      "shinza-s-portfolio-v1": {
+        "title": "新佐のポートフォリオ v1"
+      },
+      "shinza-s-portfolio-v2": {
+        "title": "新佐のポートフォリオ v2"
+      },
+      "translate-number-to-strings": {
+        "title": "Translate number to strings"
+      },
+      "zenn": {
+        "title": "Zenn 技術記事"
+      },
+      "towa-2d": {
+        "title": "とわ 2D"
+      },
+      "clicker-game": {
+        "title": "クリッカーゲーム"
+      },
+      "discord-bot": {
+        "title": "Discordボット"
+      },
+      "unity-2d-rpg": {
+        "title": "2D RPG"
+      },
+      "unity-visual-novel": {
+        "title": "ビジュアルノベルゲーム"
+      }
+    }
+  },
   "skills": {
     "title": "技術",
     "categories": {

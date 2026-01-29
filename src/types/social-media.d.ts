@@ -2,7 +2,7 @@ export type SocialMediaEntry = {
   id: string,
   name: string,
   href: string,
-  src: {
+  images: {
     light: string,
     dark: string,
   },

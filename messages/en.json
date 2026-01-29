@@ -23,6 +23,38 @@
     ],
     "description": "Born in 2000. From Nonoichi, Ishikawa, Japan.\nI'm studying various things with the aim of improving my technical skills.\nI make games as a hobby.\nPlease contact me via direct message on X or Facebook."
   },
+  "works": {
+    "title": "Works",
+    "works": {
+      "shinza-s-portfolio-v1": {
+        "title": "Shinza's Portfolio v1"
+      },
+      "shinza-s-portfolio-v2": {
+        "title": "Shinza's Portfolio v2"
+      },
+      "translate-number-to-strings": {
+        "title": "Translate number to strings"
+      },
+      "zenn": {
+        "title": "Zenn technical article"
+      },
+      "towa-2d": {
+        "title": "Towa 2D"
+      },
+      "clicker-game": {
+        "title": "Clicker game"
+      },
+      "discord-bot": {
+        "title": "Discord Bot"
+      },
+      "unity-2d-rpg": {
+        "title": "2D RPG"
+      },
+      "unity-visual-novel": {
+        "title": "Visual novel game"
+      }
+    }
+  },
   "skills": {
     "title": "Skills",
     "categories": {
