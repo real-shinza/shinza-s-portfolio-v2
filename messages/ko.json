@@ -57,41 +57,82 @@
   },
   "experiences": {
     "title": "경력",
+    "common": {
+      "type": {
+        "education": "학업",
+        "work": "업무"
+      },
+      "detail-label": "상세"
+    },
     "experiences": {
       "kanazawa-hokuryo-high-school": {
-        "name": "이시카와 현립 가나자와 호쿠료 고등학교 종합학과",
         "period": "2016년 4월 ~ 2019년 3월",
+        "name": "이시카와 현립 가나자와 호쿠료 고등학교 종합학과",
+        "detail": "용접, 선반 가공, 제도, 프로그래밍 등을 학습.",
         "projects": {}
       },
       "human-academy-kyoto-campus": {
-        "name": "종합학원 휴먼 아카데미 교토 캠퍼스 프로그래머 전공",
         "period": "2019년 4월 ~ 2021년 3월",
+        "name": "종합학원 휴먼 아카데미 교토 캠퍼스 프로그래머 전공",
+        "detail": "게임 프로그래밍, 팀 단위 개발, 알고리즘 등을 학습.",
         "projects": {}
       },
       "system-engineering-service-company": {
-        "name": "도쿄도내의 어느 IT 아웃소싱 회사",
         "period": "2021년 4월 ~ 2025년 3월",
-        "projects": {}
+        "name": "도쿄도내의 IT 아웃소싱 회사",
+        "detail": "2021년 신입사원으로 입사. 테스트 공정, 백엔드 개발, 인프라 구성 등의 경험을 보유.",
+        "projects": {
+          "truck-driver-workflow-app-test": {
+            "period": "2021년 6월 ~ 2021년 10월",
+            "name": "트럭 운전자 업무 프로세스 애플리케이션 테스트 업무"
+          },
+          "financial-institution-tool-test": {
+            "period": "2021년 11월",
+            "name": "금융 기관 도구 통합 테스트 업무"
+          },
+          "web-ad-technical-support": {
+            "period": "2021년 12월 ~ 2023년 8월",
+            "name": "웹 광고 기술 지원 업무"
+          },
+          "ai-sales-bot-development": {
+            "period": "2023년 9월 ~ 2025년 2월",
+            "name": "AI 영업 봇 개발 업무"
+          }
+        }
       },
       "tokyo-online-university": {
-        "name": "도쿄통신대학 정보매니지먼트학부 정보매니지먼트학과",
         "period": "2022년 4월 ~ 현재",
+        "name": "도쿄통신대학 정보매니지먼트학부",
+        "detail": "프로그래밍 기초, 보안 개념, 네트워크, 데이터베이스 등을 이수.",
         "projects": {}
       },
       "national-taiwan-normal-university": {
-        "name": "국립대만사범대학 중국어교육원",
         "period": "2025년 3월 ~ 2025년 4월",
+        "name": "국립대만사범대학 중국어교육원",
+        "detail": "대만 타이베이시에서 중국어를 학습.",
         "projects": {}
       },
       "website-development-company": {
-        "name": "웹사이트 제작 회사",
         "period": "2025년 3월 ~ 2025년 5월",
-        "projects": {}
+        "name": "웹사이트 제작 회사",
+        "detail": "업무 위탁 계약을 체결하고 웹사이트 개발을 중심으로 한 업무에 종사.",
+        "projects": {
+          "website-development-and-maintenance": {
+            "period": "2025년 3월 ~ 2025년 5월",
+            "name": "웹사이트 신규 제작 및 개수 업무"
+          }
+        }
       },
       "sler-company": {
-        "name": "도쿄도내의 시스템 통합 기업",
         "period": "2025년 11월 ~ 현재",
-        "projects": {}
+        "name": "도쿄도내의 시스템 통합 기업",
+        "detail": "2025년 11월 경력직으로 입사. 테스트 공정, 구현 공정 등의 업무를 경험.",
+        "projects": {
+          "master-data-management-system-renewal": {
+            "period": "2025년 12월 ~ 현재",
+            "name": "마스터 데이터 관리 시스템 개편 업무"
+          }
+        }
       }
     }
   },

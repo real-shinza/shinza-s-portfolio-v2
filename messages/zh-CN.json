@@ -57,41 +57,82 @@
   },
   "experiences": {
     "title": "经历",
+    "common": {
+      "type": {
+        "education": "教育",
+        "work": "工作"
+      },
+      "detail-label": "细节"
+    },
     "experiences": {
       "kanazawa-hokuryo-high-school": {
-        "name": "石川县立金泽北陵高级中学 综合学科",
         "period": "2016年4月 ~ 2019年3月",
+        "name": "石川县立金泽北陵高级中学 综合学科",
+        "detail": "学习焊接、车床、制图、编程等技能。",
         "projects": {}
       },
       "human-academy-kyoto-campus": {
-        "name": "综合学院Human Academy京都校 程序员专攻",
         "period": "2019年4月 ~ 2021年3月",
+        "name": "综合学院Human Academy京都校 程序员专攻",
+        "detail": "学习游戏编程、团队开发、算法等内容。",
         "projects": {}
       },
       "system-engineering-service-company": {
-        "name": "东京都内的IT外包公司",
         "period": "2021年4月 ~ 2025年3月",
-        "projects": {}
+        "name": "东京都内的IT外包公司",
+        "detail": "以2021届应届毕业生身份入职。参与测试流程、后端开发、基础架构构建等工作。",
+        "projects": {
+          "truck-driver-workflow-app-test": {
+            "period": "2021年6月 ~ 2021年10月",
+            "name": "卡车司机业务流程应用程序测试业务"
+          },
+          "financial-institution-tool-test": {
+            "period": "2021年11月",
+            "name": "金融机构工具集成测试业务"
+          },
+          "web-ad-technical-support": {
+            "period": "2021年12月 ~ 2023年8月",
+            "name": "网络广告技术支持业务"
+          },
+          "ai-sales-bot-development": {
+            "period": "2023年9月 ~ 2025年2月",
+            "name": "AI销售机器人开发业务"
+          }
+        }
       },
       "tokyo-online-university": {
-        "name": "东京通信大学 信息管理学部 信息管理学科",
         "period": "2022年4月 ~ 现在",
+        "name": "东京通信大学 信息管理学部",
+        "detail": "修读程序设计基础、安全概念、网络、数据库等课程。",
         "projects": {}
       },
       "national-taiwan-normal-university": {
-        "name": "国立台湾师范大学 国语教学中心",
         "period": "2025年3月 ~ 2025年4月",
+        "name": "国立台湾师范大学 国语教学中心",
+        "detail": "在台湾台北市学习中文。",
         "projects": {}
       },
       "website-development-company": {
-        "name": "网站制作公司",
         "period": "2025年3月 ~ 2025年5月",
-        "projects": {}
+        "name": "网站制作公司",
+        "detail": "签订业务委托合同，主要从事网站开发相关工作。",
+        "projects": {
+          "website-development-and-maintenance": {
+            "period": "2025年3月 ~ 2025年5月",
+            "name": "网站新建及改修业务"
+          }
+        }
       },
       "sler-company": {
-        "name": "东京都内的系统集成公司",
         "period": "2025年11月 ~ 现在",
-        "projects": {}
+        "name": "东京都内的系统集成公司",
+        "detail": "于2025年11月以中途入职身份加入公司。参与测试流程、实现流程等工作。",
+        "projects": {
+          "master-data-management-system-renewal": {
+            "period": "2025年12月 ~ 现在",
+            "name": "主数据管理系统刷新业务"
+          }
+        }
       }
     }
   },

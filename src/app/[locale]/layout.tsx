@@ -38,7 +38,7 @@ export default async ({
   const { locale } = await params;
 
   return (
-    <NextIntlClientProvider locale={locale}>
+    <NextIntlClientProvider>
       <div className={localeFonts[locale].className}>
         <Header />
         {children}

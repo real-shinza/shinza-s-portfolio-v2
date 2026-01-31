@@ -57,41 +57,82 @@
   },
   "experiences": {
     "title": "経歴",
+    "common": {
+      "type": {
+        "education": "学業",
+        "work": "職務"
+      },
+      "detail-label": "詳細"
+    },
     "experiences": {
       "kanazawa-hokuryo-high-school": {
-        "name": "石川県立金沢北稜高等学校 総合学科",
         "period": "2016年4月 ~ 2019年3月",
+        "name": "石川県立金沢北稜高等学校 総合学科",
+        "detail": "溶接、旋盤、製図、プログラミングなどを学ぶ。",
         "projects": {}
       },
       "human-academy-kyoto-campus": {
-        "name": "総合学園ヒューマンアカデミー京都校 プログラマー専攻",
         "period": "2019年4月 ~ 2021年3月",
+        "name": "総合学園ヒューマンアカデミー京都校 プログラマー専攻",
+        "detail": "ゲームプログラミング、チーム開発、アルゴリズムなどを学ぶ。",
         "projects": {}
       },
       "system-engineering-service-company": {
-        "name": "東京都内のSES企業",
         "period": "2021年4月 ~ 2025年3月",
-        "projects": {}
+        "name": "東京都内のSES企業",
+        "detail": "21新卒として入社。テスト工程、バックエンド開発、インフラ構成などを経験。",
+        "projects": {
+          "truck-driver-workflow-app-test": {
+            "period": "2021年6月 ~ 2021年10月",
+            "name": "トラックドライバー業務フローアプリテスト業務"
+          },
+          "financial-institution-tool-test": {
+            "period": "2021年11月",
+            "name": "金融機関ツール結合テスト業務"
+          },
+          "web-ad-technical-support": {
+            "period": "2021年12月 ~ 2023年8月",
+            "name": "ウェブ広告技術サポート業務"
+          },
+          "ai-sales-bot-development": {
+            "period": "2023年9月 ~ 2025年2月",
+            "name": "AI営業ボット開発業務"
+          }
+        }
       },
       "tokyo-online-university": {
-        "name": "東京通信大学 情報マネジメント学部 情報マネジメント学科",
         "period": "2022年4月 ~ 現在",
+        "name": "東京通信大学 情報マネジメント学部",
+        "detail": "プログラミングの基礎、セキュリティの概念、ネットワーク、データベースなどを履修。",
         "projects": {}
       },
       "national-taiwan-normal-university": {
-        "name": "国立台湾師範大学 国語教学センター",
         "period": "2025年3月 ~ 2025年4月",
+        "name": "国立台湾師範大学 国語教学センター",
+        "detail": "台湾台北市で中国語を学ぶ。",
         "projects": {}
       },
       "website-development-company": {
-        "name": "ウェブ制作会社",
         "period": "2025年3月 ~ 2025年5月",
-        "projects": {}
+        "name": "ウェブ制作会社",
+        "detail": "業務委託契約を結び、ウェブサイト開発を中心とした業務に従事。",
+        "projects": {
+          "website-development-and-maintenance": {
+            "period": "2025年3月 ~ 2025年5月",
+            "name": "ウェブサイト新規作成及び改修業務"
+          }
+        }
       },
       "sler-company": {
-        "name": "東京都内のSler企業",
         "period": "2025年11月 ~ 現在",
-        "projects": {}
+        "name": "東京都内のSler企業",
+        "detail": "2025年11月中途入社。テスト工程、実装工程などを経験。",
+        "projects": {
+          "master-data-management-system-renewal": {
+            "period": "2025年12月 ~ 現在",
+            "name": "マスタデータ管理システム刷新業務"
+          }
+        }
       }
     }
   },

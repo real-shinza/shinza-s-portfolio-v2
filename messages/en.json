@@ -57,41 +57,82 @@
   },
   "experiences": {
     "title": "Experiences",
+    "common": {
+      "type": {
+        "education": "Education",
+        "work": "Work"
+      },
+      "detail-label": "Detail"
+    },
     "experiences": {
       "kanazawa-hokuryo-high-school": {
-        "name": "General Studies Department, Ishikawa Prefectural Kanazawa Hokuryo High School",
         "period": "Apr. 2016 ~ Mar. 2019",
+        "name": "General Studies Department, Ishikawa Prefectural Kanazawa Hokuryo High School",
+        "detail": "Learn welding, lathe operation, drafting, programming, etc.",
         "projects": {}
       },
       "human-academy-kyoto-campus": {
-        "name": "Programmer Major, Sogo Gakuen Human Academy Kyoto Campus",
         "period": "Apr. 2016 ~ Mar. 2019",
+        "name": "Programmer Major, Sogo Gakuen Human Academy Kyoto Campus",
+        "detail": "Learn game programming, team-based development, algorithms, etc.",
         "projects": {}
       },
       "system-engineering-service-company": {
-        "name": "IT outsourcing company in Tokyo",
         "period": "Apr. 2021 ~ Mar. 2025",
-        "projects": {}
+        "name": "IT outsourcing company in Tokyo",
+        "detail": "Joined the company as a 2021 new graduate. Gained experience in testing phases, backend development, and infrastructure configuration.",
+        "projects": {
+          "truck-driver-workflow-app-test": {
+            "period": "Jun. 2021 ~ Oct. 2021",
+            "name": "Truck driver workflow application testing operations"
+          },
+          "financial-institution-tool-test": {
+            "period": "Nov. 2021",
+            "name": "Financial institution tool integration testing operations"
+          },
+          "web-ad-technical-support": {
+            "period": "Dec. 2021 ~ Aug. 2023",
+            "name": "Web advertisement technical support operations"
+          },
+          "ai-sales-bot-development": {
+            "period": "Sep. 2023 ~ Feb. 2025",
+            "name": "AI sales bot development operations"
+          }
+        }
       },
       "tokyo-online-university": {
-        "name": "Department of Information and Management, Faculty of Information and Management, Tokyo Online University",
         "period": "Apr. 2022 ~ Now",
+        "name": "Faculty of Information and Management, Tokyo Online University",
+        "detail": "Complete coursework in programming fundamentals, security concepts, networks, and databases.",
         "projects": {}
       },
       "national-taiwan-normal-university": {
-        "name": "Mandarin Training Center, National Taiwan Normal University",
         "period": "Mar. 2025 ~ Apr. 2025",
+        "name": "Mandarin Training Center, National Taiwan Normal University",
+        "detail": "Study Chinese in Taipei, Taiwan.",
         "projects": {}
       },
       "website-development-company": {
-        "name": "Web development company",
         "period": "Mar. 2025 ~ May 2025",
-        "projects": {}
+        "name": "Web development company",
+        "detail": "Worked under a contract-based arrangement, engaging primarily in website development.",
+        "projects": {
+          "website-development-and-maintenance": {
+            "period": "Mar. 2025 ~ May 2025",
+            "name": "Website new development and maintenance operations"
+          }
+        }
       },
       "sler-company": {
-        "name": "Systems integrator company in Tokyo",
         "period": "Nov. 2025 ~ Now",
-        "projects": {}
+        "name": "Systems integrator company in Tokyo",
+        "detail": "Joined the company in November 2025 as a mid-career hire. Experienced testing and implementation phases.",
+        "projects": {
+          "master-data-management-system-renewal": {
+            "period": "Dec. 2025 ~ Now",
+            "name": "Master data management system renewal operations"
+          }
+        }
       }
     }
   },

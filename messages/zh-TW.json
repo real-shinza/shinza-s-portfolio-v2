@@ -57,41 +57,82 @@
   },
   "experiences": {
     "title": "經歷",
+    "common": {
+      "type": {
+        "education": "教育",
+        "work": "工作"
+      },
+      "detail-label": "細節"
+    },
     "experiences": {
       "kanazawa-hokuryo-high-school": {
-        "name": "石川縣立金澤北陵高級中學 綜合學科",
         "period": "2016年4月 ~ 2019年3月",
+        "name": "石川縣立金澤北陵高級中學 綜合學科",
+        "detail": "學習焊接、車床、製圖、程式設計等技能。",
         "projects": {}
       },
       "human-academy-kyoto-campus": {
-        "name": "綜合學園Human Academy京都校 程式設計專攻",
         "period": "2019年4月 ~ 2021年3月",
+        "name": "綜合學園Human Academy京都校 程式設計專攻",
+        "detail": "學習遊戲程式設計、團隊開發、演算法等內容。",
         "projects": {}
       },
       "system-engineering-service-company": {
-        "name": "東京都內的IT外包公司",
         "period": "2021年4月 ~ 2025年3月",
-        "projects": {}
+        "name": "東京都內的IT外包公司",
+        "detail": "以2021年應屆畢業生身分入職。參與測試流程、後端開發、基礎架構構建等工作。",
+        "projects": {
+          "truck-driver-workflow-app-test": {
+            "period": "2021年6月 ~ 2021年10月",
+            "name": "卡車司機業務流程應用程式測試業務"
+          },
+          "financial-institution-tool-test": {
+            "period": "2021年11月",
+            "name": "金融機構工具整合測試業務"
+          },
+          "web-ad-technical-support": {
+            "period": "2021年12月 ~ 2023年8月",
+            "name": "網路廣告技術支援業務"
+          },
+          "ai-sales-bot-development": {
+            "period": "2023年9月 ~ 2025年2月",
+            "name": "AI銷售機器人開發業務"
+          }
+        }
       },
       "tokyo-online-university": {
-        "name": "東京通信大學 資訊管理學部 資訊管理學科",
         "period": "2022年4月 ~ 現在",
+        "name": "東京通信大學 資訊管理學部",
+        "detail": "修習程式設計基礎、資安概念、網路、資料庫等課程。",
         "projects": {}
       },
       "national-taiwan-normal-university": {
-        "name": "國立臺灣師範大學 國語教學中心",
         "period": "2025年3月 ~ 2025年4月",
+        "name": "國立臺灣師範大學 國語教學中心",
+        "detail": "在台灣台北市學習中文。",
         "projects": {}
       },
       "website-development-company": {
-        "name": "網站製作公司",
         "period": "2025年3月 ~ 2025年5月",
-        "projects": {}
+        "name": "網站製作公司",
+        "detail": "簽訂業務委託合約，主要從事網站開發相關工作。",
+        "projects": {
+          "website-development-and-maintenance": {
+            "period": "2025年3月 ~ 2025年5月",
+            "name": "網站新建及改修業務"
+          }
+        }
       },
       "sler-company": {
-        "name": "東京都內的系統整合公司",
         "period": "2025年11月 ~ 現在",
-        "projects": {}
+        "name": "東京都內的系統整合公司",
+        "detail": "於2025年11月以中途入職身分加入公司。參與測試流程、實作流程等工作。",
+        "projects": {
+          "master-data-management-system-renewal": {
+            "period": "2025年12月 ~ 現在",
+            "name": "主資料管理系統刷新業務"
+          }
+        }
       }
     }
   },

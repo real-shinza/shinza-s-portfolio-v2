@@ -8,7 +8,7 @@ export const Experiences = () => {
 
   return (
     <Section id='experiences' title={t('title')}>
-      <div className='relative py-3'>
+      <div className='relative'>
         <div className='ml-6'>
           {/* Vertical line */}
           <span className='absolute left-[10px] top-0 h-full w-0.5 bg-border' />

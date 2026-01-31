@@ -1,8 +1,9 @@
-export type Project = {
+export type ProjectEntry = {
   tags: string[]
 };
 
 export type ExperienceEntry = {
+  type: 'education' | 'work',
   projects: Record<string, Project>
 };
 
