@@ -52,7 +52,7 @@
       },
       "discord-bot": {
         "title": "Discord ボット",
-        "description": "Discord のボットを開発。\nテキスト読み上げ、ロール自動付与、誕生日お祝い、コマンドなどの機能があります。\nボットは AWS EC2 上で動作し、音声読み上げ機能はDocker上で起動したVOICEVOXにより実装しています。\nセキュリティ及び個人情報保護の観点からソースコードは非公開。"
+        "description": "Discord のボットを開発。\nテキスト読み上げ、ロール自動付与、誕生日お祝い、コマンドなどの機能があります。\nボットは AWS EC2 上で動作し、音声読み上げ機能は Docker 上で起動した VOICEVOX により実装しています。\nセキュリティ及び個人情報保護の観点からソースコードは非公開。"
       },
       "unity-2d-rpg": {
         "title": "2D RPG",
@@ -149,7 +149,10 @@
     "title": "技術",
     "categories": {
       "languages": "言語",
+      "runtime": "ランタイム",
       "frameworks": "フレームワーク",
+      "libraries": "ライブラリ",
+      "api_sdk": "API / SDK",
       "databases": "データベース",
       "infrastructure": "インフラ",
       "tools": "ツール",

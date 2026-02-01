@@ -19,19 +19,34 @@ export const skillAll: SkillGroup[] = [
     ],
   },
   {
-    id: 'frameworks',
+    id: 'runtime',
     skills: [
       { name: 'Node.js', level: 4.0 },
-      { name: 'jQuery', level: 1.5 },
+    ],
+  },
+  {
+    id: 'frameworks',
+    skills: [
       { name: 'Express.js', level: 2.0 },
       { name: 'FastAPI', level: 2.0 },
-      { name: 'React', level: 4.0 },
       { name: 'Next.js', level: 4.0 },
-      { name: 'Tailwind CSS', level: 3.0 },
       { name: 'Flutter', level: 1.5 },
+      { name: 'Unity', level: 4.0 },
+    ],
+  },
+  {
+    id: 'libraries',
+    skills: [
+      { name: 'React', level: 4.0 },
+      { name: 'jQuery', level: 1.5 },
+      { name: 'Tailwind CSS', level: 3.0 },
+    ],
+  },
+  {
+    id: 'api_sdk',
+    skills: [
       { name: 'DirectX9', level: 2.0 },
       { name: 'DirectX11', level: 2.5 },
-      { name: 'Unity', level: 4.0 },
     ],
   },
   {

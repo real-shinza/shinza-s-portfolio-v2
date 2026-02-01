@@ -9,11 +9,13 @@ export const SkillLevels = () => {
 
   return (
     <Section id='skills' title={t('title')}>
-      {skillAll.map((skillGroup, index) => (
-        <SkillGroup key={index} categoryName={t(`categories.${skillGroup.id}`)}>
-          {skillGroup.skills.map((skill, index) => (
-            <SkillLevelRow key={index} skill={skill} />
-          ))}
+      {skillAll.map(skillGroup => (
+        <SkillGroup key={skillGroup.id} categoryName={t(`categories.${skillGroup.id}`)}>
+          <div className='divide-y divide-dashed divide-border'>
+            {skillGroup.skills.map(skill => (
+              <SkillLevelRow key={skill.name} skill={skill} />
+            ))}
+          </div>
         </SkillGroup>
       ))}
     </Section>

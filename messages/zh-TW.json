@@ -149,7 +149,10 @@
     "title": "技能",
     "categories": {
       "languages": "語言",
+      "runtime": "執行環境",
       "frameworks": "框架",
+      "libraries": "函式庫",
+      "api_sdk": "API / SDK",
       "databases": "資料庫",
       "infrastructure": "基礎架構",
       "tools": "工具",

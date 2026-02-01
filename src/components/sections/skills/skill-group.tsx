@@ -5,13 +5,11 @@ export const SkillGroup = (args: {
   children: ReactNode,
 }) => {
   return (
-    <div className='py-3'>
-      <h3 className='text-muted text-xs md:text-sm font-medium mb-2'>
+    <div className='py-2'>
+      <h3 className='text-muted text-xs md:text-sm font-medium mb-1'>
         {args.categoryName}
       </h3>
-      <div className='divide-y divide-dashed divide-border'>
-        {args.children}
-      </div>
+      {args.children}
     </div>
   );
 };

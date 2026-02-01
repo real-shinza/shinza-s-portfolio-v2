@@ -149,7 +149,10 @@
     "title": "Skills",
     "categories": {
       "languages": "Languages",
+      "runtime": "Runtime",
       "frameworks": "Frameworks",
+      "libraries": "Libraries",
+      "api_sdk": "API / SDK",
       "databases": "Databases",
       "infrastructure": "Infrastructure",
       "tools": "Tools",

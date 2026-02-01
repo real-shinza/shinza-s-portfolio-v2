@@ -149,7 +149,10 @@
     "title": "技能",
     "categories": {
       "languages": "语言",
+      "runtime": "运行时",
       "frameworks": "框架",
+      "libraries": "库",
+      "api_sdk": "API / SDK",
       "databases": "数据库",
       "infrastructure": "基础设施",
       "tools": "工具",
