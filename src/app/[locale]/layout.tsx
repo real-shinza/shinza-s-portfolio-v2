@@ -33,13 +33,13 @@ export default async ({
   params,
 }: Readonly<{
   children: React.ReactNode,
-  params: Promise<{ locale: Locale }>,
+  params: Promise<{ locale: string }>,
 }>) => {
-  const { locale } = await params;
+  const { locale } = await params as { locale: Locale };
 
   return (
     <NextIntlClientProvider>
-      <div className={`${localeFonts[locale].className} min-h-screen flex flex-col`}>
+      <div className={`${localeFonts?.[locale]?.className} min-h-screen flex flex-col`}>
         <Header />
         {children}
         <Footer />
