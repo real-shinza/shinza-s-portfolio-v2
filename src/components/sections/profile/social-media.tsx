@@ -5,7 +5,7 @@ import { SocialMediaEntry } from '@/types';
 export const SocialMedia = (args: { entry: SocialMediaEntry }) => {
   return (
     <div className='group hover:bg-shadow rounded-full border border-border hover:border-muted'>
-      <Link id={args.entry.id} href={args.entry.href} target='_blank'>
+      <Link id={args.entry.id} className='social-media' href={args.entry.href} target='_blank'>
         <div className='flex items-center justify-center gap-1.5 px-3 py-1.5'>
           <div className='relative h-4 w-4 md:h-5 md:w-5'>
             {/* Light Mode */}

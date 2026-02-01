@@ -2,7 +2,7 @@ import { notFound } from 'next/navigation';
 import { getTranslations } from 'next-intl/server';
 import { Locale } from '@/i18n/routing';
 import { Container } from '@/components/ui';
-import { Overview, SkillStacks } from '@/components/sections';
+import { Links, Overview, SkillStacks } from '@/components/sections';
 import { works } from '@/data';
 
 export default async ({
@@ -21,6 +21,7 @@ export default async ({
     <Container>
       <Overview image={work.image} title={t('title')} tags={work.tags} description={t('description')} />
       <SkillStacks skills={work.skills}/>
+      <Links links={work.links} />
     </Container>
   );
 };

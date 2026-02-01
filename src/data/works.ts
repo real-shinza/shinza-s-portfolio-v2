@@ -10,9 +10,19 @@ export const works: Works = {
       frameworks: ['Next.js 14'],
       libraries: ['React v18'],
       infrastructure: ['Vercel'],
-      tools: ['Git', 'GitHub','ESLint v8', 'Visual Studio Code'],
+      tools: ['Git', 'GitHub', 'ESLint v8', 'Visual Studio Code'],
       analytics: ['Google Analytics', 'Google Tag Manager'],
     },
+    links: [
+      {
+        name: 'Web Site',
+        href: 'https://shinza-s-portfolio-v1.vercel.app/',
+      },
+      {
+        name: 'GitHub',
+        href: 'https://github.com/real-shinza/shinza-s-portfolio-v1',
+      },
+    ],
   },
   'shinza-s-portfolio-v2': {
     image: '/works/shinza-s-portfolio-v2.jpg',
@@ -23,9 +33,19 @@ export const works: Works = {
       frameworks: ['Next.js 16', 'Tailwind CSS v4'],
       libraries: ['React v19'],
       infrastructure: ['Vercel'],
-      tools: ['Git', 'GitHub','ESLint v9', 'Visual Studio Code'],
+      tools: ['Git', 'GitHub', 'ESLint v9', 'Visual Studio Code'],
       analytics: ['Google Analytics', 'Google Tag Manager'],
     },
+    links: [
+      {
+        name: 'Web Site',
+        href: 'https://shinza-s-portfolio.vercel.app/',
+      },
+      {
+        name: 'GitHub',
+        href: 'https://github.com/real-shinza/shinza-s-portfolio-v2',
+      },
+    ],
   },
   'translate-number-to-strings': {
     image: '/works/translate-number-to-strings.jpg',
@@ -36,6 +56,16 @@ export const works: Works = {
       tools: ['Git', 'GitHub', 'Visual Studio Code'],
       analytics: ['Google Analytics', 'Google Tag Manager'],
     },
+    links: [
+      {
+        name: 'Web Site',
+        href: 'https://real-shinza.github.io/translate-number-to-strings/',
+      },
+      {
+        name: 'GitHub',
+        href: 'https://github.com/real-shinza/translate-number-to-strings',
+      },
+    ],
   },
   'zenn': {
     image: '/works/zenn.jpg',
@@ -45,6 +75,16 @@ export const works: Works = {
       tools: ['Git', 'GitHub', 'Zenn CLI', 'Visual Studio Code'],
       analytics: ['Google Analytics'],
     },
+    links: [
+      {
+        name: 'Zenn',
+        href: 'https://zenn.dev/kainari',
+      },
+      {
+        name: 'GitHub',
+        href: 'https://github.com/real-shinza/zenn',
+      },
+    ],
   },
   'towa-2d': {
     image: '/works/towa-2d.jpg',
@@ -54,6 +94,16 @@ export const works: Works = {
       frameworks: ['Unity 2022'],
       tools: ['Git', 'GitHub', 'Visual Studio 2022'],
     },
+    links: [
+      {
+        name: 'unityroom',
+        href: 'https://unityroom.com/games/towa-2d',
+      },
+      {
+        name: 'GitHub',
+        href: 'https://github.com/real-shinza/towa-2d',
+      },
+    ],
   },
   'clicker-game': {
     image: '/works/clicker-game.jpg',
@@ -64,6 +114,12 @@ export const works: Works = {
       tools: ['Git', 'GitHub', 'Visual Studio 2022'],
       workflow: ['Aseprite'],
     },
+    links: [
+      {
+        name: 'GitHub',
+        href: 'https://github.com/real-shinza/clicker-game',
+      },
+    ],
   },
   'discord-bot': {
     image: '/works/discord-bot.jpg',
@@ -76,6 +132,12 @@ export const works: Works = {
       infrastructure: ['Amazon ECS'],
       tools: ['Git', 'GitHub', 'GitHub Actions', 'Docker', 'ESLint', 'Jest', 'VOICEVOX', 'Visual Studio Code'],
     },
+    links: [
+      {
+        name: 'Zenn',
+        href: 'https://zenn.dev/kainari/articles/deploy-app-to-ec2-with-actions',
+      },
+    ],
   },
   'unity-2d-rpg': {
     image: '/works/unity-2d-rpg.jpg',
@@ -86,6 +148,7 @@ export const works: Works = {
       tools: ['Git', 'GitHub', 'Visual Studio 2022'],
       workflow: ['Notion'],
     },
+    links: [],
   },
   'unity-visual-novel': {
     image: '/works/unity-visual-novel.jpg',
@@ -96,5 +159,6 @@ export const works: Works = {
       tools: ['Git', 'GitHub', 'Visual Studio 2022'],
       workflow: ['Notion'],
     },
+    links: [],
   },
 };
