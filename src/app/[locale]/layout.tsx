@@ -22,7 +22,7 @@ export async function generateMetadata({
       type: 'website',
       title: t('title'),
       description: t('description'),
-      url: `https://shinza-s-portfolio.vercel.app/${locale}`,
+      url: `https://shinza-s-portfolio-v2.vercel.app/${locale}`,
       locale: t('locale'),
     },
   };
@@ -39,7 +39,7 @@ export default async ({
 
   return (
     <NextIntlClientProvider>
-      <div className={localeFonts[locale].className}>
+      <div className={`${localeFonts[locale].className} min-h-screen flex flex-col`}>
         <Header />
         {children}
         <Footer />

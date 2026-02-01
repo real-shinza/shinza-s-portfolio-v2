@@ -27,31 +27,40 @@
     "title": "作品",
     "works": {
       "shinza-s-portfolio-v1": {
-        "title": "新佐的作品集 Ver. 1"
+        "title": "新佐的作品集 Ver. 1",
+        "description": "為了學習 TypeScript 與 Next.js 而製作的舊版作品集網站。\n彙整了個人製作的作品與經歷。\n支援日文、英文、簡體中文、繁體中文與韓文。\n原始碼已於 GitHub 公開。"
       },
       "shinza-s-portfolio-v2": {
-        "title": "新佐的作品集 Ver. 2"
+        "title": "新佐的作品集 Ver. 2",
+        "description": "以更新設計與技術為目的重新製作的新作品集網站。\n彙整了個人製作的作品與經歷。\n支援日文、英文、普通話、台灣國語與韓文。語言翻譯使用 ChatGPT。\n原始碼已於 GitHub 公開。"
       },
       "translate-number-to-strings": {
-        "title": "Translate number to strings"
+        "title": "Translate number to strings",
+        "description": "僅使用 HTML、CSS 與 JavaScript 製作的簡單網站。\n可將數字轉換為英文、日文、中文與韓文。\n網站透過 GitHub Pages 發佈。\n原始碼已於 GitHub 公開。"
       },
       "zenn": {
-        "title": "Zenn 技術文章"
+        "title": "Zenn 技術文章",
+        "description": "於技術資訊社群投稿技術文章。\n內容包含 Unity 與 AWS EC2 等主題。\n由於是日本的服務，僅提供日文內容。"
       },
       "towa-2d": {
-        "title": "永遠 2D"
+        "title": "永遠 2D",
+        "description": "使用 Unity 製作的橫向捲軸遊戲。\n以驗證輸入系統與多語言化為目的進行開發。\n一款擊敗敵人並前往終點的簡單遊戲。\n角色配音由高中時代的朋友擔任。\n支援日文、英文、簡體中文、繁體中文、韓文與印尼文。語音僅支援日文。\n原始碼已於 GitHub 公開。"
       },
       "clicker-game": {
-        "title": "放置點擊遊戲"
+        "title": "放置點擊遊戲",
+        "description": "只需點擊章魚的迷你遊戲。\n為了複習學生時期學習的 C++ 與 DirectX 而製作。\n使用 DirectX 11 建構繪圖等基礎系統。\n章魚的像素圖實際上是使用 Aseprite 製作的。\n原始碼已於 GitHub 公開。"
       },
       "discord-bot": {
-        "title": "Discord機器人"
+        "title": "Discord 機器人",
+        "description": "所開發的 Discord 機器人。\n具備語音朗讀、自動角色分配、生日祝賀與指令等功能。\n機器人運行於 AWS EC2 上，語音朗讀功能則透過 Docker 上運行的 VOICEVOX 實現。\n基於安全與隱私考量，原始碼未公開。"
       },
       "unity-2d-rpg": {
-        "title": "2D RPG"
+        "title": "2D RPG",
+        "description": "使用 Unity 開發中的 2D RPG。\n由於開發規模較大，預計完成仍需一段時間。\n計畫未來於 Steam 上發佈。\n原始碼未公開。"
       },
       "unity-visual-novel": {
-        "title": "視覺小說遊戲"
+        "title": "視覺小說遊戲",
+        "description": "使用 Unity 開發中的視覺小說遊戲。\n同時作為在地化與存檔功能的驗證。\n預計於 2026 年內完成並於 Steam 上發佈。\n原始碼未公開。"
       }
     }
   },

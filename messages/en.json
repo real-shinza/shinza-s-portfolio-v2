@@ -27,31 +27,40 @@
     "title": "Works",
     "works": {
       "shinza-s-portfolio-v1": {
-        "title": "Shinza's Portfolio Ver. 1"
+        "title": "Shinza's Portfolio Ver. 1",
+        "description": "An older portfolio website created as part of learning TypeScript and Next.js.\nIt showcases personal projects and career history.\nSupports Japanese, English, Simplified Chinese, Traditional Chinese, and Korean.\nThe source code is publicly available on GitHub."
       },
       "shinza-s-portfolio-v2": {
-        "title": "Shinza's Portfolio Ver. 2"
+        "title": "Shinza's Portfolio Ver. 2",
+        "description": "A renewed portfolio website rebuilt to refresh both design and technology.\nIt showcases personal projects and career history.\nSupports Japanese, English, Mandarin Chinese, Taiwanese Mandarin, and Korean. ChatGPT is used for language translation.\nThe source code is publicly available on GitHub."
       },
       "translate-number-to-strings": {
-        "title": "Translate number to strings"
+        "title": "Translate number to strings",
+        "description": "A simple website created using only HTML, CSS, and JavaScript.\nConverts numbers into English, Japanese, Chinese, and Korean.\nThe site is published using GitHub Pages.\nThe source code is publicly available on GitHub."
       },
       "zenn": {
-        "title": "Zenn technical article"
+        "title": "Zenn technical article",
+        "description": "I publish technical articles on a technical knowledge community.\nTopics include Unity and AWS EC2.\nAs this is a Japanese service, the content is available in Japanese only."
       },
       "towa-2d": {
-        "title": "Towa 2D"
+        "title": "Towa 2D",
+        "description": "A side-scrolling game created using Unity.\nDeveloped to test input-related systems and localization.\nA simple game where you defeat enemies and aim for the goal.\nThe character voice was provided by a friend from my high school days.\nSupports Japanese, English, Simplified Chinese, Traditional Chinese, Korean, and Indonesian. Voice is available in Japanese only.\nThe source code is publicly available on GitHub."
       },
       "clicker-game": {
-        "title": "Clicker game"
+        "title": "Clicker game",
+        "description": "A mini-game where you simply click an octopus.\nCreated as a review of C++ and DirectX learned during my student days.\nRendering and core systems are built using DirectX 11.\nThe octopus pixel art was actually created using Aseprite.\nThe source code is publicly available on GitHub."
       },
       "discord-bot": {
-        "title": "Discord Bot"
+        "title": "Discord Bot",
+        "description": "A Discord bot developed with various features.\nIncludes text-to-speech, automatic role assignment, birthday celebrations, and commands.\nThe bot runs on AWS EC2, and the text-to-speech feature is implemented using VOICEVOX running in Docker.\nThe source code is private for security and privacy reasons."
       },
       "unity-2d-rpg": {
-        "title": "2D RPG"
+        "title": "2D RPG",
+        "description": "A 2D RPG currently in development using Unity.\nDue to the large development scope, completion is expected to take time.\nPlanned to be released on Steam in the future.\nThe source code is private."
       },
       "unity-visual-novel": {
-        "title": "Visual novel game"
+        "title": "Visual novel game",
+        "description": "A visual novel game currently being developed using Unity.\nThe project also serves as a test for localization and save systems.\nPlanned to be completed and released on Steam within 2026.\nThe source code is private."
       }
     }
   },

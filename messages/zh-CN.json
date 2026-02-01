@@ -27,31 +27,40 @@
     "title": "作品",
     "works": {
       "shinza-s-portfolio-v1": {
-        "title": "新佐的作品集 Ver. 1"
+        "title": "新佐的作品集 Ver. 1",
+        "description": "作为学习 TypeScript 和 Next.js 而制作的旧版作品集网站。\n汇总了个人制作的作品和经历。\n支持日语、英语、简体中文、繁体中文和韩语。\n源代码已在 GitHub 上公开。"
       },
       "shinza-s-portfolio-v2": {
-        "title": "新佐的作品集 Ver. 2"
+        "title": "新佐的作品集 Ver. 2",
+        "description": "以更新设计与技术为目的重新制作的新作品集网站。\n汇总了个人制作的作品和经历。\n支持日语、英语、普通话、台湾华语和韩语。语言翻译使用了 ChatGPT。\n源代码已在 GitHub 上公开。"
       },
       "translate-number-to-strings": {
-        "title": "Translate number to strings"
+        "title": "Translate number to strings",
+        "description": "仅使用 HTML、CSS 和 JavaScript 制作的简易网站。\n可将数字转换为英语、日语、中文和韩语。\n网站通过 GitHub Pages 发布。\n源代码已在 GitHub 上公开。"
       },
       "zenn": {
-        "title": "Zenn 技术文章"
+        "title": "Zenn 技术文章",
+        "description": "在技术信息社区发布技术文章。\n内容包括 Unity、AWS EC2 等。\n由于是日本的服务，仅支持日语。"
       },
       "towa-2d": {
-        "title": "永远 2D"
+        "title": "永远 2D",
+        "description": "使用 Unity 制作的横向卷轴动作游戏。\n以验证输入系统和多语言支持为目的进行开发。\n一款击败敌人并前往终点的简单游戏。\n角色配音由高中时代的朋友担当。\n支持日语、英语、简体中文、繁体中文、韩语和印度尼西亚语。语音仅支持日语。\n源代码已在 GitHub 上公开。"
       },
       "clicker-game": {
-        "title": "放置点击游戏"
+        "title": "放置点击游戏",
+        "description": "只需点击章鱼的迷你游戏。\n作为复习学生时代学习的 C++ 和 DirectX 而制作。\n使用 DirectX 11 构建了渲染等基础系统。\n章鱼的像素图实际上是用 Aseprite 制作的。\n源代码已在 GitHub 上公开。"
       },
       "discord-bot": {
-        "title": "Discord机器人"
+        "title": "Discord 机器人",
+        "description": "开发的 Discord 机器人。\n具备语音朗读、自动分配角色、生日祝福和指令等功能。\n机器人运行在 AWS EC2 上，语音朗读功能通过 Docker 上运行的 VOICEVOX 实现。\n出于安全和隐私保护考虑，源代码未公开。"
       },
       "unity-2d-rpg": {
-        "title": "2D RPG"
+        "title": "2D RPG",
+        "description": "使用 Unity 开发中的 2D RPG。\n开发规模较大，预计完成需要较长时间。\n计划未来在 Steam 上发布。\n源代码未公开。"
       },
       "unity-visual-novel": {
-        "title": "视觉小说游戏"
+        "title": "视觉小说游戏",
+        "description": "使用 Unity 开发中的视觉小说游戏。\n同时用于验证本地化和存档功能。\n计划于 2026 年内完成并在 Steam 上发布。\n源代码未公开。"
       }
     }
   },

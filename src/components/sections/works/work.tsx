@@ -12,9 +12,9 @@ export const Work = (args: {
   return (
     <article className='overflow-hidden border border-border rounded-xl md:rounded-2xl hover:border-muted transition-all hover:-translate-y-0.5'>
       <Link id={args.id} href={`/works/${args.id}`} className='divide-y divide-border'>
-        <div className='relative aspect-square'>
+        <div className='relative aspect-3/2'>
           <Image
-            className='w-full h-auto'
+            className='object-cover'
             src={args.work.image}
             alt={t('title')}
             fill

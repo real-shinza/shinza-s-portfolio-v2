@@ -27,7 +27,7 @@ export const Profile = () => {
             </div>
           </div>
           {/* Description */}
-          <p className='text-text text-sm md:text-base font-normal whitespace-pre-line'>
+          <p className='text-text text-sm md:text-base whitespace-pre-line'>
             {t('description')}
           </p>
           {/* Social media */}

@@ -27,31 +27,40 @@
     "title": "作品",
     "works": {
       "shinza-s-portfolio-v1": {
-        "title": "新佐のポートフォリオ Ver. 1"
+        "title": "新佐のポートフォリオ Ver. 1",
+        "description": "TypeScript と Next.js の学習を兼ねて制作した旧ポートフォリオサイト。\n個人制作した作品や経歴を纏めています。\n日本語、英語、簡体字、繁体字、韓国語に対応。\nGitHub にソースコードを公開中です。"
       },
       "shinza-s-portfolio-v2": {
-        "title": "新佐のポートフォリオ Ver. 2"
+        "title": "新佐のポートフォリオ Ver. 2",
+        "description": "デザインと技術の刷新を目的に制作し直した新ポートフォリオサイト。\n個人制作した作品や経歴を纏めています。\n日本語、英語、標準中国語、台湾華語、韓国語に対応。言語翻訳には ChatGPT を使用しています。\nGitHub にソースコードを公開中です。"
       },
       "translate-number-to-strings": {
-        "title": "Translate number to strings"
+        "title": "Translate number to strings",
+        "description": "HTML と CSS と JavaScript だけで制作したシンプルなサイト。\n数値を英語、日本語、中国語、韓国語に変換します。\nGitHub Pages を使用してサイトを公開しています。\nGitHub にソースコードを公開中です。"
       },
       "zenn": {
-        "title": "Zenn 技術記事"
+        "title": "Zenn 技術記事",
+        "description": "技術情報コミュニティにて技術記事を投稿しています。\nUnity や AWS EC2 などの記事を投稿しています。\n日本のサービスのため日本語のみ対応。"
       },
       "towa-2d": {
-        "title": "とわ 2D"
+        "title": "とわ 2D",
+        "description": "Unity を使用して作成した横スクロールゲーム。\n入力関連のシステムと多言語化の検証を目的として開発しました。\n敵を倒しながらゴールへ向かうシンプルなゲームです。\nキャラクターの声優は高校時代の友人が担当。\n日本語、英語、簡体字、繁体字、韓国語、インドネシア語に対応。音声は日本語のみ対応。\nGitHub にソースコードを公開中です。"
       },
       "clicker-game": {
-        "title": "クリッカーゲーム"
+        "title": "クリッカーゲーム",
+        "description": "タコをクリックするだけのミニゲーム。\n学生時代に学んだ C++ と DirectX の復習を目的として制作しました。\nDirectX11 を用いて描画処理などの基盤を構築しています。\n実はタコのドット絵は Aseprite で制作しました。\nGitHub にソースコードを公開中です。"
       },
       "discord-bot": {
-        "title": "Discordボット"
+        "title": "Discord ボット",
+        "description": "Discord のボットを開発。\nテキスト読み上げ、ロール自動付与、誕生日お祝い、コマンドなどの機能があります。\nボットは AWS EC2 上で動作し、音声読み上げ機能はDocker上で起動したVOICEVOXにより実装しています。\nセキュリティ及び個人情報保護の観点からソースコードは非公開。"
       },
       "unity-2d-rpg": {
-        "title": "2D RPG"
+        "title": "2D RPG",
+        "description": "Unity を使用して 2D RPG を制作中。\n開発規模が大きく、完成までに時間を要する見込み。\n将来的には Steam にて配信することを予定しています。\nソースコードは非公開。"
       },
       "unity-visual-novel": {
-        "title": "ビジュアルノベルゲーム"
+        "title": "ビジュアルノベルゲーム",
+        "description": "Unity でノベルゲームを制作中。\nローカライゼーションとセーブ機能の検証も兼ねて開発しています。\n2026年中の完成及び Steam にて配信することを予定しています。\nソースコードは非公開。"
       }
     }
   },

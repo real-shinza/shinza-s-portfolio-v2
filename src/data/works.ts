@@ -3,7 +3,7 @@ import { Works } from '@/types';
 export const works: Works = {
   'shinza-s-portfolio-v1': {
     image: '/works/shinza-s-portfolio-v1.jpg',
-    tags: ['TypeScript', 'Next.js', 'CSS Modules'],
+    tags: ['TypeScript', 'Next.js', 'CSS', 'Vercel'],
   },
   'shinza-s-portfolio-v2': {
     image: '/works/shinza-s-portfolio-v2.jpg',
