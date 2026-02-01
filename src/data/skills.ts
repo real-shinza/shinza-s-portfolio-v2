@@ -22,6 +22,7 @@ export const skillAll: SkillGroup[] = [
     id: 'runtime',
     skills: [
       { name: 'Node.js', level: 4.0 },
+      { name: 'Google Apps Script', level: 4.5 },
     ],
   },
   {
@@ -79,7 +80,6 @@ export const skillAll: SkillGroup[] = [
       { name: 'GitHub Actions', level: 3.5 },
       { name: 'Docker', level: 3.0 },
       { name: 'Jest', level: 3.5 },
-      { name: 'Google Apps Script', level: 4.5 },
     ],
   },
   {

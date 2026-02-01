@@ -1,3 +1,4 @@
+import { notFound } from 'next/navigation';
 import { getTranslations } from 'next-intl/server';
 import { Locale } from '@/i18n/routing';
 import { Container } from '@/components/ui';
@@ -11,7 +12,10 @@ export default async ({
 }) => {
   const { locale, id } = await params;
   const t = await getTranslations({ locale, namespace: `works.works.${id}` });
-  const work = works[id];
+  const work = works?.[id];
+
+  if (!work)
+    notFound();
 
   return (
     <Container>

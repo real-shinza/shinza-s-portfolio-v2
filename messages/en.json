@@ -40,7 +40,7 @@
       },
       "zenn": {
         "title": "Zenn technical article",
-        "description": "I publish technical articles on a technical knowledge community.\nTopics include Unity and AWS EC2.\nAs this is a Japanese service, the content is available in Japanese only."
+        "description": "I publish technical articles on a technical knowledge community.\nTopics include Unity and Amazon ECS.\nAs this is a Japanese service, the content is available in Japanese only."
       },
       "towa-2d": {
         "title": "Towa 2D",
@@ -52,7 +52,7 @@
       },
       "discord-bot": {
         "title": "Discord Bot",
-        "description": "A Discord bot developed with various features.\nIncludes text-to-speech, automatic role assignment, birthday celebrations, and commands.\nThe bot runs on AWS EC2, and the text-to-speech feature is implemented using VOICEVOX running in Docker.\nThe source code is private for security and privacy reasons."
+        "description": "A Discord bot developed with various features.\nIncludes text-to-speech, automatic role assignment, birthday celebrations, and commands.\nThe bot runs on Amazon ECS, and the text-to-speech feature is implemented using VOICEVOX running in Docker.\nThe source code is private for security and privacy reasons."
       },
       "unity-2d-rpg": {
         "title": "2D RPG",
@@ -93,19 +93,23 @@
         "projects": {
           "truck-driver-workflow-app-test": {
             "period": "Jun. 2021 ~ Oct. 2021",
-            "name": "Truck driver workflow application testing operations"
+            "name": "Truck driver workflow application testing operations",
+            "description": "Participated in integration testing of in-house developed web and Android applications with a focus on quality improvement.\nCreated test scenarios, managed test execution, and prepared quality control sheets through to delivery."
           },
           "financial-institution-tool-test": {
             "period": "Nov. 2021",
-            "name": "Financial institution tool integration testing operations"
+            "name": "Financial institution tool integration testing operations",
+            "description": "Engaged in integration testing of a communication tool and responsible for verifying behavior against specifications.\nExecuted tests based on predefined test cases and handled bug identification, reporting, and feedback for quality improvement."
           },
           "web-ad-technical-support": {
             "period": "Dec. 2021 ~ Aug. 2023",
-            "name": "Web advertisement technical support operations"
+            "name": "Web advertisement technical support operations",
+            "description": "# Web advertising measurement tag configuration\nConfigured various advertising measurement tags such as Google, Yahoo, Meta, and LINE using Google Tag Manager.\nUsed JavaScript for implementation.\n\n# Small-scale workflow automation with GAS\nSemi-automated tasks managed in spreadsheets and other tools using Google Apps Script to improve operational efficiency.\nDeveloped a Slack alert system that sends warnings when predicted overtime exceeds a predefined threshold.\n\n# Web advertising data management and utilization\nBuilt mechanisms to retrieve, manage, and utilize advertising performance data using internal tools and external services.\nConsolidated data primarily in BigQuery and applied it to improve advertising operations."
           },
           "ai-sales-bot-development": {
             "period": "Sep. 2023 ~ Feb. 2025",
-            "name": "AI sales bot development operations"
+            "name": "AI sales bot development operations",
+            "description": "Responsible for the development and maintenance of an AI sales Slack bot for an online advertising agency.\nCreated design documents, implemented code, conducted reviews, performed QA, and handled deployment based on requirements defined by the product manager."
           }
         }
       },
@@ -128,7 +132,8 @@
         "projects": {
           "website-development-and-maintenance": {
             "period": "Mar. 2025 ~ May 2025",
-            "name": "Website new development and maintenance operations"
+            "name": "Website new development and maintenance operations",
+            "description": "Participated in the project as an independent contractor.\nHandled the creation of new landing pages and the modification of existing corporate websites.\nReviewed and improved existing GitHub operation rules and workflows.\nIntroduced GitHub to projects that previously had no version control.\nBuilt an automated production deployment workflow using GitHub Actions."
           }
         }
       },
@@ -139,7 +144,8 @@
         "projects": {
           "master-data-management-system-renewal": {
             "period": "Dec. 2025 ~ Now",
-            "name": "Master data management system renewal operations"
+            "name": "Master data management system renewal operations",
+            "description": "Participated as an operations and maintenance member for a master data management system.\nAlso handled design document revisions, modification implementation, and test execution."
           }
         }
       }
@@ -148,6 +154,7 @@
   "skills": {
     "title": "Skills",
     "categories": {
+      "os": "OS",
       "languages": "Languages",
       "runtime": "Runtime",
       "frameworks": "Frameworks",

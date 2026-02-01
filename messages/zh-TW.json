@@ -40,7 +40,7 @@
       },
       "zenn": {
         "title": "Zenn 技術文章",
-        "description": "於技術資訊社群投稿技術文章。\n內容包含 Unity 與 AWS EC2 等主題。\n由於是日本的服務，僅提供日文內容。"
+        "description": "於技術資訊社群投稿技術文章。\n內容包含 Unity 與 Amazon ECS 等主題。\n由於是日本的服務，僅提供日文內容。"
       },
       "towa-2d": {
         "title": "永遠 2D",
@@ -52,7 +52,7 @@
       },
       "discord-bot": {
         "title": "Discord 機器人",
-        "description": "所開發的 Discord 機器人。\n具備語音朗讀、自動角色分配、生日祝賀與指令等功能。\n機器人運行於 AWS EC2 上，語音朗讀功能則透過 Docker 上運行的 VOICEVOX 實現。\n基於安全與隱私考量，原始碼未公開。"
+        "description": "所開發的 Discord 機器人。\n具備語音朗讀、自動角色分配、生日祝賀與指令等功能。\n機器人運行於 Amazon ECS 上，語音朗讀功能則透過 Docker 上運行的 VOICEVOX 實現。\n基於安全與隱私考量，原始碼未公開。"
       },
       "unity-2d-rpg": {
         "title": "2D RPG",
@@ -93,19 +93,23 @@
         "projects": {
           "truck-driver-workflow-app-test": {
             "period": "2021年6月 ~ 2021年10月",
-            "name": "卡車司機業務流程應用程式測試業務"
+            "name": "卡車司機業務流程應用程式測試業務",
+            "description": "參與公司自研的 Web 應用和 Android 應用的整合測試業務，負責品質提升。\n負責撰寫測試情境、管理測試執行以及製作品質管理表，並跟進至最終交付。"
           },
           "financial-institution-tool-test": {
             "period": "2021年11月",
-            "name": "金融機構工具整合測試業務"
+            "name": "金融機構工具整合測試業務",
+            "description": "負責通訊工具的整合測試，確認系統是否依照規格正常運作。\n依據預先制定的測試項目執行測試，進行缺陷發現與回報，並提供回饋以提升品質。"
           },
           "web-ad-technical-support": {
             "period": "2021年12月 ~ 2023年8月",
-            "name": "網路廣告技術支援業務"
+            "name": "網路廣告技術支援業務",
+            "description": "# 網路廣告成效標籤設定\n使用 Google Tag Manager 設定 Google、Yahoo、Meta、LINE 等各類廣告成效追蹤標籤。\n實作部分使用 JavaScript。\n\n# 使用 GAS 進行小規模業務效率化\n透過 Google Apps Script 將以試算表等方式管理的業務半自動化，以提升作業效率。\n開發在預估加班時間超過一定門檻時於 Slack 發出警告的系統。\n\n# 網路廣告數據管理與活用\n使用公司內部工具及外部服務取得廣告實績數據，並建立數據管理與活用機制。\n主要將數據集中於 BigQuery，並用於優化廣告投放營運。"
           },
           "ai-sales-bot-development": {
             "period": "2023年9月 ~ 2025年2月",
-            "name": "AI銷售機器人開發業務"
+            "name": "AI銷售機器人開發業務",
+            "description": "在網路廣告代理公司負責 AI 銷售 Slack 機器人的開發與維護工作。\n根據產品經理撰寫的需求定義文件，執行設計文件撰寫、程式開發、程式碼審查、QA與部署等工作。"
           }
         }
       },
@@ -128,7 +132,8 @@
         "projects": {
           "website-development-and-maintenance": {
             "period": "2025年3月 ~ 2025年5月",
-            "name": "網站新建及改修業務"
+            "name": "網站新建及改修業務",
+            "description": "以業務委託的形式參與專案。\n負責新建登陸頁面以及改修既有的企業網站。\n重新檢視並改善現有的 GitHub 運作規範與流程。\n在未使用版本管理的專案中導入 GitHub。\n使用 GitHub Actions 建立自動化部署至正式環境的機制。"
           }
         }
       },
@@ -139,7 +144,8 @@
         "projects": {
           "master-data-management-system-renewal": {
             "period": "2025年12月 ~ 現在",
-            "name": "主資料管理系統刷新業務"
+            "name": "主資料管理系統刷新業務",
+            "description": "以主資料管理系統的運用保守人員身分參與。\n同時也對應設計文件修正、改修實作、測試實施等。"
           }
         }
       }
@@ -148,6 +154,7 @@
   "skills": {
     "title": "技能",
     "categories": {
+      "os": "OS",
       "languages": "語言",
       "runtime": "執行環境",
       "frameworks": "框架",

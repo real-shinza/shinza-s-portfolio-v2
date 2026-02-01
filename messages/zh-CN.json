@@ -40,7 +40,7 @@
       },
       "zenn": {
         "title": "Zenn 技术文章",
-        "description": "在技术信息社区发布技术文章。\n内容包括 Unity、AWS EC2 等。\n由于是日本的服务，仅支持日语。"
+        "description": "在技术信息社区发布技术文章。\n内容包括 Unity、Amazon ECS 等。\n由于是日本的服务，仅支持日语。"
       },
       "towa-2d": {
         "title": "永远 2D",
@@ -52,7 +52,7 @@
       },
       "discord-bot": {
         "title": "Discord 机器人",
-        "description": "开发的 Discord 机器人。\n具备语音朗读、自动分配角色、生日祝福和指令等功能。\n机器人运行在 AWS EC2 上，语音朗读功能通过 Docker 上运行的 VOICEVOX 实现。\n出于安全和隐私保护考虑，源代码未公开。"
+        "description": "开发的 Discord 机器人。\n具备语音朗读、自动分配角色、生日祝福和指令等功能。\n机器人运行在 Amazon ECS 上，语音朗读功能通过 Docker 上运行的 VOICEVOX 实现。\n出于安全和隐私保护考虑，源代码未公开。"
       },
       "unity-2d-rpg": {
         "title": "2D RPG",
@@ -93,19 +93,23 @@
         "projects": {
           "truck-driver-workflow-app-test": {
             "period": "2021年6月 ~ 2021年10月",
-            "name": "卡车司机业务流程应用程序测试业务"
+            "name": "卡车司机业务流程应用程序测试业务",
+            "description": "参与公司自研的 Web 应用和 Android 应用的集成测试工作，负责质量提升。\n负责编写测试场景、管理测试执行以及制作质量管理表，并跟进至最终交付。"
           },
           "financial-institution-tool-test": {
             "period": "2021年11月",
-            "name": "金融机构工具集成测试业务"
+            "name": "金融机构工具集成测试业务",
+            "description": "负责通信工具的集成测试，确认系统是否按照规格正常运行。\n根据预先制定的测试项目执行测试，进行缺陷发现与报告，并提供反馈以提升质量。"
           },
           "web-ad-technical-support": {
             "period": "2021年12月 ~ 2023年8月",
-            "name": "网络广告技术支持业务"
+            "name": "网络广告技术支持业务",
+            "description": "# 网络广告监测标签设置\n使用 Google Tag Manager 配置Google、Yahoo、Meta、LINE 等各类广告监测标签。\n实现部分使用 JavaScript。\n\n# 使用 GAS 的小规模业务自动化\n通过 Google Apps Script 将以电子表格等方式管理的业务实现半自动化，以提升工作效率。\n开发在预计加班时间超过一定阈值时通过 Slack 发出警告的系统。\n\n# 网络广告数据管理与利用\n使用公司内部工具及外部服务获取广告实绩数据，并构建数据管理与应用机制。\n主要将数据汇总至 BigQuery，并用于优化广告投放运营。"
           },
           "ai-sales-bot-development": {
             "period": "2023年9月 ~ 2025年2月",
-            "name": "AI销售机器人开发业务"
+            "name": "AI销售机器人开发业务",
+            "description": "在互联网广告代理公司负责 AI 销售 Slack 机器人的开发与维护工作。\n根据产品经理编写的需求文档，执行设计文档编写、编码、代码审查、QA以及部署等任务。"
           }
         }
       },
@@ -128,7 +132,8 @@
         "projects": {
           "website-development-and-maintenance": {
             "period": "2025年3月 ~ 2025年5月",
-            "name": "网站新建及改修业务"
+            "name": "网站新建及改修业务",
+            "description": "以业务委托的形式参与项目。\n负责新建落地页以及改修现有的企业网站。\n审查并改进现有的 GitHub 运营规则和工作流程。\n在未进行版本管理的项目中导入 GitHub。\n使用 GitHub Actions 构建自动化部署至生产环境的机制。"
           }
         }
       },
@@ -139,7 +144,8 @@
         "projects": {
           "master-data-management-system-renewal": {
             "period": "2025年12月 ~ 现在",
-            "name": "主数据管理系统刷新业务"
+            "name": "主数据管理系统刷新业务",
+            "description": "作为主数据管理系统的运维人员参与。\n同时也负责设计文档修改、改修实现、测试实施等。"
           }
         }
       }
@@ -148,6 +154,7 @@
   "skills": {
     "title": "技能",
     "categories": {
+      "os": "OS",
       "languages": "语言",
       "runtime": "运行时",
       "frameworks": "框架",

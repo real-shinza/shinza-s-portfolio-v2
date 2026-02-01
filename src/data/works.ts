@@ -67,13 +67,13 @@ export const works: Works = {
   },
   'discord-bot': {
     image: '/works/discord-bot.jpg',
-    tags: ['TypeScript', 'SQLite', 'Docker', 'AWS EC2'],
+    tags: ['TypeScript', 'SQLite', 'Docker', 'Amazon ECS'],
     skills: {
       languages: ['TypeScript 5'],
-      runtime: ['Node.js v20'],
+      runtime: ['Node.js v20', 'Google Apps Script'],
       libraries: ['discord.js', 'TypeORM'],
       databases: ['SQLite3'],
-      infrastructure: ['AWS EC2'],
+      infrastructure: ['Amazon ECS'],
       tools: ['Git', 'GitHub', 'GitHub Actions', 'Docker', 'ESLint', 'Jest', 'VOICEVOX', 'Visual Studio Code'],
     },
   },

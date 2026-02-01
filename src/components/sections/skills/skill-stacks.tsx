@@ -1,9 +1,10 @@
 import { useTranslations } from 'next-intl';
 import { Section } from '@/components/ui';
+import {SkillsByCategory } from '@/types';
 import { SkillGroup } from './skill-group';
 import { SkillStack } from './skill-stack';
 
-export const SkillStacks = (args: { skills: Record<string, string[]> }) => {
+export const SkillStacks = (args: { skills: SkillsByCategory }) => {
   const t = useTranslations('skills');
 
   return (

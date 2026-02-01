@@ -1,7 +1,9 @@
+import { SkillsByCategory } from '.';
+
 export type WorkEntry = {
-  image: string;
-  tags: string[];
-  skills: Record<string, string[]>
+  image: string,
+  tags: string[],
+  skills: SkillsByCategory,
 };
 
 export type Works = Record<string, WorkEntry>;
