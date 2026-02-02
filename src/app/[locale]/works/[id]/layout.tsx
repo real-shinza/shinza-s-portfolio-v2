@@ -21,6 +21,10 @@ export async function generateMetadata({
     title: `${tw('title')} | ${tm('title')}`,
     description: tm('description'),
     icons: [{ rel: 'icon', url: '/icons/favicon.ico' }],
+    robots: {
+      index: false,
+      follow: false,
+    },
     openGraph: {
       type: 'article',
       title: `${tw('title')} | ${tm('title')}`,

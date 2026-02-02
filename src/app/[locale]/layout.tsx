@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { NextIntlClientProvider } from 'next-intl';
-import { getTranslations } from 'next-intl/server';
+import { getMessages, getTranslations } from 'next-intl/server';
 import { Locale } from '@/i18n/routing';
 import { Footer, Header } from '@/components/layout';
 import { localeFonts } from '@/lib/fonts';
@@ -18,6 +18,16 @@ export async function generateMetadata({
     title: t('title'),
     description: t('description'),
     icons: [{ rel: 'icon', url: '/icons/favicon.ico' }],
+    alternates: {
+      canonical: `https://shinza-s-portfolio-v2.vercel.app/${locale}`,
+      languages: {
+        'ja': 'https://shinza-s-portfolio-v2.vercel.app/ja',
+        'en': 'https://shinza-s-portfolio-v2.vercel.app/en',
+        'zh-CN': 'https://shinza-s-portfolio-v2.vercel.app/zh-CN',
+        'zh-TW': 'https://shinza-s-portfolio-v2.vercel.app/zh-TW',
+        'ko': 'https://shinza-s-portfolio-v2.vercel.app/ko',
+      },
+    },
     openGraph: {
       type: 'website',
       title: t('title'),
@@ -36,9 +46,10 @@ export default async ({
   params: Promise<{ locale: string }>,
 }>) => {
   const { locale } = await params as { locale: Locale };
+  const messages = getMessages({ locale });
 
   return (
-    <NextIntlClientProvider>
+    <NextIntlClientProvider locale={locale} messages={messages}>
       <div className={`${localeFonts?.[locale]?.className} min-h-screen flex flex-col`}>
         <Header />
         {children}
