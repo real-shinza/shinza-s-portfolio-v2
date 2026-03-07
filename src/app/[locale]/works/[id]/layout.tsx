@@ -23,7 +23,7 @@ export async function generateMetadata({
     icons: [{ rel: 'icon', url: '/icons/favicon.ico' }],
     robots: {
       index: false,
-      follow: false,
+      follow: true,
     },
     openGraph: {
       type: 'article',

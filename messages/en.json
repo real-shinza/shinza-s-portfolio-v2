@@ -114,7 +114,7 @@
         }
       },
       "tokyo-online-university": {
-        "period": "Apr. 2022 ~ Now",
+        "period": "Apr. 2022 ~ Mar. 2026",
         "name": "Faculty of Information and Management, Tokyo Online University",
         "detail": "Complete coursework in programming fundamentals, security concepts, networks, and databases.",
         "projects": {}
@@ -138,12 +138,12 @@
         }
       },
       "sler-company": {
-        "period": "Nov. 2025 ~ Now",
+        "period": "Nov. 2025 ~ Mar. 2026",
         "name": "Systems integrator company in Tokyo",
         "detail": "Joined the company in November 2025 as a mid-career hire. Experienced testing and implementation phases.",
         "projects": {
           "master-data-management-system-renewal": {
-            "period": "Dec. 2025 ~ Now",
+            "period": "Dec. 2025 ~ Mar. 2026",
             "name": "Master data management system renewal operations",
             "description": "Participated as an operations and maintenance member for a master data management system.\nAlso handled design document revisions, modification implementation, and test execution."
           }
