@@ -1,6 +1,6 @@
 import { useTranslations } from 'next-intl';
 import { Section } from '@/components/ui';
-import { ProfileImage } from './profile-image';
+import { ProfileSlider } from './profile-slider';
 import { SocialMedia } from './social-media';
 import { socialMedias } from '@/data';
 
@@ -11,7 +11,8 @@ export const Profile = () => {
   return (
     <Section id='profile'>
       <div className='flex lg:items-center justify-start flex-col lg:flex-row gap-0 lg:gap-20'>
-        <ProfileImage />
+        {/* Profile images */}
+        <ProfileSlider />
         <div>
           {/* Name */}
           <div className='mb-3'>

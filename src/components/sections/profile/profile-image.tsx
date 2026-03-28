@@ -1,11 +1,11 @@
 import Image from 'next/image';
 
-export const ProfileImage = () => {
+export const ProfileImage = (args: { image: string }) => {
   return (
-    <div className='relative h-32 w-32 md:h-48 md:w-48'>
+    <div className='h-32 w-32 md:h-48 md:w-48'>
       <Image
         className='rounded-full'
-        src='/profiles/profile7.jpg'
+        src={args.image}
         alt='Profile image'
         fill
       />
