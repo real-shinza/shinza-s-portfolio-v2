@@ -6,21 +6,16 @@ export const works: Works = {
     tags: ['TypeScript', 'Next.js', 'CSS', 'Vercel'],
     skills: {
       languages: ['TypeScript 5', 'CSS3'],
-      runtime: ['Node.js v20'],
-      frameworks: ['Next.js 14'],
-      libraries: ['React v18'],
+      backend: ['Node.js v20'],
+      frontend: ['React v18', 'Next.js 14'],
       infrastructure: ['Vercel'],
-      tools: ['Git', 'GitHub', 'ESLint v8', 'Visual Studio Code'],
+      dev_tools: ['Git', 'GitHub', 'ESLint v8', 'Visual Studio Code'],
       analytics: ['Google Analytics', 'Google Tag Manager'],
     },
     links: [
       {
         name: 'Web Site',
         href: 'https://shinza-s-portfolio-v1.vercel.app/',
-      },
-      {
-        name: 'GitHub',
-        href: 'https://github.com/real-shinza/shinza-s-portfolio-v1',
       },
     ],
   },
@@ -29,17 +24,16 @@ export const works: Works = {
     tags: ['TypeScript', 'Next.js', 'Tailwind CSS', 'Vercel'],
     skills: {
       languages: ['TypeScript 5'],
-      runtime: ['Node.js v20'],
-      frameworks: ['Next.js 16', 'Tailwind CSS v4'],
-      libraries: ['React v19'],
+      backend: ['Node.js v20'],
+      frontend: ['React v19', 'Next.js 16', 'Tailwind CSS v4'],
       infrastructure: ['Vercel'],
-      tools: ['Git', 'GitHub', 'ESLint v9', 'Visual Studio Code'],
+      dev_tools: ['Git', 'GitHub', 'ESLint v9', 'Visual Studio Code'],
       analytics: ['Google Analytics', 'Google Tag Manager'],
     },
     links: [
       {
         name: 'Web Site',
-        href: 'https://shinza-s-portfolio.vercel.app/',
+        href: 'https://shinza-s-portfolio-v2.vercel.app/',
       },
       {
         name: 'GitHub',
@@ -53,7 +47,7 @@ export const works: Works = {
     skills: {
       languages: ['JavaScript', 'HTML5', 'CSS3'],
       infrastructure: ['GitHub Pages'],
-      tools: ['Git', 'GitHub', 'Visual Studio Code'],
+      dev_tools: ['Git', 'GitHub', 'Visual Studio Code'],
       analytics: ['Google Analytics', 'Google Tag Manager'],
     },
     links: [
@@ -72,7 +66,7 @@ export const works: Works = {
     tags: ['Markdown'],
     skills: {
       languages: ['Markdown'],
-      tools: ['Git', 'GitHub', 'Zenn CLI', 'Visual Studio Code'],
+      dev_tools: ['Git', 'GitHub', 'Zenn CLI', 'Visual Studio Code'],
       analytics: ['Google Analytics'],
     },
     links: [
@@ -91,8 +85,8 @@ export const works: Works = {
     tags: ['Unity 2022', 'C#'],
     skills: {
       languages: ['C#'],
-      frameworks: ['Unity 2022'],
-      tools: ['Git', 'GitHub', 'Visual Studio 2022'],
+      games: ['Unity 2022'],
+      dev_tools: ['Git', 'GitHub', 'Visual Studio 2022'],
     },
     links: [
       {
@@ -110,9 +104,9 @@ export const works: Works = {
     tags: ['C++', 'DirectX11', 'Visual Studio 2022'],
     skills: {
       languages: ['C++'],
-      api_sdk: ['DirectX11'],
-      tools: ['Git', 'GitHub', 'Visual Studio 2022'],
-      workflow: ['Aseprite'],
+      games: ['DirectX11'],
+      dev_tools: ['Git', 'GitHub', 'Visual Studio 2022'],
+      business_tools: ['Aseprite'],
     },
     links: [
       {
@@ -123,14 +117,13 @@ export const works: Works = {
   },
   'discord-bot': {
     image: '/works/discord-bot.jpg',
-    tags: ['TypeScript', 'SQLite', 'Docker', 'Amazon ECS'],
+    tags: ['TypeScript', 'SQLite', 'Docker', 'Amazon EC2'],
     skills: {
       languages: ['TypeScript 5'],
-      runtime: ['Node.js v20', 'Google Apps Script'],
-      libraries: ['discord.js', 'TypeORM'],
+      backend: ['Node.js v20', 'Google Apps Script', 'discord.js', 'TypeORM'],
       databases: ['SQLite3'],
-      infrastructure: ['Amazon ECS'],
-      tools: ['Git', 'GitHub', 'GitHub Actions', 'Docker', 'ESLint', 'Jest', 'VOICEVOX', 'Visual Studio Code'],
+      infrastructure: ['Amazon EC2'],
+      dev_tools: ['Git', 'GitHub', 'GitHub Actions', 'Docker', 'ESLint', 'Jest', 'VOICEVOX', 'Visual Studio Code'],
     },
     links: [
       {
@@ -144,9 +137,9 @@ export const works: Works = {
     tags: ['Unity 6', 'C#'],
     skills: {
       languages: ['C#'],
-      frameworks: ['Unity 6'],
-      tools: ['Git', 'GitHub', 'Visual Studio 2022'],
-      workflow: ['Notion', 'ChatGPT'],
+      games: ['Unity 6'],
+      dev_tools: ['Git', 'GitHub', 'Visual Studio 2022'],
+      business_tools: ['Notion'],
     },
     links: [],
   },
@@ -155,9 +148,9 @@ export const works: Works = {
     tags: ['Unity 6', 'C#'],
     skills: {
       languages: ['C#'],
-      frameworks: ['Unity 6'],
-      tools: ['Git', 'GitHub', 'Visual Studio 2022'],
-      workflow: ['Notion', 'ChatGPT'],
+      games: ['Unity 6'],
+      dev_tools: ['Git', 'GitHub', 'Visual Studio 2022'],
+      business_tools: ['Notion'],
     },
     links: [],
   },

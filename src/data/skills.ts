@@ -19,35 +19,31 @@ export const skillAll: SkillGroup[] = [
     ],
   },
   {
-    id: 'runtime',
+    id: 'backend',
     skills: [
       { name: 'Node.js', level: 4.0 },
+      { name: 'Express.js', level: 2.0 },
+      { name: 'FastAPI', level: 2.0 },
       { name: 'Google Apps Script', level: 4.5 },
     ],
   },
   {
-    id: 'frameworks',
-    skills: [
-      { name: 'Express.js', level: 2.0 },
-      { name: 'FastAPI', level: 2.0 },
-      { name: 'Next.js', level: 4.0 },
-      { name: 'Flutter', level: 1.5 },
-      { name: 'Unity', level: 4.0 },
-    ],
-  },
-  {
-    id: 'libraries',
+    id: 'frontend',
     skills: [
       { name: 'React', level: 4.0 },
-      { name: 'jQuery', level: 1.5 },
+      { name: 'Next.js', level: 4.0 },
       { name: 'Tailwind CSS', level: 3.0 },
+      { name: 'jQuery', level: 1.5 },
+      { name: 'Flutter', level: 1.5 },
+      { name: 'WordPress', level: 2.0 },
     ],
   },
   {
-    id: 'api_sdk',
+    id: 'games',
     skills: [
       { name: 'DirectX9', level: 2.0 },
       { name: 'DirectX11', level: 2.5 },
+      { name: 'Unity', level: 4.0 },
     ],
   },
   {
@@ -63,17 +59,16 @@ export const skillAll: SkillGroup[] = [
     id: 'infrastructure',
     skills: [
       { name: 'Firebase Hosting', level: 3.0 },
-      { name: 'Cloud Functions', level: 2.5 },
+      { name: 'Cloud Run', level: 2.5 },
       { name: 'Cloud Storage', level: 2.5 },
       { name: 'Amazon EC2', level: 3.5 },
       { name: 'Amazon S3', level: 2.0 },
       { name: 'AWS CDK', level: 2.0 },
       { name: 'Vercel', level: 2.5 },
-      { name: 'WordPress', level: 2.0 },
     ],
   },
   {
-    id: 'tools',
+    id: 'dev_tools',
     skills: [
       { name: 'Git', level: 4.0 },
       { name: 'GitHub', level: 4.0 },
@@ -90,14 +85,23 @@ export const skillAll: SkillGroup[] = [
     ],
   },
   {
-    id: 'workflow',
+    id: 'ai',
+    skills: [
+      { name: 'GitHub Copilot', level: 3.5 },
+      { name: 'ChatGPT', level: 3.5 },
+      { name: 'Codex', level: 2.0 },
+      { name: 'Claude', level: 3.0 },
+      { name: 'Claude Code', level: 2.0 },
+    ],
+  },
+  {
+    id: 'business_tools',
     skills: [
       { name: 'Slack', level: 4.5 },
       { name: 'Notion', level: 3.5 },
       { name: 'Miro', level: 2.5 },
       { name: 'Figma', level: 1.0 },
       { name: 'Google Sheets', level: 4.0 },
-      { name: 'ChatGPT', level: 3.5 },
     ],
   },
 ];

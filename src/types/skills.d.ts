@@ -11,14 +11,14 @@ export type SkillGroup = {
 type SkillCategory =
   | 'os'
   | 'languages'
-  | 'runtime'
-  | 'frameworks'
-  | 'libraries'
-  | 'api_sdk'
+  | 'backend'
+  | 'frontend'
+  | 'games'
   | 'databases'
   | 'infrastructure'
-  | 'tools'
+  | 'dev_tools'
   | 'analytics'
-  | 'workflow';
+  | 'ai'
+  | 'business_tools';
 
 export type SkillsByCategory = Partial<Record<SkillCategory, string[]>>;

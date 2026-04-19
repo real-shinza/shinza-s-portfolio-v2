@@ -12,43 +12,40 @@ export const experiences: Experiences = {
   'system-engineering-service-company': {
     type: 'work',
     projects: {
-      'truck-driver-workflow-app-test': {
+      'workflow-institution-app-test': {
         skills: {
           os: ['Android', 'Windows 10'],
-          workflow: ['Excel', 'Google Chat'],
+          business_tools: ['Excel', 'Google Chat'],
         },
       },
       'financial-institution-tool-test': {
         skills: {
           os: ['Windows 10'],
-          workflow: ['Excel', 'Google Chat'],
+          business_tools: ['Excel', 'Google Chat'],
         },
       },
       'web-ad-technical-support': {
         skills: {
           os: ['Windows 10'],
           languages: ['JavaScript', 'Python3', 'SQL'],
-          runtime: ['Node.js', 'Google Apps Script'],
-          libraries: ['jQuery'],
-          api_sdk: ['Slack API', 'Google Drive API'],
+          backend: ['Node.js', 'Google Apps Script', 'Slack API', 'Google Drive API'],
+          frontend: ['jQuery'],
           databases: ['BigQuery'],
           infrastructure: ['Cloud Functions', 'Cloud Storage'],
-          tools: ['Git', 'GitHub', 'TROCCO'],
+          dev_tools: ['Git', 'GitHub', 'TROCCO'],
           analytics: ['Google Tag Manager', 'Google Analytics'],
-          workflow: ['Slack', 'Chatwork'],
+          business_tools: ['Slack', 'Chatwork'],
         },
       },
       'ai-sales-bot-development': {
         skills: {
           os: ['macOS'],
           languages: ['TypeScript', 'Python3', 'SQL'],
-          runtime: ['Node.js'],
-          frameworks: ['Express.js', 'FastAPI', 'Bolt for JavaScript'],
-          api_sdk: ['Google Drive API'],
+          backend: ['Node.js', 'Express.js', 'FastAPI', 'Bolt for JavaScript', 'Google Drive API'],
           databases: ['MySQL', 'BigQuery'],
-          infrastructure: ['Amazon EC2', 'Amazon ECS', 'Amazon S3', 'Amazon EventBridge', 'Amazon CloudWatch', 'AWS WAF', 'AWS CDK'],
-          tools: ['Git', 'GitHub', 'GitHub Actions', 'GitHub Copilot', 'Docker', 'Datadog'],
-          workflow: ['Slack', 'Notion', 'Miro'],
+          infrastructure: ['Amazon ECS', 'Amazon S3', 'Amazon CloudWatch', 'AWS CDK'],
+          dev_tools: ['Git', 'GitHub', 'GitHub Actions', 'GitHub Copilot', 'Docker', 'Datadog'],
+          business_tools: ['Slack', 'Notion', 'Miro'],
         },
       },
     },
@@ -68,9 +65,10 @@ export const experiences: Experiences = {
         skills: {
           os: ['Windows 11'],
           languages: ['HTML5', 'CSS3', 'PHP'],
-          frameworks: ['WordPress'],
-          tools: ['Git', 'GitHub', 'GitHub Actions', 'Docker', 'Devin AI'],
-          workflow: ['Slack', 'Notion', 'Figma'],
+          frontend: ['WordPress'],
+          dev_tools: ['Git', 'GitHub', 'GitHub Actions', 'Docker', 'Devin AI'],
+          ai: ['Devin'],
+          business_tools: ['Slack', 'Notion', 'Figma'],
         },
       },
     },
@@ -82,8 +80,8 @@ export const experiences: Experiences = {
         skills: {
           os: ['Windows 11'],
           languages: ['JavaScript'],
-          tools: ['Git', 'GitHub', 'Stibo Systems'],
-          workflow: ['Jira', 'Excel', 'Teams'],
+          dev_tools: ['Git', 'GitHub', 'Stibo Systems'],
+          business_tools: ['Jira', 'Excel', 'Teams'],
         },
       },
     },

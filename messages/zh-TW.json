@@ -91,9 +91,9 @@
         "name": "東京都內的IT外包公司",
         "detail": "以2021年應屆畢業生身分入職。參與測試流程、後端開發、基礎架構構建等工作。",
         "projects": {
-          "truck-driver-workflow-app-test": {
+          "workflow-institution-app-test": {
             "period": "2021年6月 ~ 2021年10月",
-            "name": "卡車司機業務流程應用程式測試業務",
+            "name": "業務流程應用程式測試業務",
             "description": "參與公司自研的 Web 應用和 Android 應用的整合測試業務，負責品質提升。\n負責撰寫測試情境、管理測試執行以及製作品質管理表，並跟進至最終交付。"
           },
           "financial-institution-tool-test": {
@@ -109,7 +109,7 @@
           "ai-sales-bot-development": {
             "period": "2023年9月 ~ 2025年2月",
             "name": "AI銷售機器人開發業務",
-            "description": "在網路廣告代理公司負責 AI 銷售 Slack 機器人的開發與維護工作。\n根據產品經理撰寫的需求定義文件，執行設計文件撰寫、程式開發、程式碼審查、QA與部署等工作。"
+            "description": "AI 銷售 Slack 機器人的開發與維護工作。\n根據產品經理撰寫的需求定義文件，執行設計文件撰寫、程式開發、程式碼審查、QA與部署等工作。"
           }
         }
       },
@@ -155,16 +155,16 @@
     "title": "技能",
     "categories": {
       "os": "OS",
-      "languages": "語言",
-      "runtime": "執行環境",
-      "frameworks": "框架",
-      "libraries": "函式庫",
-      "api_sdk": "API / SDK",
+      "languages": "程式語言",
+      "backend": "後端開發",
+      "frontend": "前端開發",
+      "games": "遊戲開發",
       "databases": "資料庫",
       "infrastructure": "基礎架構",
-      "tools": "工具",
+      "dev_tools": "開發工具",
       "analytics": "分析",
-      "workflow": "工作流程"
+      "ai": "人工智慧",
+      "business_tools": "業務工具"
     }
   },
   "certifications": {

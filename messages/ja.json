@@ -91,9 +91,9 @@
         "name": "東京都内のSES企業",
         "detail": "21新卒として入社。テスト工程、バックエンド開発、インフラ構成などを経験。",
         "projects": {
-          "truck-driver-workflow-app-test": {
+          "workflow-institution-app-test": {
             "period": "2021年6月 ~ 2021年10月",
-            "name": "トラックドライバー業務フローアプリテスト業務",
+            "name": "業務フローアプリテスト業務",
             "description": "自社開発の Web アプリと Android アプリの結合テストに参画し、品質向上を担当。\nテストシナリオの作成、テスト管理、品質管理シートの作成を実施し、納品まで対応。"
           },
           "financial-institution-tool-test": {
@@ -109,7 +109,7 @@
           "ai-sales-bot-development": {
             "period": "2023年9月 ~ 2025年2月",
             "name": "AI営業ボット開発業務",
-            "description": "インターネット広告代理店における AI 営業 Slack ボットの開発・保守業務を担当。\nプロダクトマネージャーが作成した要件定義書に基づき、デザインドキュメント作成、コーディング、レビュー、QA、デプロイを実施。"
+            "description": "AI 営業 Slack ボットの開発・保守業務を担当。\nプロダクトマネージャーが作成した要件定義書に基づき、デザインドキュメント作成、コーディング、レビュー、QA、デプロイを実施。"
           }
         }
       },
@@ -155,16 +155,16 @@
     "title": "技術",
     "categories": {
       "os": "OS",
-      "languages": "言語",
-      "runtime": "ランタイム",
-      "frameworks": "フレームワーク",
-      "libraries": "ライブラリ",
-      "api_sdk": "API / SDK",
+      "languages": "プログラミング言語",
+      "backend": "バックエンド",
+      "frontend": "フロントエンド",
+      "games": "ゲーム開発",
       "databases": "データベース",
       "infrastructure": "インフラ",
-      "tools": "ツール",
+      "dev_tools": "開発ツール",
       "analytics": "分析",
-      "workflow": "ワークフロー"
+      "ai": "AI",
+      "business_tools": "業務ツール"
     }
   },
   "certifications": {

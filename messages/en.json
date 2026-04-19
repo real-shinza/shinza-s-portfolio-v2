@@ -91,9 +91,9 @@
         "name": "IT outsourcing company in Tokyo",
         "detail": "Joined the company as a 2021 new graduate. Gained experience in testing phases, backend development, and infrastructure configuration.",
         "projects": {
-          "truck-driver-workflow-app-test": {
+          "workflow-institution-app-test": {
             "period": "Jun. 2021 ~ Oct. 2021",
-            "name": "Truck driver workflow application testing operations",
+            "name": "Workflow institution application testing operations",
             "description": "Participated in integration testing of in-house developed web and Android applications with a focus on quality improvement.\nCreated test scenarios, managed test execution, and prepared quality control sheets through to delivery."
           },
           "financial-institution-tool-test": {
@@ -109,7 +109,7 @@
           "ai-sales-bot-development": {
             "period": "Sep. 2023 ~ Feb. 2025",
             "name": "AI sales bot development operations",
-            "description": "Responsible for the development and maintenance of an AI sales Slack bot for an online advertising agency.\nCreated design documents, implemented code, conducted reviews, performed QA, and handled deployment based on requirements defined by the product manager."
+            "description": "Responsible for the development and maintenance of an AI sales Slack bot.\nCreated design documents, implemented code, conducted reviews, performed QA, and handled deployment based on requirements defined by the product manager."
           }
         }
       },
@@ -155,16 +155,16 @@
     "title": "Skills",
     "categories": {
       "os": "OS",
-      "languages": "Languages",
-      "runtime": "Runtime",
-      "frameworks": "Frameworks",
-      "libraries": "Libraries",
-      "api_sdk": "API / SDK",
+      "languages": "Programming Languages",
+      "backend": "Backend",
+      "frontend": "Frontend",
+      "games": "Game Development",
       "databases": "Databases",
       "infrastructure": "Infrastructure",
-      "tools": "Tools",
+      "dev_tools": "Development Tools",
       "analytics": "Analytics",
-      "workflow": "Workflow"
+      "ai": "AI",
+      "business_tools": "Business Tools"
     }
   },
   "certifications": {

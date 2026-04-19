@@ -91,9 +91,9 @@
         "name": "도쿄도내의 IT 아웃소싱 회사",
         "detail": "2021년 신입사원으로 입사. 테스트 공정, 백엔드 개발, 인프라 구성 등의 경험을 보유.",
         "projects": {
-          "truck-driver-workflow-app-test": {
+          "workflow-institution-app-test": {
             "period": "2021년 6월 ~ 2021년 10월",
-            "name": "트럭 운전자 업무 프로세스 애플리케이션 테스트 업무",
+            "name": "업무 프로세스 애플리케이션 테스트 업무",
             "description": "자사 개발 Web 애플리케이션과 Android 애플리케이션의 통합 테스트에 참여하여 품질 향상을 담당.\n테스트 시나리오 작성, 테스트 관리, 품질 관리 시트 작성을 수행하고 납품까지 대응."
           },
           "financial-institution-tool-test": {
@@ -109,7 +109,7 @@
           "ai-sales-bot-development": {
             "period": "2023년 9월 ~ 2025년 2월",
             "name": "AI 영업 봇 개발 업무",
-            "description": "인터넷 광고 대행사에서 AI 영업 Slack 봇의 개발 및 유지보수를 담당.\n프로덕트 매니저가 작성한 요구사항 정의서를 기반으로 디자인 문서 작성, 코딩, 리뷰, QA, 배포를 수행."
+            "description": "AI 영업 Slack 봇의 개발 및 유지보수를 담당.\n프로덕트 매니저가 작성한 요구사항 정의서를 기반으로 디자인 문서 작성, 코딩, 리뷰, QA, 배포를 수행."
           }
         }
       },
@@ -155,16 +155,16 @@
     "title": "기술",
     "categories": {
       "os": "OS",
-      "languages": "언어",
-      "runtime": "런타임",
-      "frameworks": "프레임워크",
-      "libraries": "라이브러리",
-      "api_sdk": "API / SDK",
+      "languages": "프로그래밍 언어",
+      "backend": "백엔드",
+      "frontend": "프론트엔드",
+      "games": "게임 개발",
       "databases": "데이터베이스",
       "infrastructure": "인프라",
-      "tools": "도구",
+      "dev_tools": "개발 도구",
       "analytics": "분석",
-      "workflow": "워크플로우"
+      "ai": "인공지능",
+      "business_tools": "업무 도구"
     }
   },
   "certifications": {
