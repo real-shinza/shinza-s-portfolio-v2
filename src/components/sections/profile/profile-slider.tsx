@@ -8,6 +8,7 @@ import 'swiper/css/pagination';
 
 export const ProfileSlider = () => {
   const profileImages: string[] = [
+    '/profiles/profile8.jpg',
     '/profiles/profile7.jpg',
     '/profiles/profile6.jpg',
     '/profiles/profile5.jpg',
