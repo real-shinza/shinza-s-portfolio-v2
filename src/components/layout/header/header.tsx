@@ -2,7 +2,7 @@ import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import { Nav } from './nav';
 import { LocaleSelector } from './locale-selector';
-import { ThemeToggle } from './theme-toggle';
+import { AnimatedThemeToggler } from '@/components/ui';
 
 export const Header = () => {
   const t = useTranslations('header');
@@ -28,7 +28,7 @@ export const Header = () => {
         {/* Options */}
         <div className='flex items-center justify-between gap-2'>
           <LocaleSelector />
-          <ThemeToggle />
+          <AnimatedThemeToggler className='cursor-pointer' />
         </div>
       </nav>
     </header>
