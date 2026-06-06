@@ -14,13 +14,13 @@ export const LocaleOption = (args: {
     >
       <div className='relative h-4 w-4 md:h-5 md:w-5'>
         <Image
-          className='rounded-full border-1 border-border'
+          className='rounded-full border border-border'
           src={args.src}
           alt='Country flag'
           fill
         />
       </div>
-      <span className='text-sm md:text-base text-text font-normal text-left w-15 md:w-18'>
+      <span className='w-15 text-left text-sm font-normal text-foreground md:w-18 md:text-base'>
         <div className={args.className}>
           {args.localeName}
         </div>

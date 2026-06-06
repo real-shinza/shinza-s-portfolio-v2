@@ -12,7 +12,7 @@ export default ({
     <html suppressHydrationWarning>
       <GoogleTagManager gtmId='GTM-WZ9DPNCW' />
       <body>
-        <ThemeProvider attribute='data-theme' defaultTheme='system' enableSystem>
+        <ThemeProvider attribute='class' defaultTheme='system' enableSystem>
           {children}
         </ThemeProvider>
       </body>

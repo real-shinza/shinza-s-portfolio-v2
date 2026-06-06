@@ -1,6 +1,6 @@
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
-import { Nav } from './navigation';
+import { Nav } from './nav';
 import { LocaleSelector } from './locale-selector';
 import { ThemeToggle } from './theme-toggle';
 
@@ -8,17 +8,11 @@ export const Header = () => {
   const t = useTranslations('header');
 
   return (
-    <header
-      className='
-        sticky top-0 z-10
-        border-b-2 border-border
-        bg-bg/75 backdrop-blur-md backdrop-saturate-150
-      '
-    >
+    <header className='sticky top-0 z-10 border-b-2 border-border bg-background/75 backdrop-blur-md backdrop-saturate-150'>
       <nav className='flex items-center justify-between px-5 md:px-8 py-2 md:py-3'>
         {/* Site title */}
         <Link href='/'>
-          <h1 className='text-sm md:text-xl text-text font-bold'>
+          <h1 className='text-sm md:text-xl text-foreground font-bold'>
             {t('site.title')}
           </h1>
         </Link>

@@ -48,7 +48,7 @@ export const LocaleSelector = () => {
   return (
     <div className='relative' ref={dropdownRef}>
       {/* Current locale */}
-      <div className='rounded-full border border-border p-1 bg-bg'>
+      <div className='rounded-full border border-border bg-background p-1'>
         <LocaleOption
           localeName={current.name}
           src={current.src}
@@ -57,7 +57,7 @@ export const LocaleSelector = () => {
       </div>
       {/* Dropdown */}
       {isOpen && (
-        <div className='absolute top-full left-1/2 -translate-x-1/2 z-20 mt-1 p-2 border border-border bg-bg'>
+        <div className='absolute top-full left-1/2 z-20 mt-1 -translate-x-1/2 border border-border bg-popover p-2 text-popover-foreground'>
           {Object.entries(localeData).map(([key, data]) => (
             <LocaleOption
               key={key}
