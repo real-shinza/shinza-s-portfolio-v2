@@ -1,17 +1,28 @@
+'use client';
+
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
-import { Link } from '@/i18n/navigation';
+import { useRouter } from '@/i18n/navigation';
 import { WorkEntry } from '@/types';
+import { Badge, Card, CardContent, CardTitle } from '@/components/ui';
 
 export const Work = (args: {
   id: string,
   work: WorkEntry,
 }) => {
   const t = useTranslations(`works.works.${args.id}`);
+  const router = useRouter();
 
   return (
-    <article className='overflow-hidden border border-border rounded-xl md:rounded-2xl hover:border-muted transition-all hover:-translate-y-0.5'>
-      <Link id={args.id} href={`/works/${args.id}`} className='divide-y divide-border'>
+    <Card
+      size='sm'
+      className='rounded-2xl py-0 ring-1 ring-border/80 transition-all hover:-translate-y-0.5 hover:ring-foreground/20'
+    >
+      <button
+        type='button'
+        className='w-full cursor-pointer'
+        onClick={() => router.push(`/works/${args.id}`)}
+      >
         <div className='relative aspect-3/2'>
           <Image
             className='object-cover'
@@ -20,21 +31,23 @@ export const Work = (args: {
             fill
           />
         </div>
-        <div className='px-2 md:px-3 py-3'>
-          <h3 className='text-text text-sm md:text-base font-medium'>
+        <CardContent className='border-t border-border px-2 py-3 md:px-3'>
+          <CardTitle className='text-sm md:text-base text-left'>
             {t('title')}
-          </h3>
+          </CardTitle>
           <div className='flex flex-wrap gap-1 mt-2'>
             {args.work.tags.map(tag => (
-              <div key={tag} className='px-1 py-0.5 border border-border bg-shadow rounded-full'>
-                <div className='text-muted text-[10px] md:text-[12px]'>
-                  {tag}
-                </div>
-              </div>
+              <Badge
+                key={tag}
+                variant='outline'
+                className='h-auto bg-muted px-1 py-0.5 text-[10px] font-normal text-muted-foreground md:text-xs'
+              >
+                {tag}
+              </Badge>
             ))}
           </div>
-        </div>
-      </Link>
-    </article>
+        </CardContent>
+      </button>
+    </Card>
   );
 };

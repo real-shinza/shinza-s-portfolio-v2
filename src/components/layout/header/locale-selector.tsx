@@ -52,7 +52,7 @@ export const LocaleSelector = () => {
       </SelectTrigger>
       <SelectContent>
         {Object.entries(localeData).map(([key, data]) => (
-          <SelectItem key={key} value={key}>
+          <SelectItem key={key} value={key} className='cursor-pointer'>
             <LocaleOption
               className={localeFonts[key as Locale].className}
               localeName={data.name}

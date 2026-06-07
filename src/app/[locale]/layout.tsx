@@ -45,7 +45,7 @@ export default async ({
   params: Promise<{ locale: string }>,
 }>) => {
   const { locale } = await params as { locale: Locale };
-  const messages = getMessages({ locale });
+  const messages = await getMessages({ locale });
 
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>
