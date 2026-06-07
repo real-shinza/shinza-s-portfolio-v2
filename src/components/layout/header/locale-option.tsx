@@ -18,7 +18,7 @@ export const LocaleOption = (args: {
       </div>
       <span
         className={cn(
-          'w-15 text-left text-sm font-normal text-foreground md:w-18 md:text-base',
+          'text-left text-sm font-normal md:text-base',
           args.className,
         )}
       >

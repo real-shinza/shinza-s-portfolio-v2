@@ -12,7 +12,7 @@ export const Header = () => {
       <nav className='flex items-center justify-between px-5 md:px-8 py-2 md:py-3'>
         {/* Site title */}
         <Link href='/'>
-          <h1 className='text-sm md:text-xl text-foreground font-bold'>
+          <h1 className='text-sm md:text-xl font-bold'>
             {t('site.title')}
           </h1>
         </Link>
