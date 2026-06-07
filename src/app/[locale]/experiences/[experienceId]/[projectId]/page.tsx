@@ -1,7 +1,6 @@
 import { notFound } from 'next/navigation';
 import { getTranslations } from 'next-intl/server';
 import { Locale } from '@/i18n/routing';
-import { Container } from '@/components/ui';
 import { Overview, SkillStacks } from '@/components/sections';
 import { experiences } from '@/data/experiences';
 
@@ -18,9 +17,9 @@ export default async ({
     notFound();
 
   return (
-    <Container>
+    <>
       <Overview title={t('name')} period={t('period')} description={t('description')} />
-      <SkillStacks skills={project.skills}/>
-    </Container>
+      <SkillStacks skills={project.skills} />
+    </>
   );
 };

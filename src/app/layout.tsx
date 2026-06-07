@@ -2,6 +2,7 @@
 
 import { ThemeProvider } from 'next-themes';
 import { GoogleTagManager } from '@next/third-parties/google';
+import './globals.css';
 
 export default ({
   children,
