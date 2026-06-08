@@ -1,12 +1,10 @@
 import { SkillsByCategory } from '.';
 
-export type ProjectEntry = {
+export type ExperienceEntry = {
   skills: SkillsByCategory,
 };
 
-export type ExperienceEntry = {
-  type: 'education' | 'work',
-  projects: Record<string, ProjectEntry>
+export type Experiences = {
+  educations: Record<string, ExperienceEntry>,
+  works: Record<string, ExperienceEntry>,
 };
-
-export type Experiences = Record<string, ExperienceEntry>

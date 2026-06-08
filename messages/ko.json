@@ -66,88 +66,50 @@
   },
   "experiences": {
     "title": "경력",
+    "subtitle": {
+      "educations": "학업",
+      "work": "업무"
+    },
     "common": {
-      "type": {
-        "education": "학업",
-        "work": "업무"
-      },
       "detail-label": "상세"
     },
-    "experiences": {
+    "educations": {
       "kanazawa-hokuryo-high-school": {
         "period": "2016년 4월 ~ 2019년 3월",
         "name": "이시카와 현립 가나자와 호쿠료 고등학교 종합학과",
-        "detail": "용접, 선반 가공, 제도, 프로그래밍 등을 학습.",
-        "projects": {}
+        "detail": "용접, 선반 가공, 제도, 프로그래밍 등을 학습."
       },
       "human-academy-kyoto-campus": {
         "period": "2019년 4월 ~ 2021년 3월",
         "name": "종합학원 휴먼 아카데미 교토 캠퍼스 프로그래머 전공",
-        "detail": "게임 프로그래밍, 팀 단위 개발, 알고리즘 등을 학습.",
-        "projects": {}
-      },
-      "system-engineering-service-company": {
-        "period": "2021년 4월 ~ 2025년 3월",
-        "name": "도쿄도내의 IT 아웃소싱 회사",
-        "detail": "2021년 신입사원으로 입사. 테스트 공정, 백엔드 개발, 인프라 구성 등의 경험을 보유.",
-        "projects": {
-          "workflow-institution-app-test": {
-            "period": "2021년 6월 ~ 2021년 10월",
-            "name": "업무 프로세스 애플리케이션 테스트 업무",
-            "description": "자사 개발 Web 애플리케이션과 Android 애플리케이션의 통합 테스트에 참여하여 품질 향상을 담당.\n테스트 시나리오 작성, 테스트 관리, 품질 관리 시트 작성을 수행하고 납품까지 대응."
-          },
-          "financial-institution-tool-test": {
-            "period": "2021년 11월",
-            "name": "금융 기관 도구 통합 테스트 업무",
-            "description": "커뮤니케이션 도구의 통합 테스트를 수행하며 명세서에 따른 동작을 검증.\n사전에 정의된 테스트 항목에 따라 테스트를 수행하고, 버그를 발견·보고하며 품질 개선을 위한 피드백을 제공."
-          },
-          "web-ad-technical-support": {
-            "period": "2021년 12월 ~ 2023년 8월",
-            "name": "웹 광고 기술 지원 업무",
-            "description": "# 웹 광고 측정 태그 설정\nGoogle Tag Manager를 사용하여 Google, Yahoo, Meta, LINE 등의 다양한 광고 측정 태그를 설정.\n구현에는 JavaScript를 사용.\n\n# GAS를 활용한 소규모 업무 효율화\nGoogle Apps Script를 활용하여 스프레드시트 등으로 관리하던 업무를 반자동화하고 업무 효율을 향상.\n예상 잔업 시간이 특정 기준을 초과할 경우 Slack으로 경고를 발송하는 시스템을 개발.\n\n# 웹 광고 데이터 관리 및 활용\n사내 도구와 외부 서비스를 사용해 광고 실적 데이터를取得·관리·활용하는 체계를 구축.\n주로 BigQuery에 데이터를 집약하여 광고 운영 개선에 활용."
-          },
-          "ai-sales-bot-development": {
-            "period": "2023년 9월 ~ 2025년 2월",
-            "name": "AI 영업 봇 개발 업무",
-            "description": "AI 영업 Slack 봇의 개발 및 유지보수를 담당.\n프로덕트 매니저가 작성한 요구사항 정의서를 기반으로 디자인 문서 작성, 코딩, 리뷰, QA, 배포를 수행."
-          }
-        }
+        "detail": "게임 프로그래밍, 팀 단위 개발, 알고리즘 등을 학습."
       },
       "tokyo-online-university": {
         "period": "2022년 4월 ~ 2026년 3월",
         "name": "도쿄통신대학 정보매니지먼트학부",
-        "detail": "프로그래밍 기초, 보안 개념, 네트워크, 데이터베이스 등을 이수.",
-        "projects": {}
+        "detail": "프로그래밍 기초, 보안 개념, 네트워크, 데이터베이스 등을 이수."
       },
       "national-taiwan-normal-university": {
         "period": "2025년 3월 ~ 2025년 4월",
         "name": "국립대만사범대학 중국어교육원",
-        "detail": "대만 타이베이시에서 중국어를 학습.",
-        "projects": {}
+        "detail": "대만 타이베이시에서 중국어를 학습."
+      }
+    },
+    "works": {
+      "system-engineering-service-company": {
+        "period": "2021년 4월 ~ 2025년 3월",
+        "name": "도쿄도내의 IT 아웃소싱 회사",
+        "detail": "2021년 신입사원으로 입사. 테스트 공정, 백엔드 개발, 인프라 구성 등의 경험을 보유."
       },
       "website-development-company": {
         "period": "2025년 3월 ~ 2025년 5월",
         "name": "웹사이트 제작 회사",
-        "detail": "업무 위탁 계약을 체결하고 웹사이트 개발을 중심으로 한 업무에 종사.",
-        "projects": {
-          "website-development-and-maintenance": {
-            "period": "2025년 3월 ~ 2025년 5월",
-            "name": "웹사이트 신규 제작 및 개수 업무",
-            "description": "업무 위탁 형태로 프로젝트에 참여.\n랜딩 페이지 신규 제작과 기존 기업 웹사이트 개편을 담당.\n기존 GitHub 운영 규칙과 워크플로를 재검토하고 개선.\n버전 관리를 적용하지 않았던 프로젝트에 GitHub를 도입.\nGitHub Actions를 사용하여 프로덕션 반영 자동화 시스템을 구축."
-          }
-        }
+        "detail": "업무 위탁 계약을 체결하고 웹사이트 개발을 중심으로 한 업무에 종사."
       },
       "sler-company": {
         "period": "2025년 11월 ~ 2026년 3월",
         "name": "도쿄도내의 시스템 통합 기업",
-        "detail": "2025년 11월 경력직으로 입사. 테스트 공정, 구현 공정 등의 업무를 경험.",
-        "projects": {
-          "master-data-management-system-renewal": {
-            "period": "2025년 12월 ~ 2026년 3월",
-            "name": "마스터 데이터 관리 시스템 개편 업무",
-            "description": "마스터 데이터 관리 시스템의 운영·유지보수 요원으로 참여.\n설계서 수정, 개수 구현, 테스트 실시 등을 대응."
-          }
-        }
+        "detail": "2025년 11월 경력직으로 입사. 테스트 공정, 구현 공정 등의 업무를 경험."
       }
     }
   },
