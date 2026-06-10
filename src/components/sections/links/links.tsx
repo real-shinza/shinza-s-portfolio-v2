@@ -16,7 +16,7 @@ export const Links = (args: {
       <article className='py-2'>
         {args.links.map((link, index) => (
           <Link className='external-link group' href={link.href} target='_blank' key={index}>
-            <div className='text-sm md:text-base text-text group-hover:text-muted underline'>
+            <div className='text-sm md:text-base group-hover:text-muted-foreground underline'>
               {link.name}
             </div>
           </Link>

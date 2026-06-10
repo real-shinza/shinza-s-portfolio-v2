@@ -17,6 +17,6 @@ export const SkillStacks = (args: { skills: SkillsByCategory }) => {
           </div>
         </SubSection>
       ))}
-    </Section >
+    </Section>
   );
 };
