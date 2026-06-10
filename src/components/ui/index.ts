@@ -10,6 +10,13 @@ export {
   CardDescription,
   CardContent,
 } from './card';
+export {
+  Progress,
+  ProgressTrack,
+  ProgressIndicator,
+  ProgressLabel,
+  ProgressValue,
+} from './progress';
 export { Section, SubSection } from './section';
 export {
   Select,
