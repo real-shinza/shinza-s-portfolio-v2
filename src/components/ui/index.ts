@@ -17,7 +17,6 @@ export {
   ProgressLabel,
   ProgressValue,
 } from './progress';
-export { Section, SubSection } from './section';
 export {
   Select,
   SelectContent,

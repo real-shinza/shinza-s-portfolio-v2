@@ -1,5 +1,5 @@
 import { useTranslations } from 'next-intl';
-import { Section } from '@/components/ui';
+import { Section } from '@/components/layout';
 import { ProfileSlider } from './profile-slider';
 import { SocialMedia } from './social-media';
 import { socialMedias } from '@/data';

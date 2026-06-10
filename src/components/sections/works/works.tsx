@@ -1,5 +1,5 @@
 import { useTranslations } from 'next-intl';
-import { Section } from '@/components/ui';
+import { Section } from '@/components/layout';
 import { Work } from './work';
 import { works } from '@/data';
 

@@ -1,5 +1,5 @@
 import { useTranslations } from 'next-intl';
-import { Section, SubSection } from '@/components/ui';
+import { Section, SubSection } from '@/components/layout';
 import { SkillLevelRow } from './skill-level-row';
 import { skillAll } from '@/data';
 

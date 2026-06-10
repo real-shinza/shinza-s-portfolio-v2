@@ -1,4 +1,4 @@
-import { Section } from '@/components/ui';
+import { Section } from '@/components/layout';
 
 export const Overview = (args: {
   image?: string,

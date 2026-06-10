@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
-import { Section } from '@/components/ui';
+import { Section } from '@/components/layout';
 import { LinkEntry } from '@/types';
 
 export const Links = (args: {

@@ -1,6 +1,6 @@
 import { useTranslations } from 'next-intl';
-import { Section } from '@/components/ui';
-import {SkillsByCategory } from '@/types';
+import { Section } from '@/components/layout';
+import { SkillsByCategory } from '@/types';
 import { SkillGroup } from './skill-group';
 import { SkillStack } from './skill-stack';
 
