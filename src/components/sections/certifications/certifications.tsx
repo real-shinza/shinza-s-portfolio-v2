@@ -7,15 +7,15 @@ export const Certifications = () => {
 
   return (
     <Section id='certs' title={t('title')}>
-      <div className='divide-y divide-dashed divide-border'>
+      <div className='divide-y divide-dashed divide-border py-2'>
         {certifications.map((cert, index) => (
-          <div key={index} className='flex flex-col-reverse md:flex-row md:items-center md:justify-between py-2 md:py-4'>
+          <div key={index} className='flex flex-col-reverse md:flex-row md:items-center md:justify-between py-1 md:py-1.5'>
             {/* Name */}
-            <div className='text-sm md:text-base font-medium text-text'>
+            <div className='text-base md:text-lg font-medium text-text'>
               {cert.name}
             </div>
             {/* Data */}
-            <div className='text-xs md:text-sm text-muted'>
+            <div className='text-xs md:text-sm text-muted-foreground'>
               {cert.date}
             </div>
           </div>
