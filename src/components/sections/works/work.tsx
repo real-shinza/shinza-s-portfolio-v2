@@ -40,7 +40,7 @@ export const Work = (args: {
               <Badge
                 key={tag}
                 variant='outline'
-                className='h-auto bg-muted px-1 py-0.5 text-[10px] font-normal text-muted-foreground md:text-xs'
+                className='h-auto px-1 py-0.5 text-[10px] font-normal text-muted-foreground md:text-xs'
               >
                 {tag}
               </Badge>
