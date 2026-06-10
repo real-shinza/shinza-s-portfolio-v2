@@ -36,10 +36,10 @@ export const SubSection = (args: {
 }) => {
   return (
     <div id={args.id} className='py-2'>
-      <h3 className='text-muted-foreground text-base md:text-xl font-medium mb-1'>
+      <h3 className='text-muted-foreground text-sm md:text-base font-medium mb-1'>
         {args.subTitle}
       </h3>
-      <div className='pt-1 pb-3'>
+      <div className='pt-1 pb-2'>
         {args.children}
       </div>
     </div>
