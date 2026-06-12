@@ -6,16 +6,20 @@ import { Locale } from '@/i18n/routing';
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ locale: Locale, experienceId: string, projectId: string }>,
+  params: Promise<{
+    locale: Locale,
+    type: 'educations' | 'works',
+    id: string,
+  }>,
 }): Promise<Metadata> {
-  const { locale, experienceId, projectId } = await params;
+  const { locale, type, id } = await params;
 
   const messages = await getMessages({ locale });
-  if (!messages?.experiences?.experiences?.[experienceId]?.projects?.[projectId])
+  if (!messages?.experiences?.[type]?.[id])
     notFound();
 
   const tm = await getTranslations({ locale, namespace: 'metadata' });
-  const tp = await getTranslations({ locale, namespace: `experiences.experiences.${experienceId}.projects.${projectId}` });
+  const tp = await getTranslations({ locale, namespace: `experiences.${type}.${id}` });
 
   return {
     title: `${tp('name')} | ${tm('title')}`,
@@ -29,7 +33,7 @@ export async function generateMetadata({
       type: 'article',
       title: `${tp('name')} | ${tm('title')}`,
       description: tm('description'),
-      url: `https://shinza-s-portfolio-v2.vercel.app/${locale}/experiences/${experienceId}/${projectId}`,
+      url: `https://shinza-s-portfolio-v2.vercel.app/${locale}/experiences/${type}/${id}`,
       locale: tm('locale'),
     },
   };

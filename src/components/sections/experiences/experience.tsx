@@ -13,11 +13,11 @@ import {
 
 export const Experience = (args: {
   id: string,
-  section: 'educations' | 'works',
+  type: 'educations' | 'works',
   step: number,
 }) => {
   const tCommon = useTranslations('experiences.common');
-  const t = useTranslations(`experiences.${args.section}.${args.id}`);
+  const t = useTranslations(`experiences.${args.type}.${args.id}`);
   const router = useRouter();
 
   return (
@@ -33,7 +33,7 @@ export const Experience = (args: {
         <button
           type='button'
           className='group w-full flex flex-col text-left md:flex-row md:items-end md:justify-between hover:underline cursor-pointer'
-          onClick={() => router.push(`/experience/${args.id}`)}
+          onClick={() => router.push(`/experiences/${args.type}/${args.id}`)}
         >
           <div className='text-foreground'>
             <div className='text-base md:text-xl font-medium'>

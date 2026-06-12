@@ -17,7 +17,7 @@ export const Experiences = () => {
             <Experience
               key={id}
               id={id}
-              section='educations'
+              type='educations'
               step={index + 1}
             />
           ))}
@@ -29,7 +29,7 @@ export const Experiences = () => {
             <Experience
               key={id}
               id={id}
-              section='works'
+              type='works'
               step={index + 1}
             />
           ))}
