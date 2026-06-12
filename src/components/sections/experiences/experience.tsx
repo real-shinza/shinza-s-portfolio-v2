@@ -1,4 +1,7 @@
+'use client';
+
 import { useTranslations } from 'next-intl';
+import { useRouter } from '@/i18n/navigation';
 import {
   TimelineContent,
   TimelineDate,
@@ -6,7 +9,6 @@ import {
   TimelineIndicator,
   TimelineItem,
   TimelineSeparator,
-  TimelineTitle,
 } from '@/components/ui';
 
 export const Experience = (args: {
@@ -14,7 +16,9 @@ export const Experience = (args: {
   section: 'educations' | 'works',
   step: number,
 }) => {
+  const tCommon = useTranslations('experiences.common');
   const t = useTranslations(`experiences.${args.section}.${args.id}`);
+  const router = useRouter();
 
   return (
     <TimelineItem step={args.step}>
@@ -25,11 +29,29 @@ export const Experience = (args: {
       </TimelineHeader>
       <TimelineIndicator />
       <TimelineSeparator />
-      <TimelineTitle className='text-base md:text-xl'>
-        {t('name')}
-      </TimelineTitle>
-      <TimelineContent className='text-xs font-normal text-foreground md:text-sm'>
-        {t('detail')}
+      <TimelineContent>
+        <button
+          type='button'
+          className='group w-full flex flex-col text-left md:flex-row md:items-end md:justify-between hover:underline cursor-pointer'
+          onClick={() => router.push(`/experience/${args.id}`)}
+        >
+          <div className='text-foreground'>
+            <div className='text-base md:text-xl font-medium'>
+              {t('name')}
+            </div>
+            <div className='text-xs md:text-sm'>
+              {t('detail')}
+            </div>
+          </div>
+          <div className='flex justify-end gap-2 text-[10px] font-light text-muted-foreground group-hover:text-foreground md:text-xs'>
+            <span>
+              {tCommon('detail-label')}
+            </span>
+            <span className='transition-transform origin-left scale-x-75 group-hover:translate-x-0.2 group-hover:scale-x-105'>
+              →
+            </span>
+          </div>
+        </button>
       </TimelineContent>
     </TimelineItem>
   );
