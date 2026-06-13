@@ -1,4 +1,5 @@
-import { Section } from '@/components/ui';
+import { Section } from '@/components/layout';
+import { Badge } from '@/components/ui';
 
 export const Overview = (args: {
   image?: string,
@@ -19,11 +20,13 @@ export const Overview = (args: {
       {args.tags && (
         <div className='flex flex-wrap gap-1'>
           {args.tags && args.tags.map(tag => (
-            <div key={tag} className='px-1 py-0.5 border border-border bg-shadow rounded-full'>
-              <div className='text-muted text-[10px] md:text-[12px]'>
-                {tag}
-              </div>
-            </div>
+            <Badge
+              key={tag}
+              variant='outline'
+              className='h-auto px-1 py-0.5 text-[10px] font-normal text-muted-foreground md:text-xs'
+            >
+              {tag}
+            </Badge>
           ))}
         </div>
       )}

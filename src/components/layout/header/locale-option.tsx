@@ -1,30 +1,29 @@
 import Image from 'next/image';
+import { cn } from '@/lib/utils';
 
 export const LocaleOption = (args: {
   className?: string,
   localeName: string,
   src: string,
-  onClick: () => void,
 }) => {
   return (
-    <button
-      type='button'
-      onClick={args.onClick}
-      className='flex items-center gap-1 cursor-pointer'
-    >
+    <div className='flex items-center gap-1.5'>
       <div className='relative h-4 w-4 md:h-5 md:w-5'>
         <Image
-          className='rounded-full border-1 border-border'
+          className='rounded-full border border-border'
           src={args.src}
           alt='Country flag'
           fill
         />
       </div>
-      <span className='text-sm md:text-base text-text font-normal text-left w-15 md:w-18'>
-        <div className={args.className}>
-          {args.localeName}
-        </div>
+      <span
+        className={cn(
+          'text-left text-sm font-normal md:text-base',
+          args.className,
+        )}
+      >
+        {args.localeName}
       </span>
-    </button>
+    </div>
   );
 };

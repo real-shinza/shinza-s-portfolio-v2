@@ -1,7 +1,6 @@
 import { useTranslations } from 'next-intl';
-import { Section } from '@/components/ui';
-import {SkillsByCategory } from '@/types';
-import { SkillGroup } from './skill-group';
+import { Section, SubSection } from '@/components/layout';
+import { SkillsByCategory } from '@/types';
 import { SkillStack } from './skill-stack';
 
 export const SkillStacks = (args: { skills: SkillsByCategory }) => {
@@ -10,14 +9,14 @@ export const SkillStacks = (args: { skills: SkillsByCategory }) => {
   return (
     <Section id='skills' title={t('title')}>
       {Object.entries(args.skills).map(([id, skills]) => (
-        <SkillGroup key={id} categoryName={t(`categories.${id}`)}>
+        <SubSection key={id} id={id} subTitle={t(`categories.${id}`)}>
           <div className='flex flex-wrap gap-2'>
             {skills.map(skill => (
               <SkillStack key={skill} name={skill} />
             ))}
           </div>
-        </SkillGroup>
+        </SubSection>
       ))}
-    </Section >
+    </Section>
   );
 };

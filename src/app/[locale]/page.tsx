@@ -1,4 +1,3 @@
-import { Container } from '@/components/ui';
 import {
   Experiences,
   Certifications,
@@ -9,12 +8,12 @@ import {
 
 export default () => {
   return (
-    <Container>
+    <>
       <Profile />
       <Works />
       <Experiences />
       <SkillLevels />
       <Certifications />
-    </Container>
+    </>
   );
 };

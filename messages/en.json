@@ -66,88 +66,50 @@
   },
   "experiences": {
     "title": "Experiences",
+    "subtitle": {
+      "educations": "Education",
+      "work": "Work"
+    },
     "common": {
-      "type": {
-        "education": "Education",
-        "work": "Work"
-      },
       "detail-label": "Detail"
     },
-    "experiences": {
+    "educations": {
       "kanazawa-hokuryo-high-school": {
         "period": "Apr. 2016 ~ Mar. 2019",
         "name": "General Studies Department, Ishikawa Prefectural Kanazawa Hokuryo High School",
-        "detail": "Learn welding, lathe operation, drafting, programming, etc.",
-        "projects": {}
+        "detail": "Learn welding, lathe operation, drafting, programming, etc."
       },
       "human-academy-kyoto-campus": {
         "period": "Apr. 2016 ~ Mar. 2019",
         "name": "Programmer Major, Sogo Gakuen Human Academy Kyoto Campus",
-        "detail": "Learn game programming, team-based development, algorithms, etc.",
-        "projects": {}
-      },
-      "system-engineering-service-company": {
-        "period": "Apr. 2021 ~ Mar. 2025",
-        "name": "IT outsourcing company in Tokyo",
-        "detail": "Joined the company as a 2021 new graduate. Gained experience in testing phases, backend development, and infrastructure configuration.",
-        "projects": {
-          "workflow-institution-app-test": {
-            "period": "Jun. 2021 ~ Oct. 2021",
-            "name": "Workflow institution application testing operations",
-            "description": "Participated in integration testing of in-house developed web and Android applications with a focus on quality improvement.\nCreated test scenarios, managed test execution, and prepared quality control sheets through to delivery."
-          },
-          "financial-institution-tool-test": {
-            "period": "Nov. 2021",
-            "name": "Financial institution tool integration testing operations",
-            "description": "Engaged in integration testing of a communication tool and responsible for verifying behavior against specifications.\nExecuted tests based on predefined test cases and handled bug identification, reporting, and feedback for quality improvement."
-          },
-          "web-ad-technical-support": {
-            "period": "Dec. 2021 ~ Aug. 2023",
-            "name": "Web advertisement technical support operations",
-            "description": "# Web advertising measurement tag configuration\nConfigured various advertising measurement tags such as Google, Yahoo, Meta, and LINE using Google Tag Manager.\nUsed JavaScript for implementation.\n\n# Small-scale workflow automation with GAS\nSemi-automated tasks managed in spreadsheets and other tools using Google Apps Script to improve operational efficiency.\nDeveloped a Slack alert system that sends warnings when predicted overtime exceeds a predefined threshold.\n\n# Web advertising data management and utilization\nBuilt mechanisms to retrieve, manage, and utilize advertising performance data using internal tools and external services.\nConsolidated data primarily in BigQuery and applied it to improve advertising operations."
-          },
-          "ai-sales-bot-development": {
-            "period": "Sep. 2023 ~ Feb. 2025",
-            "name": "AI sales bot development operations",
-            "description": "Responsible for the development and maintenance of an AI sales Slack bot.\nCreated design documents, implemented code, conducted reviews, performed QA, and handled deployment based on requirements defined by the product manager."
-          }
-        }
+        "detail": "Learn game programming, team-based development, algorithms, etc."
       },
       "tokyo-online-university": {
         "period": "Apr. 2022 ~ Mar. 2026",
         "name": "Faculty of Information and Management, Tokyo Online University",
-        "detail": "Complete coursework in programming fundamentals, security concepts, networks, and databases.",
-        "projects": {}
+        "detail": "Complete coursework in programming fundamentals, security concepts, networks, and databases."
       },
       "national-taiwan-normal-university": {
         "period": "Mar. 2025 ~ Apr. 2025",
         "name": "Mandarin Training Center, National Taiwan Normal University",
-        "detail": "Study Chinese in Taipei, Taiwan.",
-        "projects": {}
+        "detail": "Study Chinese in Taipei, Taiwan."
+      }
+    },
+    "works": {
+      "system-engineering-service-company": {
+        "period": "Apr. 2021 ~ Mar. 2025",
+        "name": "IT outsourcing company in Tokyo",
+        "detail": "Joined the company as a 2021 new graduate. Gained experience in testing phases, backend development, and infrastructure configuration."
       },
       "website-development-company": {
         "period": "Mar. 2025 ~ May 2025",
         "name": "Web development company",
-        "detail": "Worked under a contract-based arrangement, engaging primarily in website development.",
-        "projects": {
-          "website-development-and-maintenance": {
-            "period": "Mar. 2025 ~ May 2025",
-            "name": "Website new development and maintenance operations",
-            "description": "Participated in the project as an independent contractor.\nHandled the creation of new landing pages and the modification of existing corporate websites.\nReviewed and improved existing GitHub operation rules and workflows.\nIntroduced GitHub to projects that previously had no version control.\nBuilt an automated production deployment workflow using GitHub Actions."
-          }
-        }
+        "detail": "Worked under a contract-based arrangement, engaging primarily in website development."
       },
       "sler-company": {
         "period": "Nov. 2025 ~ Mar. 2026",
         "name": "Systems integrator company in Tokyo",
-        "detail": "Joined the company in November 2025 as a mid-career hire. Experienced testing and implementation phases.",
-        "projects": {
-          "master-data-management-system-renewal": {
-            "period": "Dec. 2025 ~ Mar. 2026",
-            "name": "Master data management system renewal operations",
-            "description": "Participated as an operations and maintenance member for a master data management system.\nHandled design document revisions, modification implementation, and test execution."
-          }
-        }
+        "detail": "Joined the company in November 2025 as a mid-career hire. Experienced testing and implementation phases."
       }
     }
   },

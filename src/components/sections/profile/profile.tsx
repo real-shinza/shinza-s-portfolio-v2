@@ -1,5 +1,5 @@
 import { useTranslations } from 'next-intl';
-import { Section } from '@/components/ui';
+import { Section } from '@/components/layout';
 import { ProfileSlider } from './profile-slider';
 import { SocialMedia } from './social-media';
 import { socialMedias } from '@/data';
@@ -16,19 +16,19 @@ export const Profile = () => {
         <div>
           {/* Name */}
           <div className='mb-3'>
-            <h2 className='text-text text-4xl md:text-5xl font-semibold mb-1 md:mb-2'>
+            <h2 className='text-4xl md:text-5xl font-semibold mb-1 md:mb-2'>
               {t('name')}
             </h2>
             <div className='flex items-center justify-start gap-4'>
               {nameVariants.map((name, index) => (
-                <h3 key={index} className='text-muted text-xs md:text-sm font-medium'>
+                <h3 key={index} className='text-muted-foreground text-xs md:text-sm font-medium'>
                   {name}
                 </h3>
               ))}
             </div>
           </div>
           {/* Description */}
-          <p className='text-text text-sm md:text-base whitespace-pre-line'>
+          <p className='text-sm md:text-base whitespace-pre-line'>
             {t('description')}
           </p>
           {/* Social media */}

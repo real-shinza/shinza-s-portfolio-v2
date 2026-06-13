@@ -1,42 +1,58 @@
+'use client';
+
 import { useTranslations } from 'next-intl';
-import { ExperienceEntry } from '@/types';
-import { Project } from './project';
+import { useRouter } from '@/i18n/navigation';
+import {
+  TimelineContent,
+  TimelineDate,
+  TimelineHeader,
+  TimelineIndicator,
+  TimelineItem,
+  TimelineSeparator,
+} from '@/components/ui';
 
 export const Experience = (args: {
   id: string,
-  experience: ExperienceEntry,
+  type: 'educations' | 'works',
+  step: number,
 }) => {
   const tCommon = useTranslations('experiences.common');
-  const t = useTranslations(`experiences.experiences.${args.id}`);
+  const t = useTranslations(`experiences.${args.type}.${args.id}`);
+  const router = useRouter();
 
   return (
-    <div className='py-3'>
-      {/* Experience type and period */}
-      <div className='text-xs md:text-sm text-muted'>
-        {tCommon(`type.${args.experience.type}`)} / {t('period')}
-      </div>
-      <div className='relative'>
-        {/* Main dot */}
-        <span className='absolute left-[-18px] md:left-[-19px] top-2 h-2.5 md:h-3 w-2.5 md:w-3 rounded-full bg-muted' />
-        {/* Experience name */}
-        <div className='text-base md:text-xl font-medium'>
-          {t('name')}
-        </div>
-      </div>
-      {/* Experience detail */}
-      <div className='text-xs md:text-sm font-normal mt-1'>
-        {t('detail')}
-      </div>
-      {/* Projects */}
-      <div className='relative'>
-        <div className='ml-4'>
-          {/* Vertical line */}
-          <span className='absolute left-[7px] top-0 h-full w-0.5 bg-border' />
-          {Object.entries(args.experience.projects).map(([id, project]) => (
-            <Project key={id} experienceId={args.id} projectId={id} project={project} />
-          ))}
-        </div>
-      </div>
-    </div>
+    <TimelineItem step={args.step}>
+      <TimelineHeader>
+        <TimelineDate className='text-xs md:text-sm'>
+          {t('period')}
+        </TimelineDate>
+      </TimelineHeader>
+      <TimelineIndicator />
+      <TimelineSeparator />
+      <TimelineContent>
+        <button
+          type='button'
+          className='group w-full flex flex-col text-left md:flex-row md:items-end md:justify-between hover:underline cursor-pointer'
+          onClick={() => router.push(`/experiences/${args.type}/${args.id}`)}
+        >
+          <div className='text-foreground'>
+            <div className='text-base md:text-xl font-medium'>
+              {t('name')}
+            </div>
+            <div className='text-xs md:text-sm'>
+              {t('detail')}
+            </div>
+          </div>
+          <div className='flex justify-end gap-2 text-[10px] font-light text-muted-foreground group-hover:text-foreground md:text-xs'>
+            <span>
+              {tCommon('detail-label')}
+            </span>
+            <span className='transition-transform origin-left scale-x-75 group-hover:translate-x-0.2 group-hover:scale-x-105'>
+              →
+            </span>
+          </div>
+        </button>
+      </TimelineContent>
+    </TimelineItem>
   );
 };

@@ -66,88 +66,50 @@
   },
   "experiences": {
     "title": "經歷",
+    "subtitle": {
+      "educations": "教育",
+      "work": "工作"
+    },
     "common": {
-      "type": {
-        "education": "教育",
-        "work": "工作"
-      },
       "detail-label": "細節"
     },
-    "experiences": {
+    "educations": {
       "kanazawa-hokuryo-high-school": {
         "period": "2016年4月 ~ 2019年3月",
         "name": "石川縣立金澤北陵高級中學 綜合學科",
-        "detail": "學習焊接、車床、製圖、程式設計等技能。",
-        "projects": {}
+        "detail": "學習焊接、車床、製圖、程式設計等技能。"
       },
       "human-academy-kyoto-campus": {
         "period": "2019年4月 ~ 2021年3月",
         "name": "綜合學園Human Academy京都校 程式設計專攻",
-        "detail": "學習遊戲程式設計、團隊開發、演算法等內容。",
-        "projects": {}
-      },
-      "system-engineering-service-company": {
-        "period": "2021年4月 ~ 2025年3月",
-        "name": "東京都內的IT外包公司",
-        "detail": "以2021年應屆畢業生身分入職。參與測試流程、後端開發、基礎架構構建等工作。",
-        "projects": {
-          "workflow-institution-app-test": {
-            "period": "2021年6月 ~ 2021年10月",
-            "name": "業務流程應用程式測試業務",
-            "description": "參與公司自研的 Web 應用和 Android 應用的整合測試業務，負責品質提升。\n負責撰寫測試情境、管理測試執行以及製作品質管理表，並跟進至最終交付。"
-          },
-          "financial-institution-tool-test": {
-            "period": "2021年11月",
-            "name": "金融機構工具整合測試業務",
-            "description": "負責通訊工具的整合測試，確認系統是否依照規格正常運作。\n依據預先制定的測試項目執行測試，進行缺陷發現與回報，並提供回饋以提升品質。"
-          },
-          "web-ad-technical-support": {
-            "period": "2021年12月 ~ 2023年8月",
-            "name": "網路廣告技術支援業務",
-            "description": "# 網路廣告成效標籤設定\n使用 Google Tag Manager 設定 Google、Yahoo、Meta、LINE 等各類廣告成效追蹤標籤。\n實作部分使用 JavaScript。\n\n# 使用 GAS 進行小規模業務效率化\n透過 Google Apps Script 將以試算表等方式管理的業務半自動化，以提升作業效率。\n開發在預估加班時間超過一定門檻時於 Slack 發出警告的系統。\n\n# 網路廣告數據管理與活用\n使用公司內部工具及外部服務取得廣告實績數據，並建立數據管理與活用機制。\n主要將數據集中於 BigQuery，並用於優化廣告投放營運。"
-          },
-          "ai-sales-bot-development": {
-            "period": "2023年9月 ~ 2025年2月",
-            "name": "AI銷售機器人開發業務",
-            "description": "AI 銷售 Slack 機器人的開發與維護工作。\n根據產品經理撰寫的需求定義文件，執行設計文件撰寫、程式開發、程式碼審查、QA與部署等工作。"
-          }
-        }
+        "detail": "學習遊戲程式設計、團隊開發、演算法等內容。"
       },
       "tokyo-online-university": {
         "period": "2022年4月 ~ 2026年3月",
         "name": "東京通信大學 資訊管理學部",
-        "detail": "修習程式設計基礎、資安概念、網路、資料庫等課程。",
-        "projects": {}
+        "detail": "修習程式設計基礎、資安概念、網路、資料庫等課程。"
       },
       "national-taiwan-normal-university": {
         "period": "2025年3月 ~ 2025年4月",
         "name": "國立臺灣師範大學 國語教學中心",
-        "detail": "在台灣台北市學習中文。",
-        "projects": {}
+        "detail": "在台灣台北市學習中文。"
+      }
+    },
+    "works": {
+      "system-engineering-service-company": {
+        "period": "2021年4月 ~ 2025年3月",
+        "name": "東京都內的IT外包公司",
+        "detail": "以2021年應屆畢業生身分入職。參與測試流程、後端開發、基礎架構構建等工作。"
       },
       "website-development-company": {
         "period": "2025年3月 ~ 2025年5月",
         "name": "網站製作公司",
-        "detail": "簽訂業務委託合約，主要從事網站開發相關工作。",
-        "projects": {
-          "website-development-and-maintenance": {
-            "period": "2025年3月 ~ 2025年5月",
-            "name": "網站新建及改修業務",
-            "description": "以業務委託的形式參與專案。\n負責新建登陸頁面以及改修既有的企業網站。\n重新檢視並改善現有的 GitHub 運作規範與流程。\n在未使用版本管理的專案中導入 GitHub。\n使用 GitHub Actions 建立自動化部署至正式環境的機制。"
-          }
-        }
+        "detail": "簽訂業務委託合約，主要從事網站開發相關工作。"
       },
       "sler-company": {
         "period": "2025年11月 ~ 2026年3月",
         "name": "東京都內的系統整合公司",
-        "detail": "於2025年11月以中途入職身分加入公司。參與測試流程、實作流程等工作。",
-        "projects": {
-          "master-data-management-system-renewal": {
-            "period": "2025年12月 ~ 2026年3月",
-            "name": "主資料管理系統刷新業務",
-            "description": "以主資料管理系統的運用保守人員身分參與。\n對應設計文件修正、改修實作、測試實施等。"
-          }
-        }
+        "detail": "於2025年11月以中途入職身分加入公司。參與測試流程、實作流程等工作。"
       }
     }
   },

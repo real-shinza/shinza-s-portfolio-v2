@@ -4,7 +4,6 @@ import { getMessages, getTranslations } from 'next-intl/server';
 import { Locale } from '@/i18n/routing';
 import { Footer, Header } from '@/components/layout';
 import { localeFonts } from '@/lib/fonts';
-import '../globals.css';
 
 export async function generateMetadata({
   params,
@@ -46,13 +45,15 @@ export default async ({
   params: Promise<{ locale: string }>,
 }>) => {
   const { locale } = await params as { locale: Locale };
-  const messages = getMessages({ locale });
+  const messages = await getMessages({ locale });
 
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>
       <div className={`${localeFonts?.[locale]?.className} min-h-screen flex flex-col`}>
         <Header />
-        {children}
+        <main className='flex-1 mx-auto w-full max-w-230 px-10 lg:px-4 divide-y divide-border'>
+          {children}
+        </main>
         <Footer />
       </div>
     </NextIntlClientProvider>

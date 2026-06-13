@@ -20,11 +20,28 @@ export const Section = (args: {
         </div>
       )}
       {args.title && (
-        <h2 className='text-text text-2xl md:text-3xl font-bold mb-2'>
+        <h2 className='text-2xl md:text-3xl font-bold mb-2'>
           {args.title}
         </h2>
       )}
       {args.children}
     </section>
+  );
+};
+
+export const SubSection = (args: {
+  id: string,
+  subTitle: string,
+  children: ReactNode,
+}) => {
+  return (
+    <div id={args.id} className='py-2'>
+      <h3 className='text-muted-foreground text-sm md:text-base font-medium mb-1'>
+        {args.subTitle}
+      </h3>
+      <div className='pt-1 pb-2'>
+        {args.children}
+      </div>
+    </div>
   );
 };
