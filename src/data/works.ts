@@ -25,7 +25,7 @@ export const works: Works = {
     skills: {
       languages: ['TypeScript 5'],
       backend: ['Node.js v20'],
-      frontend: ['React v19', 'Next.js 16', 'Tailwind CSS v4'],
+      frontend: ['React v19', 'Next.js 16', 'Tailwind CSS v4', 'shadcn/ui', 'Magic UI', 'ReUI'],
       infrastructure: ['Vercel'],
       dev_tools: ['Git', 'GitHub', 'ESLint v9', 'Visual Studio Code'],
       analytics: ['Google Analytics', 'Google Tag Manager'],

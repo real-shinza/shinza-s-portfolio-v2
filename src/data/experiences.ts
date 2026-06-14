@@ -28,8 +28,9 @@ export const experiences: Experiences = {
         frontend: ['jQuery'],
         databases: ['MySQL', 'BigQuery'],
         infrastructure: ['Amazon ECS', 'Amazon S3', 'Amazon CloudWatch', 'AWS CDK', 'Cloud Functions', 'Cloud Storage'],
-        dev_tools: ['Git', 'GitHub', 'GitHub Actions', 'GitHub Copilot', 'Docker', 'Datadog', 'TROCCO'],
+        dev_tools: ['Git', 'GitHub', 'GitHub Actions', 'Docker', 'Datadog', 'TROCCO'],
         analytics: ['Google Tag Manager', 'Google Analytics'],
+        ai: ['GitHub Copilot'],
         business_tools: ['Google Chat', 'Chatwork', 'Slack', 'Notion', 'Miro'],
       },
     },
@@ -51,6 +52,20 @@ export const experiences: Experiences = {
         dev_tools: ['Git', 'GitHub', 'Stibo Systems'],
         business_tools: ['Jira', 'Teams'],
       },
+    },
+    'advertising-agency': {
+      skills: {
+        os: ['macOS'],
+        languages: ['TypeScript', 'Python3', 'SQL'],
+        backend: ['Node.js', 'FastAPI', 'Slack API'],
+        frontend: ['React', 'Next.js', 'HeroUI'],
+        databases: ['BigQuery', 'Firestore'],
+        infrastructure: ['Cloud Run', 'Cloud Storage', 'Terraform'],
+        dev_tools: ['Git', 'GitHub', 'GitHub Actions', 'Docker'],
+        analytics: ['Google Tag Manager', 'Google Analytics'],
+        ai: ['ChatGPT', 'Codex', 'Claude', 'Claude Code', 'Gemini'],
+        business_tools: ['Slack', 'Notion', 'Jira'],
+      }
     },
   },
 };
