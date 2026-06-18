@@ -121,17 +121,22 @@
   "skills": {
     "title": "기술",
     "categories": {
-      "os": "OS",
+      "os": "운영체제",
       "languages": "프로그래밍 언어",
       "backend": "백엔드",
       "frontend": "프론트엔드",
-      "games": "게임 개발",
       "databases": "데이터베이스",
       "infrastructure": "인프라",
-      "dev_tools": "개발 도구",
-      "analytics": "분석",
-      "ai": "인공지능",
-      "business_tools": "업무 도구"
+      "native": "네이티브 개발",
+      "game_engines": "게임 엔진",
+      "version_control": "버전 관리",
+      "testing": "테스트",
+      "ci_cd": "CI/CD",
+      "ai": "AI",
+      "editors": "에디터",
+      "analytics": "데이터 분석",
+      "communication": "커뮤니케이션",
+      "productivity": "생산성 도구"
     }
   },
   "certifications": {

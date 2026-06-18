@@ -13,12 +13,17 @@ type SkillCategory =
   | 'languages'
   | 'backend'
   | 'frontend'
-  | 'games'
   | 'databases'
   | 'infrastructure'
-  | 'dev_tools'
-  | 'analytics'
+  | 'native'
+  | 'game_engines'
+  | 'version_control'
+  | 'testing'
+  | 'ci_cd'
   | 'ai'
-  | 'business_tools';
+  | 'editors'
+  | 'analytics'
+  | 'communication'
+  | 'productivity';
 
 export type SkillsByCategory = Partial<Record<SkillCategory, string[]>>;

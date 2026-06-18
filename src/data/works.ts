@@ -9,8 +9,10 @@ export const works: Works = {
       backend: ['Node.js v20'],
       frontend: ['React v18', 'Next.js 14'],
       infrastructure: ['Vercel'],
-      dev_tools: ['Git', 'GitHub', 'ESLint v8', 'Visual Studio Code'],
+      version_control: ['Git', 'GitHub'],
+      editors: ['Visual Studio Code'],
       analytics: ['Google Analytics', 'Google Tag Manager'],
+      productivity: ['ESLint v8'],
     },
     links: [
       {
@@ -27,8 +29,10 @@ export const works: Works = {
       backend: ['Node.js v20'],
       frontend: ['React v19', 'Next.js 16', 'Tailwind CSS v4', 'shadcn/ui', 'Magic UI', 'ReUI'],
       infrastructure: ['Vercel'],
-      dev_tools: ['Git', 'GitHub', 'ESLint v9', 'Visual Studio Code'],
+      version_control: ['Git', 'GitHub'],
+      editors: ['Visual Studio Code'],
       analytics: ['Google Analytics', 'Google Tag Manager'],
+      productivity: ['ESLint v8'],
     },
     links: [
       {
@@ -47,7 +51,8 @@ export const works: Works = {
     skills: {
       languages: ['JavaScript', 'HTML5', 'CSS3'],
       infrastructure: ['GitHub Pages'],
-      dev_tools: ['Git', 'GitHub', 'Visual Studio Code'],
+      version_control: ['Git', 'GitHub'],
+      editors: ['Visual Studio Code'],
       analytics: ['Google Analytics', 'Google Tag Manager'],
     },
     links: [
@@ -66,7 +71,8 @@ export const works: Works = {
     tags: ['Markdown'],
     skills: {
       languages: ['Markdown'],
-      dev_tools: ['Git', 'GitHub', 'Zenn CLI', 'Visual Studio Code'],
+      version_control: ['Git', 'GitHub'],
+      editors: ['Visual Studio Code'],
       analytics: ['Google Analytics'],
     },
     links: [
@@ -85,8 +91,9 @@ export const works: Works = {
     tags: ['Unity 2022', 'C#'],
     skills: {
       languages: ['C#'],
-      games: ['Unity 2022'],
-      dev_tools: ['Git', 'GitHub', 'Visual Studio 2022'],
+      game_engines: ['Unity 2022'],
+      version_control: ['Git', 'GitHub'],
+      editors: ['Visual Studio 2022'],
     },
     links: [
       {
@@ -104,9 +111,10 @@ export const works: Works = {
     tags: ['C++', 'DirectX11', 'Visual Studio 2022'],
     skills: {
       languages: ['C++'],
-      games: ['DirectX11'],
-      dev_tools: ['Git', 'GitHub', 'Visual Studio 2022'],
-      business_tools: ['Aseprite'],
+      native: ['DirectX11'],
+      version_control: ['Git', 'GitHub'],
+      editors: ['Visual Studio 2022'],
+      productivity: ['Aseprite'],
     },
     links: [
       {
@@ -122,8 +130,12 @@ export const works: Works = {
       languages: ['TypeScript 5'],
       backend: ['Node.js v20', 'Google Apps Script', 'discord.js', 'TypeORM'],
       databases: ['SQLite3'],
-      infrastructure: ['Amazon EC2'],
-      dev_tools: ['Git', 'GitHub', 'GitHub Actions', 'Docker', 'ESLint', 'Jest', 'VOICEVOX', 'Visual Studio Code'],
+      infrastructure: ['Amazon EC2', 'Docker'],
+      version_control: ['Git', 'GitHub'],
+      ci_cd: ['GitHub Actions'],
+      testing: ['Jest'],
+      editors: ['Visual Studio Code'],
+      productivity: ['ESLint', 'VOICEVOX'],
     },
     links: [
       {
@@ -137,9 +149,10 @@ export const works: Works = {
     tags: ['Unity 6', 'C#'],
     skills: {
       languages: ['C#'],
-      games: ['Unity 6'],
-      dev_tools: ['Git', 'GitHub', 'Visual Studio 2022'],
-      business_tools: ['Notion'],
+      game_engines: ['Unity 6'],
+      version_control: ['Git', 'GitHub'],
+      editors: ['Visual Studio 2022'],
+      productivity: ['Notion'],
     },
     links: [],
   },
@@ -148,9 +161,10 @@ export const works: Works = {
     tags: ['Unity 6', 'C#'],
     skills: {
       languages: ['C#'],
-      games: ['Unity 6'],
-      dev_tools: ['Git', 'GitHub', 'Visual Studio 2022'],
-      business_tools: ['Notion'],
+      game_engines: ['Unity 6'],
+      version_control: ['Git', 'GitHub'],
+      editors: ['Visual Studio 2022'],
+      productivity: ['Notion'],
     },
     links: [],
   },

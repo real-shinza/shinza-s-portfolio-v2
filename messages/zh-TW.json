@@ -121,17 +121,22 @@
   "skills": {
     "title": "技能",
     "categories": {
-      "os": "OS",
+      "os": "作業系統",
       "languages": "程式語言",
-      "backend": "後端開發",
-      "frontend": "前端開發",
-      "games": "遊戲開發",
+      "backend": "後端",
+      "frontend": "前端",
       "databases": "資料庫",
       "infrastructure": "基礎架構",
-      "dev_tools": "開發工具",
+      "native": "原生開發",
+      "game_engines": "遊戲引擎",
+      "version_control": "版本控制",
+      "testing": "測試",
+      "ci_cd": "CI/CD",
+      "ai": "AI",
+      "editors": "編輯器",
       "analytics": "分析",
-      "ai": "人工智慧",
-      "business_tools": "業務工具"
+      "communication": "溝通協作",
+      "productivity": "生產力工具"
     }
   },
   "certifications": {

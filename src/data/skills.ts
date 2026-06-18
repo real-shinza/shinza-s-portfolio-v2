@@ -40,14 +40,6 @@ export const skillAll: SkillGroup[] = [
     ],
   },
   {
-    id: 'games',
-    skills: [
-      { name: 'DirectX9', level: 2.0 },
-      { name: 'DirectX11', level: 2.5 },
-      { name: 'Unity', level: 4.0 },
-    ],
-  },
-  {
     id: 'databases',
     skills: [
       { name: 'MySQL', level: 3.5 },
@@ -65,25 +57,41 @@ export const skillAll: SkillGroup[] = [
       { name: 'Amazon EC2', level: 3.5 },
       { name: 'Amazon S3', level: 2.0 },
       { name: 'AWS CDK', level: 2.0 },
+      { name: 'Docker', level: 3.0 },
       { name: 'Vercel', level: 2.5 },
       { name: 'Terraform', level: 3.0 },
     ],
   },
   {
-    id: 'dev_tools',
+    id: 'native',
+    skills: [
+      { name: 'DirectX9', level: 2.0 },
+      { name: 'DirectX11', level: 2.5 },
+    ],
+  },
+  {
+    id: 'game_engines',
+    skills: [
+      { name: 'Unity', level: 4.0 },
+    ],
+  },
+  {
+    id: 'version_control',
     skills: [
       { name: 'Git', level: 4.0 },
       { name: 'GitHub', level: 4.0 },
-      { name: 'GitHub Actions', level: 3.5 },
-      { name: 'Docker', level: 3.0 },
+    ],
+  },
+  {
+    id: 'testing',
+    skills: [
       { name: 'Jest', level: 3.5 },
     ],
   },
   {
-    id: 'analytics',
+    id: 'ci_cd',
     skills: [
-      { name: 'Google Analytics', level: 3.0 },
-      { name: 'Google Tag Manager', level: 4.5 },
+      { name: 'GitHub Actions', level: 3.5 },
     ],
   },
   {
@@ -97,13 +105,10 @@ export const skillAll: SkillGroup[] = [
     ],
   },
   {
-    id: 'business_tools',
+    id: 'analytics',
     skills: [
-      { name: 'Slack', level: 4.5 },
-      { name: 'Notion', level: 3.5 },
-      { name: 'Miro', level: 2.5 },
-      { name: 'Figma', level: 1.0 },
-      { name: 'Google Sheets', level: 4.0 },
+      { name: 'Google Analytics', level: 3.0 },
+      { name: 'Google Tag Manager', level: 4.5 },
     ],
   },
 ];

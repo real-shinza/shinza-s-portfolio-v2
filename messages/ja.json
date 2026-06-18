@@ -125,13 +125,18 @@
       "languages": "プログラミング言語",
       "backend": "バックエンド",
       "frontend": "フロントエンド",
-      "games": "ゲーム開発",
       "databases": "データベース",
       "infrastructure": "インフラ",
-      "dev_tools": "開発ツール",
-      "analytics": "分析",
+      "native": "ネイティブ",
+      "game_engines": "ゲームエンジン",
+      "version_control": "バージョン管理",
+      "testing": "テスト",
+      "ci_cd": "CI/CD",
       "ai": "AI",
-      "business_tools": "業務ツール"
+      "editors": "エディタ",
+      "analytics": "分析",
+      "communication": "コミュニケーション",
+      "productivity": "生産性ツール"
     }
   },
   "certifications": {

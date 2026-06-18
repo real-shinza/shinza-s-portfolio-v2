@@ -125,13 +125,18 @@
       "languages": "Programming Languages",
       "backend": "Backend",
       "frontend": "Frontend",
-      "games": "Game Development",
       "databases": "Databases",
       "infrastructure": "Infrastructure",
-      "dev_tools": "Development Tools",
-      "analytics": "Analytics",
+      "native": "Native",
+      "game_engines": "Game Engines",
+      "version_control": "Version Control",
+      "testing": "Testing",
+      "ci_cd": "CI/CD",
       "ai": "AI",
-      "business_tools": "Business Tools"
+      "editors": "Editors",
+      "analytics": "Analytics",
+      "communication": "Communication",
+      "productivity": "Productivity"
     }
   },
   "certifications": {
