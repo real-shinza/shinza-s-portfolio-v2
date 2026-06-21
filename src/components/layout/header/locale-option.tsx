@@ -14,6 +14,7 @@ export const LocaleOption = (args: {
           src={args.src}
           alt='Country flag'
           fill
+          sizes='(max-width: 768px) 128px, 192px'
         />
       </div>
       <span

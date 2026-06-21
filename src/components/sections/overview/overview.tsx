@@ -12,7 +12,7 @@ export const Overview = (args: {
     <Section id='overview' image={args.image} title={args.title}>
       {/* Period */}
       {args.period && (
-        <div className='text-muted text-xs md:text-sm'>
+        <div className='text-muted-foreground text-xs md:text-sm'>
           {args.period}
         </div>
       )}

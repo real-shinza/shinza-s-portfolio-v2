@@ -7,7 +7,7 @@ export const skillAll: SkillGroup[] = [
       { name: 'C', level: 3.0 },
       { name: 'C++', level: 3.0 },
       { name: 'C#', level: 4.5 },
-      { name: 'JavaScript', level: 4.0 },
+      { name: 'JavaScript', level: 4.5 },
       { name: 'TypeScript', level: 4.5 },
       { name: 'Java', level: 2.5 },
       { name: 'Python', level: 3.0 },
@@ -16,6 +16,7 @@ export const skillAll: SkillGroup[] = [
       { name: 'CSS', level: 4.0 },
       { name: 'PHP', level: 1.0 },
       { name: 'SQL', level: 3.0 },
+      { name: 'Google Apps Script', level: 4.0 },
     ],
   },
   {
@@ -24,7 +25,6 @@ export const skillAll: SkillGroup[] = [
       { name: 'Node.js', level: 4.0 },
       { name: 'Express.js', level: 2.0 },
       { name: 'FastAPI', level: 3.0 },
-      { name: 'Google Apps Script', level: 4.5 },
     ],
   },
   {
@@ -44,7 +44,7 @@ export const skillAll: SkillGroup[] = [
     skills: [
       { name: 'MySQL', level: 3.5 },
       { name: 'SQLite', level: 4.0 },
-      { name: 'Cloud Firestore', level: 2.0 },
+      { name: 'Cloud Firestore', level: 3.0 },
       { name: 'BigQuery', level: 4.0 },
     ],
   },
@@ -52,8 +52,8 @@ export const skillAll: SkillGroup[] = [
     id: 'infrastructure',
     skills: [
       { name: 'Firebase Hosting', level: 3.0 },
-      { name: 'Cloud Run', level: 2.5 },
-      { name: 'Cloud Storage', level: 2.5 },
+      { name: 'Cloud Run', level: 3.0 },
+      { name: 'Cloud Storage', level: 3.0 },
       { name: 'Amazon EC2', level: 3.5 },
       { name: 'Amazon S3', level: 2.0 },
       { name: 'AWS CDK', level: 2.0 },
@@ -99,9 +99,9 @@ export const skillAll: SkillGroup[] = [
     skills: [
       { name: 'GitHub Copilot', level: 3.5 },
       { name: 'ChatGPT', level: 3.5 },
-      { name: 'Codex', level: 2.0 },
+      { name: 'Codex', level: 3.0 },
       { name: 'Claude', level: 3.0 },
-      { name: 'Claude Code', level: 2.0 },
+      { name: 'Claude Code', level: 3.0 },
     ],
   },
   {

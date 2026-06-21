@@ -10,6 +10,8 @@ export const experiences: Experiences = {
         os: ['Windows 10'],
         languages: ['C', 'C++', 'C#'],
         game_engines: ['Unity'],
+        native: ['DirectX9'],
+        version_control: ['Git', 'GitHub', 'SourceTree'],
         editors: ['Visual Studio 2019'],
       },
     },
@@ -73,7 +75,7 @@ export const experiences: Experiences = {
         os: ['macOS'],
         languages: ['TypeScript', 'Python3', 'SQL'],
         backend: ['Node.js', 'FastAPI', 'Slack API'],
-        frontend: ['React', 'Next.js', 'HeroUI', 'assistant-ui', 'Chart.js'],
+        frontend: ['React', 'Next.js', 'HeroUI', 'assistant-ui', 'Chart.js', 'Remotion'],
         databases: ['BigQuery', 'Firestore'],
         infrastructure: ['Cloud Run', 'Cloud Storage', 'Docker', 'Terraform'],
         version_control: ['Git', 'GitHub'],
@@ -83,7 +85,7 @@ export const experiences: Experiences = {
         analytics: ['Google Tag Manager', 'Google Analytics'],
         communication: ['Slack'],
         productivity: ['Notion', 'Jira'],
-      }
+      },
     },
   },
 };

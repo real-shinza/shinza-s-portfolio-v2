@@ -23,7 +23,9 @@ export default async ({
   return (
     <>
       <Overview title={t('name')} period={t('period')} description={t('detail')} />
-      <SkillStacks skills={project.skills} />
+      {Object.keys(project.skills).length > 0 &&
+        <SkillStacks skills={project.skills} />
+      }
     </>
   );
 };

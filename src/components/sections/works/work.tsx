@@ -29,6 +29,7 @@ export const Work = (args: {
             src={args.work.image}
             alt={t('title')}
             fill
+            sizes='(max-width: 768px) 128px, 192px'
           />
         </div>
         <CardContent className='border-t border-border px-2 py-3 md:px-3'>
