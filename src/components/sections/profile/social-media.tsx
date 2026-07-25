@@ -1,18 +1,21 @@
+'use client';
+
 import Link from 'next/link';
 import Image from 'next/image';
 import { SocialMediaEntry } from '@/types';
+import { useIsMobile } from '@/hooks/use-mobile';
 import { Button } from '@/components/ui';
 
 export const SocialMedia = (args: { entry: SocialMediaEntry }) => {
   return (
     <Button
       variant='outline'
-      size='sm'
+      size={useIsMobile() ? 'xs' : 'sm'}
       className='text-muted-foreground hover:text-foreground'
       nativeButton={false}
       render={<Link id={args.entry.id} className='social-media' href={args.entry.href} target='_blank' />}
     >
-      <div className='relative h-5 w-5'>
+      <div className='relative h-4 w-4 md:h-5 md:w-5'>
         {/* Light Mode */}
         <Image
           className='block dark:hidden'
@@ -28,7 +31,7 @@ export const SocialMedia = (args: { entry: SocialMediaEntry }) => {
           fill
         />
       </div>
-      <span className='font-normal text-sm'>
+      <span className='font-normal text-xs md:text-sm'>
         {args.entry.name}
       </span>
     </Button>

@@ -4,7 +4,7 @@ export const ProfileImage = (args: { image: string }) => {
   return (
     <div className='relative h-32 w-32 md:h-48 md:w-48'>
       <Image
-        className='rounded-full'
+        className='rounded-full object-cover'
         src={args.image}
         alt='Profile image'
         fill
