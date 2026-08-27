@@ -59,7 +59,7 @@ export const experiences: Experiences = {
         productivity: ['Notion', 'Figma'],
       },
     },
-    'sler-company': {
+    'sier-company': {
       skills: {
         os: ['Windows 11'],
         languages: ['JavaScript'],
