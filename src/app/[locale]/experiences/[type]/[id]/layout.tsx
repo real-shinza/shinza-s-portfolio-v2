@@ -33,7 +33,7 @@ export async function generateMetadata({
       type: 'article',
       title: `${tp('name')} | ${tm('title')}`,
       description: tm('description'),
-      url: `https://shinza-s-portfolio-v2.vercel.app/${locale}/experiences/${type}/${id}`,
+      url: `https://portfolio.real-shinza.com/${locale}/experiences/${type}/${id}`,
       locale: tm('locale'),
     },
   };

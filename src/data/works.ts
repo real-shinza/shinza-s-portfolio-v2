@@ -37,7 +37,7 @@ export const works: Works = {
     links: [
       {
         name: 'Web Site',
-        href: 'https://shinza-s-portfolio-v2.vercel.app/',
+        href: 'https://portfolio.real-shinza.com/',
       },
       {
         name: 'GitHub',

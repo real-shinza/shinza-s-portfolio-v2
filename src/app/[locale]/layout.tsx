@@ -18,20 +18,20 @@ export async function generateMetadata({
     description: t('description'),
     icons: [{ rel: 'icon', url: '/icons/favicon.ico' }],
     alternates: {
-      canonical: `https://shinza-s-portfolio-v2.vercel.app/${locale}`,
+      canonical: `https://portfolio.real-shinza.com/${locale}`,
       languages: {
-        'ja': 'https://shinza-s-portfolio-v2.vercel.app/ja',
-        'en': 'https://shinza-s-portfolio-v2.vercel.app/en',
-        'zh-CN': 'https://shinza-s-portfolio-v2.vercel.app/zh-CN',
-        'zh-TW': 'https://shinza-s-portfolio-v2.vercel.app/zh-TW',
-        'ko': 'https://shinza-s-portfolio-v2.vercel.app/ko',
+        'ja': 'https://portfolio.real-shinza.com/ja',
+        'en': 'https://portfolio.real-shinza.com/en',
+        'zh-CN': 'https://portfolio.real-shinza.com/zh-CN',
+        'zh-TW': 'https://portfolio.real-shinza.com/zh-TW',
+        'ko': 'https://portfolio.real-shinza.com/ko',
       },
     },
     openGraph: {
       type: 'website',
       title: t('title'),
       description: t('description'),
-      url: `https://shinza-s-portfolio-v2.vercel.app/${locale}`,
+      url: `https://portfolio.real-shinza.com/${locale}`,
       locale: t('locale'),
     },
   };

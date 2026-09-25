@@ -29,7 +29,7 @@ export async function generateMetadata({
       type: 'article',
       title: `${tw('title')} | ${tm('title')}`,
       description: tm('description'),
-      url: `https://shinza-s-portfolio-v2.vercel.app/${locale}/works/${id}`,
+      url: `https://portfolio.real-shinza.com/${locale}/works/${id}`,
       locale: tm('locale'),
     },
   };
