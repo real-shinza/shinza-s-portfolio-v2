@@ -50,6 +50,10 @@
         "title": "放置点击游戏",
         "description": "只需点击章鱼的迷你游戏。\n作为复习学生时代学习的 C++ 和 DirectX 而制作。\n使用 DirectX 11 构建了渲染等基础系统。\n章鱼的像素图实际上是用 Aseprite 制作的。\n源代码已在 GitHub 上公开。"
       },
+      "toua-peta": {
+        "title": "东亚贴贴",
+        "description": "按东亚各行政区划记录访问状态的地图应用。"
+      },
       "discord-bot": {
         "title": "Discord 机器人",
         "description": "开发的 Discord 机器人。\n具备语音朗读、自动分配角色、生日祝福和指令等功能。\n机器人运行在 Amazon ECS 上，语音朗读功能通过 Docker 上运行的 VOICEVOX 实现。\n出于安全和隐私保护考虑，源代码未公开。"

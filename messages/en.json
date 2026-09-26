@@ -50,6 +50,10 @@
         "title": "Clicker game",
         "description": "A mini-game where you simply click an octopus.\nCreated as a review of C++ and DirectX learned during my student days.\nRendering and core systems are built using DirectX 11.\nThe octopus pixel art was actually created using Aseprite.\nThe source code is publicly available on GitHub."
       },
+      "toua-peta": {
+        "title": "Toua Peta",
+        "description": "A map app for tracking your visit status across East Asian administrative divisions."
+      },
       "discord-bot": {
         "title": "Discord Bot",
         "description": "A Discord bot developed with various features.\nIncludes text-to-speech, automatic role assignment, birthday celebrations, and commands.\nThe bot runs on Amazon ECS, and the text-to-speech feature is implemented using VOICEVOX running in Docker.\nThe source code is private for security and privacy reasons."

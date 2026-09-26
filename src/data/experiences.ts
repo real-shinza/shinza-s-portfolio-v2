@@ -75,7 +75,7 @@ export const experiences: Experiences = {
         os: ['macOS'],
         languages: ['TypeScript', 'Python3', 'SQL'],
         backend: ['Node.js', 'FastAPI', 'Slack API'],
-        frontend: ['React', 'Next.js', 'HeroUI', 'assistant-ui', 'Chart.js', 'Remotion'],
+        frontend: ['React', 'Next.js', 'HeroUI', 'assistant-ui', 'shadcn/ui', 'Chart.js', 'Remotion'],
         databases: ['BigQuery', 'Firestore'],
         infrastructure: ['Cloud Run', 'Cloud Storage', 'Docker', 'Terraform'],
         version_control: ['Git', 'GitHub'],

@@ -123,6 +123,25 @@ export const works: Works = {
       },
     ],
   },
+  'toua-peta': {
+    image: '/works/toua-peta.jpg',
+    tags: ['TypeScript', 'Vue.js', 'Cloudflare'],
+    skills: {
+      languages: ['TypeScript'],
+      frontend: ['Vue.js 3', 'Tailwind CSS v4', 'daisyUI', 'Iconify'],
+      infrastructure: ['Cloudflare Workers'],
+      version_control: ['Git', 'GitHub'],
+      ai: ['Codex'],
+      editors: ['Visual Studio Code'],
+      analytics: ['Google Analytics', 'Google Tag Manager'],
+    },
+    links: [
+      {
+        name: 'Web Site',
+        href: 'https://toua-peta.real-shinza.com/',
+      },
+    ],
+  },
   'discord-bot': {
     image: '/works/discord-bot.jpg',
     tags: ['TypeScript', 'SQLite', 'Docker', 'Amazon EC2'],
