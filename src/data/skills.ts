@@ -11,6 +11,7 @@ export const skillAll: SkillGroup[] = [
       { name: 'TypeScript', level: 4.5 },
       { name: 'Java', level: 2.5 },
       { name: 'Python', level: 3.0 },
+      { name: 'Go', level: 2.0 },
       { name: 'Dart', level: 2.0 },
       { name: 'HTML', level: 4.0 },
       { name: 'CSS', level: 4.0 },
@@ -32,6 +33,7 @@ export const skillAll: SkillGroup[] = [
     skills: [
       { name: 'React', level: 4.0 },
       { name: 'Next.js', level: 4.0 },
+      { name: 'Vue.js', level: 2.5 },
       { name: 'Tailwind CSS', level: 3.5 },
       { name: 'shadcn/ui', level: 3.5 },
       { name: 'jQuery', level: 1.5 },
@@ -53,10 +55,7 @@ export const skillAll: SkillGroup[] = [
     skills: [
       { name: 'Firebase Hosting', level: 3.0 },
       { name: 'Cloud Run', level: 3.0 },
-      { name: 'Cloud Storage', level: 3.0 },
       { name: 'Amazon EC2', level: 3.5 },
-      { name: 'Amazon S3', level: 2.0 },
-      { name: 'AWS CDK', level: 2.0 },
       { name: 'Docker', level: 3.0 },
       { name: 'Vercel', level: 2.5 },
       { name: 'Terraform', level: 3.0 },
