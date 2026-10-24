@@ -51,7 +51,7 @@ export default async ({
     <NextIntlClientProvider locale={locale} messages={messages}>
       <div className={`${localeFonts?.[locale]?.className} min-h-screen flex flex-col`}>
         <Header />
-        <main className='flex-1 mx-auto w-full max-w-230 px-10 lg:px-4 divide-y divide-border'>
+        <main className='flex-1 mx-auto w-full max-w-4xl px-10 lg:px-4 divide-y divide-border'>
           {children}
         </main>
         <Footer />
