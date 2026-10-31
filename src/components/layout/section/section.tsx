@@ -16,6 +16,7 @@ export const Section = (args: {
             src={args.image}
             alt='Work image'
             fill
+            sizes='(min-width: 768px) 72px, 48px'
           />
         </div>
       )}
